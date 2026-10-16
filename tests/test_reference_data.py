@@ -186,3 +186,156 @@ def test_team_capacity_calendar_consistency():
     ).all(), (
         "Negatif fazla mesai kapasitesi bulundu."
     )
+
+
+# Pilot işlem açılış tarihleri ve SLA kontrolleri
+
+def test_pilot_transaction_opening_dates():
+
+    transactions_df = pd.read_csv(
+        DATA_DIR / "transactions.csv"
+    )
+
+    attributes_df = pd.read_csv(
+        DATA_DIR / "transaction_attributes.csv"
+    )
+
+    sla_df = pd.read_csv(
+        DATA_DIR / "sla_targets.csv"
+    )
+
+    # 300 işlem ve 300 özellik kaydı bulunmalı
+    assert len(transactions_df) == 300
+    assert len(attributes_df) == 300
+
+    # İşlem kimlikleri benzersiz ve eşleşiyor olmalı
+    assert transactions_df["transaction_id"].is_unique
+    assert attributes_df["transaction_id"].is_unique
+
+    assert set(transactions_df["transaction_id"]) == set(
+        attributes_df["transaction_id"]
+    )
+
+    # Açılış tarihleri 2025 içerisinde olmalı
+    opened_at = pd.to_datetime(
+        transactions_df["opened_at"]
+    )
+
+    assert opened_at.notna().all()
+
+    assert (
+        (opened_at >= pd.Timestamp("2025-01-01"))
+        & (opened_at < pd.Timestamp("2026-01-01"))
+    ).all()
+
+    # SLA hedefleri geçerli operasyon ve karmaşıklığa ait olmalı
+    merged_df = transactions_df.merge(
+        sla_df[
+            ["sla_target_id", "operation_id", "complexity_level",
+             "valid_from", "valid_to"]
+        ],
+        on="sla_target_id",
+        how="left",
+        suffixes=("_transaction", "_sla"),
+        validate="many_to_one"
+    )
+
+    assert merged_df["operation_id_sla"].notna().all()
+
+    assert (
+        merged_df["operation_id_transaction"]
+        == merged_df["operation_id_sla"]
+    ).all()
+
+    assert (
+        merged_df["complexity_level_transaction"]
+        == merged_df["complexity_level_sla"]
+    ).all()
+
+    valid_from = pd.to_datetime(merged_df["valid_from"])
+    valid_to = pd.to_datetime(merged_df["valid_to"])
+
+    assert (
+        (opened_at >= valid_from)
+        & (valid_to.isna() | (opened_at < valid_to))
+    ).all()
+
+
+
+# İşlem açılışlarının iş takvimiyle uyumluluğu
+
+def test_transaction_opening_calendar_categories():
+
+    transactions_df = pd.read_csv(
+        DATA_DIR / "transactions.csv"
+    )
+
+    calendar_df = pd.read_csv(
+        DATA_DIR / "business_calendar.csv"
+    )
+
+    transactions_df["opened_at"] = pd.to_datetime(
+        transactions_df["opened_at"]
+    )
+
+    transactions_df["calendar_date"] = (
+        transactions_df["opened_at"].dt.strftime("%Y-%m-%d")
+    )
+
+    merged_df = transactions_df.merge(
+        calendar_df[["calendar_date", "day_type"]],
+        on="calendar_date",
+        how="left",
+        validate="many_to_one"
+    )
+
+    assert merged_df["day_type"].notna().all(), (
+        "Takvimde bulunmayan işlem açılış tarihi var."
+    )
+
+    def classify_opening(row):
+        hour = row["opened_at"].hour
+        day_type = row["day_type"]
+
+        if day_type in ["HOLIDAY", "WEEKEND"]:
+            return "NON_WORKING_DAY"
+
+        if day_type == "HALF_DAY":
+            if 9 <= hour < 12:
+                return "BUSINESS_HOURS"
+            return "WEEKDAY_OFF_HOURS"
+
+        if 9 <= hour < 12 or 13 <= hour < 18:
+            return "BUSINESS_HOURS"
+
+        return "WEEKDAY_OFF_HOURS"
+
+    categories = merged_df.apply(
+        classify_opening,
+        axis=1
+    )
+
+    counts = categories.value_counts()
+
+    assert len(categories) == 300
+
+    assert set(categories).issubset({
+        "BUSINESS_HOURS",
+        "WEEKDAY_OFF_HOURS",
+        "NON_WORKING_DAY",
+    })
+
+    # Pilot için geniş kabul aralıkları
+    proportions = counts / len(categories)
+
+    assert 0.65 <= proportions.get(
+        "BUSINESS_HOURS", 0
+    ) <= 0.85
+
+    assert 0.08 <= proportions.get(
+        "WEEKDAY_OFF_HOURS", 0
+    ) <= 0.25
+
+    assert 0.05 <= proportions.get(
+        "NON_WORKING_DAY", 0
+    ) <= 0.20

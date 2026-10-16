@@ -1,0 +1,4 @@
+﻿scenario,completed,operational_breaches,e2e_breaches,operational_compliance_pct,e2e_compliance_pct
+BASELINE,299,78,84,73.91,71.91
+CUSTOMER_UPDATE_LOW_90,299,54,60,81.94,79.93
+CUSTOMER_UPDATE_LOW_120,299,28,34,90.64,88.63
