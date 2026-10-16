@@ -1,0 +1,31 @@
+﻿stage_id,operation_id,stage_name,stage_order,is_mandatory
+1,1,Talep,1,True
+2,1,Doğrulama,2,True
+3,1,Kontrol,3,False
+4,1,İşleme alma,4,True
+5,1,Kapanış,5,True
+6,2,Talep,1,True
+7,2,Bilgi kontrolü,2,True
+8,2,Güncelleme,3,True
+9,2,Doğrulama,4,True
+10,2,Tamamlama,5,True
+11,3,Talep,1,True
+12,3,Kimlik/yetki kontrolü,2,True
+13,3,Hesap işlemi,3,True
+14,3,Onay,4,False
+15,3,Tamamlama,5,True
+16,4,Talep,1,True
+17,4,Belge kontrolü,2,True
+18,4,Operasyonel inceleme,3,True
+19,4,Onay,4,True
+20,4,Tamamlama,5,True
+21,5,Dosya kaydı,1,True
+22,5,Belge kontrolü,2,True
+23,5,İnceleme,3,True
+24,5,Dış koordinasyon,4,True
+25,5,Kapanış,5,True
+26,6,Kontrol kaydı,1,True
+27,6,İnceleme,2,True
+28,6,Bulgu değerlendirme,3,True
+29,6,Düzeltme,4,False
+30,6,Kapanış,5,True

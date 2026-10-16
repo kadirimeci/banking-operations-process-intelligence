@@ -1,0 +1,5 @@
+﻿scenario,target_operation_id,target_stage_id,reduction_pct,completed_transactions,hypothetical_total_saved_active_minutes,hypothetical_operational_breaches,hypothetical_operational_compliance_pct
+STAGE_ACTIVE_MINUS_0PCT,2,7,0,60,0.0,52,13.33
+STAGE_ACTIVE_MINUS_10PCT,2,7,10,60,124.0,52,13.33
+STAGE_ACTIVE_MINUS_15PCT,2,7,15,60,186.0,51,15.0
+STAGE_ACTIVE_MINUS_20PCT,2,7,20,60,248.0,51,15.0

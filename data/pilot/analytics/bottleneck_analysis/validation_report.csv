@@ -1,0 +1,7 @@
+﻿control,passed
+execution_stage_links,True
+execution_transaction_links,True
+nonnegative_active_minutes,True
+nonnegative_wait_intervals,True
+target_completed_count,True
+baseline_matches_transaction_kpis,True

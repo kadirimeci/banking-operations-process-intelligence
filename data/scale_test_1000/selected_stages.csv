@@ -1,0 +1,4590 @@
+﻿transaction_id,operation_id,team_id,stage_id,stage_name,stage_order,is_mandatory
+1,1,1,1,Talep,1,True
+1,1,1,2,Doğrulama,2,True
+1,1,1,4,İşleme alma,4,True
+1,1,1,5,Kapanış,5,True
+2,1,1,1,Talep,1,True
+2,1,1,2,Doğrulama,2,True
+2,1,1,4,İşleme alma,4,True
+2,1,1,5,Kapanış,5,True
+3,1,1,1,Talep,1,True
+3,1,1,2,Doğrulama,2,True
+3,1,1,4,İşleme alma,4,True
+3,1,1,5,Kapanış,5,True
+4,1,1,1,Talep,1,True
+4,1,1,2,Doğrulama,2,True
+4,1,1,3,Kontrol,3,False
+4,1,1,4,İşleme alma,4,True
+4,1,1,5,Kapanış,5,True
+5,1,1,1,Talep,1,True
+5,1,1,2,Doğrulama,2,True
+5,1,1,4,İşleme alma,4,True
+5,1,1,5,Kapanış,5,True
+6,1,1,1,Talep,1,True
+6,1,1,2,Doğrulama,2,True
+6,1,1,4,İşleme alma,4,True
+6,1,1,5,Kapanış,5,True
+7,1,1,1,Talep,1,True
+7,1,1,2,Doğrulama,2,True
+7,1,1,4,İşleme alma,4,True
+7,1,1,5,Kapanış,5,True
+8,1,1,1,Talep,1,True
+8,1,1,2,Doğrulama,2,True
+8,1,1,4,İşleme alma,4,True
+8,1,1,5,Kapanış,5,True
+9,1,1,1,Talep,1,True
+9,1,1,2,Doğrulama,2,True
+9,1,1,4,İşleme alma,4,True
+9,1,1,5,Kapanış,5,True
+10,1,1,1,Talep,1,True
+10,1,1,2,Doğrulama,2,True
+10,1,1,4,İşleme alma,4,True
+10,1,1,5,Kapanış,5,True
+11,1,1,1,Talep,1,True
+11,1,1,2,Doğrulama,2,True
+11,1,1,4,İşleme alma,4,True
+11,1,1,5,Kapanış,5,True
+12,1,1,1,Talep,1,True
+12,1,1,2,Doğrulama,2,True
+12,1,1,4,İşleme alma,4,True
+12,1,1,5,Kapanış,5,True
+13,1,1,1,Talep,1,True
+13,1,1,2,Doğrulama,2,True
+13,1,1,3,Kontrol,3,False
+13,1,1,4,İşleme alma,4,True
+13,1,1,5,Kapanış,5,True
+14,1,1,1,Talep,1,True
+14,1,1,2,Doğrulama,2,True
+14,1,1,3,Kontrol,3,False
+14,1,1,4,İşleme alma,4,True
+14,1,1,5,Kapanış,5,True
+15,1,1,1,Talep,1,True
+15,1,1,2,Doğrulama,2,True
+15,1,1,3,Kontrol,3,False
+15,1,1,4,İşleme alma,4,True
+15,1,1,5,Kapanış,5,True
+16,1,1,1,Talep,1,True
+16,1,1,2,Doğrulama,2,True
+16,1,1,4,İşleme alma,4,True
+16,1,1,5,Kapanış,5,True
+17,1,1,1,Talep,1,True
+17,1,1,2,Doğrulama,2,True
+17,1,1,4,İşleme alma,4,True
+17,1,1,5,Kapanış,5,True
+18,1,1,1,Talep,1,True
+18,1,1,2,Doğrulama,2,True
+18,1,1,4,İşleme alma,4,True
+18,1,1,5,Kapanış,5,True
+19,1,1,1,Talep,1,True
+19,1,1,2,Doğrulama,2,True
+19,1,1,4,İşleme alma,4,True
+19,1,1,5,Kapanış,5,True
+20,1,1,1,Talep,1,True
+20,1,1,2,Doğrulama,2,True
+20,1,1,3,Kontrol,3,False
+20,1,1,4,İşleme alma,4,True
+20,1,1,5,Kapanış,5,True
+21,1,1,1,Talep,1,True
+21,1,1,2,Doğrulama,2,True
+21,1,1,4,İşleme alma,4,True
+21,1,1,5,Kapanış,5,True
+22,1,1,1,Talep,1,True
+22,1,1,2,Doğrulama,2,True
+22,1,1,4,İşleme alma,4,True
+22,1,1,5,Kapanış,5,True
+23,1,1,1,Talep,1,True
+23,1,1,2,Doğrulama,2,True
+23,1,1,4,İşleme alma,4,True
+23,1,1,5,Kapanış,5,True
+24,1,1,1,Talep,1,True
+24,1,1,2,Doğrulama,2,True
+24,1,1,4,İşleme alma,4,True
+24,1,1,5,Kapanış,5,True
+25,1,1,1,Talep,1,True
+25,1,1,2,Doğrulama,2,True
+25,1,1,3,Kontrol,3,False
+25,1,1,4,İşleme alma,4,True
+25,1,1,5,Kapanış,5,True
+26,1,1,1,Talep,1,True
+26,1,1,2,Doğrulama,2,True
+26,1,1,4,İşleme alma,4,True
+26,1,1,5,Kapanış,5,True
+27,1,1,1,Talep,1,True
+27,1,1,2,Doğrulama,2,True
+27,1,1,3,Kontrol,3,False
+27,1,1,4,İşleme alma,4,True
+27,1,1,5,Kapanış,5,True
+28,1,1,1,Talep,1,True
+28,1,1,2,Doğrulama,2,True
+28,1,1,4,İşleme alma,4,True
+28,1,1,5,Kapanış,5,True
+29,1,1,1,Talep,1,True
+29,1,1,2,Doğrulama,2,True
+29,1,1,3,Kontrol,3,False
+29,1,1,4,İşleme alma,4,True
+29,1,1,5,Kapanış,5,True
+30,1,1,1,Talep,1,True
+30,1,1,2,Doğrulama,2,True
+30,1,1,4,İşleme alma,4,True
+30,1,1,5,Kapanış,5,True
+31,1,1,1,Talep,1,True
+31,1,1,2,Doğrulama,2,True
+31,1,1,4,İşleme alma,4,True
+31,1,1,5,Kapanış,5,True
+32,1,1,1,Talep,1,True
+32,1,1,2,Doğrulama,2,True
+32,1,1,4,İşleme alma,4,True
+32,1,1,5,Kapanış,5,True
+33,1,1,1,Talep,1,True
+33,1,1,2,Doğrulama,2,True
+33,1,1,3,Kontrol,3,False
+33,1,1,4,İşleme alma,4,True
+33,1,1,5,Kapanış,5,True
+34,1,1,1,Talep,1,True
+34,1,1,2,Doğrulama,2,True
+34,1,1,4,İşleme alma,4,True
+34,1,1,5,Kapanış,5,True
+35,1,1,1,Talep,1,True
+35,1,1,2,Doğrulama,2,True
+35,1,1,3,Kontrol,3,False
+35,1,1,4,İşleme alma,4,True
+35,1,1,5,Kapanış,5,True
+36,1,1,1,Talep,1,True
+36,1,1,2,Doğrulama,2,True
+36,1,1,4,İşleme alma,4,True
+36,1,1,5,Kapanış,5,True
+37,1,1,1,Talep,1,True
+37,1,1,2,Doğrulama,2,True
+37,1,1,4,İşleme alma,4,True
+37,1,1,5,Kapanış,5,True
+38,1,1,1,Talep,1,True
+38,1,1,2,Doğrulama,2,True
+38,1,1,4,İşleme alma,4,True
+38,1,1,5,Kapanış,5,True
+39,1,1,1,Talep,1,True
+39,1,1,2,Doğrulama,2,True
+39,1,1,3,Kontrol,3,False
+39,1,1,4,İşleme alma,4,True
+39,1,1,5,Kapanış,5,True
+40,1,1,1,Talep,1,True
+40,1,1,2,Doğrulama,2,True
+40,1,1,3,Kontrol,3,False
+40,1,1,4,İşleme alma,4,True
+40,1,1,5,Kapanış,5,True
+41,1,1,1,Talep,1,True
+41,1,1,2,Doğrulama,2,True
+41,1,1,3,Kontrol,3,False
+41,1,1,4,İşleme alma,4,True
+41,1,1,5,Kapanış,5,True
+42,1,1,1,Talep,1,True
+42,1,1,2,Doğrulama,2,True
+42,1,1,4,İşleme alma,4,True
+42,1,1,5,Kapanış,5,True
+43,1,1,1,Talep,1,True
+43,1,1,2,Doğrulama,2,True
+43,1,1,4,İşleme alma,4,True
+43,1,1,5,Kapanış,5,True
+44,1,1,1,Talep,1,True
+44,1,1,2,Doğrulama,2,True
+44,1,1,3,Kontrol,3,False
+44,1,1,4,İşleme alma,4,True
+44,1,1,5,Kapanış,5,True
+45,1,1,1,Talep,1,True
+45,1,1,2,Doğrulama,2,True
+45,1,1,3,Kontrol,3,False
+45,1,1,4,İşleme alma,4,True
+45,1,1,5,Kapanış,5,True
+46,1,1,1,Talep,1,True
+46,1,1,2,Doğrulama,2,True
+46,1,1,4,İşleme alma,4,True
+46,1,1,5,Kapanış,5,True
+47,1,1,1,Talep,1,True
+47,1,1,2,Doğrulama,2,True
+47,1,1,4,İşleme alma,4,True
+47,1,1,5,Kapanış,5,True
+48,1,1,1,Talep,1,True
+48,1,1,2,Doğrulama,2,True
+48,1,1,4,İşleme alma,4,True
+48,1,1,5,Kapanış,5,True
+49,1,1,1,Talep,1,True
+49,1,1,2,Doğrulama,2,True
+49,1,1,3,Kontrol,3,False
+49,1,1,4,İşleme alma,4,True
+49,1,1,5,Kapanış,5,True
+50,1,1,1,Talep,1,True
+50,1,1,2,Doğrulama,2,True
+50,1,1,3,Kontrol,3,False
+50,1,1,4,İşleme alma,4,True
+50,1,1,5,Kapanış,5,True
+51,1,1,1,Talep,1,True
+51,1,1,2,Doğrulama,2,True
+51,1,1,4,İşleme alma,4,True
+51,1,1,5,Kapanış,5,True
+52,1,1,1,Talep,1,True
+52,1,1,2,Doğrulama,2,True
+52,1,1,4,İşleme alma,4,True
+52,1,1,5,Kapanış,5,True
+53,1,1,1,Talep,1,True
+53,1,1,2,Doğrulama,2,True
+53,1,1,4,İşleme alma,4,True
+53,1,1,5,Kapanış,5,True
+54,1,1,1,Talep,1,True
+54,1,1,2,Doğrulama,2,True
+54,1,1,4,İşleme alma,4,True
+54,1,1,5,Kapanış,5,True
+55,1,1,1,Talep,1,True
+55,1,1,2,Doğrulama,2,True
+55,1,1,4,İşleme alma,4,True
+55,1,1,5,Kapanış,5,True
+56,1,1,1,Talep,1,True
+56,1,1,2,Doğrulama,2,True
+56,1,1,4,İşleme alma,4,True
+56,1,1,5,Kapanış,5,True
+57,1,1,1,Talep,1,True
+57,1,1,2,Doğrulama,2,True
+57,1,1,4,İşleme alma,4,True
+57,1,1,5,Kapanış,5,True
+58,1,1,1,Talep,1,True
+58,1,1,2,Doğrulama,2,True
+58,1,1,3,Kontrol,3,False
+58,1,1,4,İşleme alma,4,True
+58,1,1,5,Kapanış,5,True
+59,1,1,1,Talep,1,True
+59,1,1,2,Doğrulama,2,True
+59,1,1,4,İşleme alma,4,True
+59,1,1,5,Kapanış,5,True
+60,1,1,1,Talep,1,True
+60,1,1,2,Doğrulama,2,True
+60,1,1,3,Kontrol,3,False
+60,1,1,4,İşleme alma,4,True
+60,1,1,5,Kapanış,5,True
+61,1,1,1,Talep,1,True
+61,1,1,2,Doğrulama,2,True
+61,1,1,4,İşleme alma,4,True
+61,1,1,5,Kapanış,5,True
+62,1,1,1,Talep,1,True
+62,1,1,2,Doğrulama,2,True
+62,1,1,4,İşleme alma,4,True
+62,1,1,5,Kapanış,5,True
+63,1,1,1,Talep,1,True
+63,1,1,2,Doğrulama,2,True
+63,1,1,3,Kontrol,3,False
+63,1,1,4,İşleme alma,4,True
+63,1,1,5,Kapanış,5,True
+64,1,1,1,Talep,1,True
+64,1,1,2,Doğrulama,2,True
+64,1,1,3,Kontrol,3,False
+64,1,1,4,İşleme alma,4,True
+64,1,1,5,Kapanış,5,True
+65,1,1,1,Talep,1,True
+65,1,1,2,Doğrulama,2,True
+65,1,1,4,İşleme alma,4,True
+65,1,1,5,Kapanış,5,True
+66,1,1,1,Talep,1,True
+66,1,1,2,Doğrulama,2,True
+66,1,1,4,İşleme alma,4,True
+66,1,1,5,Kapanış,5,True
+67,1,1,1,Talep,1,True
+67,1,1,2,Doğrulama,2,True
+67,1,1,4,İşleme alma,4,True
+67,1,1,5,Kapanış,5,True
+68,1,1,1,Talep,1,True
+68,1,1,2,Doğrulama,2,True
+68,1,1,4,İşleme alma,4,True
+68,1,1,5,Kapanış,5,True
+69,1,1,1,Talep,1,True
+69,1,1,2,Doğrulama,2,True
+69,1,1,3,Kontrol,3,False
+69,1,1,4,İşleme alma,4,True
+69,1,1,5,Kapanış,5,True
+70,1,1,1,Talep,1,True
+70,1,1,2,Doğrulama,2,True
+70,1,1,4,İşleme alma,4,True
+70,1,1,5,Kapanış,5,True
+71,1,1,1,Talep,1,True
+71,1,1,2,Doğrulama,2,True
+71,1,1,4,İşleme alma,4,True
+71,1,1,5,Kapanış,5,True
+72,1,1,1,Talep,1,True
+72,1,1,2,Doğrulama,2,True
+72,1,1,4,İşleme alma,4,True
+72,1,1,5,Kapanış,5,True
+73,1,1,1,Talep,1,True
+73,1,1,2,Doğrulama,2,True
+73,1,1,3,Kontrol,3,False
+73,1,1,4,İşleme alma,4,True
+73,1,1,5,Kapanış,5,True
+74,1,1,1,Talep,1,True
+74,1,1,2,Doğrulama,2,True
+74,1,1,4,İşleme alma,4,True
+74,1,1,5,Kapanış,5,True
+75,1,1,1,Talep,1,True
+75,1,1,2,Doğrulama,2,True
+75,1,1,4,İşleme alma,4,True
+75,1,1,5,Kapanış,5,True
+76,1,1,1,Talep,1,True
+76,1,1,2,Doğrulama,2,True
+76,1,1,4,İşleme alma,4,True
+76,1,1,5,Kapanış,5,True
+77,1,1,1,Talep,1,True
+77,1,1,2,Doğrulama,2,True
+77,1,1,4,İşleme alma,4,True
+77,1,1,5,Kapanış,5,True
+78,1,1,1,Talep,1,True
+78,1,1,2,Doğrulama,2,True
+78,1,1,3,Kontrol,3,False
+78,1,1,4,İşleme alma,4,True
+78,1,1,5,Kapanış,5,True
+79,1,1,1,Talep,1,True
+79,1,1,2,Doğrulama,2,True
+79,1,1,4,İşleme alma,4,True
+79,1,1,5,Kapanış,5,True
+80,1,1,1,Talep,1,True
+80,1,1,2,Doğrulama,2,True
+80,1,1,4,İşleme alma,4,True
+80,1,1,5,Kapanış,5,True
+81,1,1,1,Talep,1,True
+81,1,1,2,Doğrulama,2,True
+81,1,1,4,İşleme alma,4,True
+81,1,1,5,Kapanış,5,True
+82,1,1,1,Talep,1,True
+82,1,1,2,Doğrulama,2,True
+82,1,1,4,İşleme alma,4,True
+82,1,1,5,Kapanış,5,True
+83,1,1,1,Talep,1,True
+83,1,1,2,Doğrulama,2,True
+83,1,1,4,İşleme alma,4,True
+83,1,1,5,Kapanış,5,True
+84,1,1,1,Talep,1,True
+84,1,1,2,Doğrulama,2,True
+84,1,1,4,İşleme alma,4,True
+84,1,1,5,Kapanış,5,True
+85,1,1,1,Talep,1,True
+85,1,1,2,Doğrulama,2,True
+85,1,1,3,Kontrol,3,False
+85,1,1,4,İşleme alma,4,True
+85,1,1,5,Kapanış,5,True
+86,1,1,1,Talep,1,True
+86,1,1,2,Doğrulama,2,True
+86,1,1,3,Kontrol,3,False
+86,1,1,4,İşleme alma,4,True
+86,1,1,5,Kapanış,5,True
+87,1,1,1,Talep,1,True
+87,1,1,2,Doğrulama,2,True
+87,1,1,4,İşleme alma,4,True
+87,1,1,5,Kapanış,5,True
+88,1,1,1,Talep,1,True
+88,1,1,2,Doğrulama,2,True
+88,1,1,4,İşleme alma,4,True
+88,1,1,5,Kapanış,5,True
+89,1,1,1,Talep,1,True
+89,1,1,2,Doğrulama,2,True
+89,1,1,4,İşleme alma,4,True
+89,1,1,5,Kapanış,5,True
+90,1,1,1,Talep,1,True
+90,1,1,2,Doğrulama,2,True
+90,1,1,4,İşleme alma,4,True
+90,1,1,5,Kapanış,5,True
+91,1,1,1,Talep,1,True
+91,1,1,2,Doğrulama,2,True
+91,1,1,4,İşleme alma,4,True
+91,1,1,5,Kapanış,5,True
+92,1,1,1,Talep,1,True
+92,1,1,2,Doğrulama,2,True
+92,1,1,4,İşleme alma,4,True
+92,1,1,5,Kapanış,5,True
+93,1,1,1,Talep,1,True
+93,1,1,2,Doğrulama,2,True
+93,1,1,3,Kontrol,3,False
+93,1,1,4,İşleme alma,4,True
+93,1,1,5,Kapanış,5,True
+94,1,1,1,Talep,1,True
+94,1,1,2,Doğrulama,2,True
+94,1,1,3,Kontrol,3,False
+94,1,1,4,İşleme alma,4,True
+94,1,1,5,Kapanış,5,True
+95,1,1,1,Talep,1,True
+95,1,1,2,Doğrulama,2,True
+95,1,1,4,İşleme alma,4,True
+95,1,1,5,Kapanış,5,True
+96,1,1,1,Talep,1,True
+96,1,1,2,Doğrulama,2,True
+96,1,1,3,Kontrol,3,False
+96,1,1,4,İşleme alma,4,True
+96,1,1,5,Kapanış,5,True
+97,1,1,1,Talep,1,True
+97,1,1,2,Doğrulama,2,True
+97,1,1,4,İşleme alma,4,True
+97,1,1,5,Kapanış,5,True
+98,1,1,1,Talep,1,True
+98,1,1,2,Doğrulama,2,True
+98,1,1,4,İşleme alma,4,True
+98,1,1,5,Kapanış,5,True
+99,1,1,1,Talep,1,True
+99,1,1,2,Doğrulama,2,True
+99,1,1,4,İşleme alma,4,True
+99,1,1,5,Kapanış,5,True
+100,1,1,1,Talep,1,True
+100,1,1,2,Doğrulama,2,True
+100,1,1,4,İşleme alma,4,True
+100,1,1,5,Kapanış,5,True
+101,1,1,1,Talep,1,True
+101,1,1,2,Doğrulama,2,True
+101,1,1,4,İşleme alma,4,True
+101,1,1,5,Kapanış,5,True
+102,1,1,1,Talep,1,True
+102,1,1,2,Doğrulama,2,True
+102,1,1,4,İşleme alma,4,True
+102,1,1,5,Kapanış,5,True
+103,1,1,1,Talep,1,True
+103,1,1,2,Doğrulama,2,True
+103,1,1,3,Kontrol,3,False
+103,1,1,4,İşleme alma,4,True
+103,1,1,5,Kapanış,5,True
+104,1,1,1,Talep,1,True
+104,1,1,2,Doğrulama,2,True
+104,1,1,3,Kontrol,3,False
+104,1,1,4,İşleme alma,4,True
+104,1,1,5,Kapanış,5,True
+105,1,1,1,Talep,1,True
+105,1,1,2,Doğrulama,2,True
+105,1,1,4,İşleme alma,4,True
+105,1,1,5,Kapanış,5,True
+106,1,1,1,Talep,1,True
+106,1,1,2,Doğrulama,2,True
+106,1,1,3,Kontrol,3,False
+106,1,1,4,İşleme alma,4,True
+106,1,1,5,Kapanış,5,True
+107,1,1,1,Talep,1,True
+107,1,1,2,Doğrulama,2,True
+107,1,1,3,Kontrol,3,False
+107,1,1,4,İşleme alma,4,True
+107,1,1,5,Kapanış,5,True
+108,1,1,1,Talep,1,True
+108,1,1,2,Doğrulama,2,True
+108,1,1,4,İşleme alma,4,True
+108,1,1,5,Kapanış,5,True
+109,1,1,1,Talep,1,True
+109,1,1,2,Doğrulama,2,True
+109,1,1,3,Kontrol,3,False
+109,1,1,4,İşleme alma,4,True
+109,1,1,5,Kapanış,5,True
+110,1,1,1,Talep,1,True
+110,1,1,2,Doğrulama,2,True
+110,1,1,4,İşleme alma,4,True
+110,1,1,5,Kapanış,5,True
+111,1,1,1,Talep,1,True
+111,1,1,2,Doğrulama,2,True
+111,1,1,4,İşleme alma,4,True
+111,1,1,5,Kapanış,5,True
+112,1,1,1,Talep,1,True
+112,1,1,2,Doğrulama,2,True
+112,1,1,4,İşleme alma,4,True
+112,1,1,5,Kapanış,5,True
+113,1,1,1,Talep,1,True
+113,1,1,2,Doğrulama,2,True
+113,1,1,4,İşleme alma,4,True
+113,1,1,5,Kapanış,5,True
+114,1,1,1,Talep,1,True
+114,1,1,2,Doğrulama,2,True
+114,1,1,3,Kontrol,3,False
+114,1,1,4,İşleme alma,4,True
+114,1,1,5,Kapanış,5,True
+115,1,1,1,Talep,1,True
+115,1,1,2,Doğrulama,2,True
+115,1,1,3,Kontrol,3,False
+115,1,1,4,İşleme alma,4,True
+115,1,1,5,Kapanış,5,True
+116,1,1,1,Talep,1,True
+116,1,1,2,Doğrulama,2,True
+116,1,1,3,Kontrol,3,False
+116,1,1,4,İşleme alma,4,True
+116,1,1,5,Kapanış,5,True
+117,1,1,1,Talep,1,True
+117,1,1,2,Doğrulama,2,True
+117,1,1,3,Kontrol,3,False
+117,1,1,4,İşleme alma,4,True
+117,1,1,5,Kapanış,5,True
+118,1,1,1,Talep,1,True
+118,1,1,2,Doğrulama,2,True
+118,1,1,3,Kontrol,3,False
+118,1,1,4,İşleme alma,4,True
+118,1,1,5,Kapanış,5,True
+119,1,1,1,Talep,1,True
+119,1,1,2,Doğrulama,2,True
+119,1,1,4,İşleme alma,4,True
+119,1,1,5,Kapanış,5,True
+120,1,1,1,Talep,1,True
+120,1,1,2,Doğrulama,2,True
+120,1,1,4,İşleme alma,4,True
+120,1,1,5,Kapanış,5,True
+121,1,1,1,Talep,1,True
+121,1,1,2,Doğrulama,2,True
+121,1,1,3,Kontrol,3,False
+121,1,1,4,İşleme alma,4,True
+121,1,1,5,Kapanış,5,True
+122,1,1,1,Talep,1,True
+122,1,1,2,Doğrulama,2,True
+122,1,1,4,İşleme alma,4,True
+122,1,1,5,Kapanış,5,True
+123,1,1,1,Talep,1,True
+123,1,1,2,Doğrulama,2,True
+123,1,1,4,İşleme alma,4,True
+123,1,1,5,Kapanış,5,True
+124,1,1,1,Talep,1,True
+124,1,1,2,Doğrulama,2,True
+124,1,1,4,İşleme alma,4,True
+124,1,1,5,Kapanış,5,True
+125,1,1,1,Talep,1,True
+125,1,1,2,Doğrulama,2,True
+125,1,1,4,İşleme alma,4,True
+125,1,1,5,Kapanış,5,True
+126,1,1,1,Talep,1,True
+126,1,1,2,Doğrulama,2,True
+126,1,1,4,İşleme alma,4,True
+126,1,1,5,Kapanış,5,True
+127,1,1,1,Talep,1,True
+127,1,1,2,Doğrulama,2,True
+127,1,1,4,İşleme alma,4,True
+127,1,1,5,Kapanış,5,True
+128,1,1,1,Talep,1,True
+128,1,1,2,Doğrulama,2,True
+128,1,1,4,İşleme alma,4,True
+128,1,1,5,Kapanış,5,True
+129,1,1,1,Talep,1,True
+129,1,1,2,Doğrulama,2,True
+129,1,1,4,İşleme alma,4,True
+129,1,1,5,Kapanış,5,True
+130,1,1,1,Talep,1,True
+130,1,1,2,Doğrulama,2,True
+130,1,1,3,Kontrol,3,False
+130,1,1,4,İşleme alma,4,True
+130,1,1,5,Kapanış,5,True
+131,1,1,1,Talep,1,True
+131,1,1,2,Doğrulama,2,True
+131,1,1,4,İşleme alma,4,True
+131,1,1,5,Kapanış,5,True
+132,1,1,1,Talep,1,True
+132,1,1,2,Doğrulama,2,True
+132,1,1,4,İşleme alma,4,True
+132,1,1,5,Kapanış,5,True
+133,1,1,1,Talep,1,True
+133,1,1,2,Doğrulama,2,True
+133,1,1,4,İşleme alma,4,True
+133,1,1,5,Kapanış,5,True
+134,1,1,1,Talep,1,True
+134,1,1,2,Doğrulama,2,True
+134,1,1,4,İşleme alma,4,True
+134,1,1,5,Kapanış,5,True
+135,1,1,1,Talep,1,True
+135,1,1,2,Doğrulama,2,True
+135,1,1,4,İşleme alma,4,True
+135,1,1,5,Kapanış,5,True
+136,1,1,1,Talep,1,True
+136,1,1,2,Doğrulama,2,True
+136,1,1,4,İşleme alma,4,True
+136,1,1,5,Kapanış,5,True
+137,1,1,1,Talep,1,True
+137,1,1,2,Doğrulama,2,True
+137,1,1,4,İşleme alma,4,True
+137,1,1,5,Kapanış,5,True
+138,1,1,1,Talep,1,True
+138,1,1,2,Doğrulama,2,True
+138,1,1,3,Kontrol,3,False
+138,1,1,4,İşleme alma,4,True
+138,1,1,5,Kapanış,5,True
+139,1,1,1,Talep,1,True
+139,1,1,2,Doğrulama,2,True
+139,1,1,3,Kontrol,3,False
+139,1,1,4,İşleme alma,4,True
+139,1,1,5,Kapanış,5,True
+140,1,1,1,Talep,1,True
+140,1,1,2,Doğrulama,2,True
+140,1,1,3,Kontrol,3,False
+140,1,1,4,İşleme alma,4,True
+140,1,1,5,Kapanış,5,True
+141,1,1,1,Talep,1,True
+141,1,1,2,Doğrulama,2,True
+141,1,1,3,Kontrol,3,False
+141,1,1,4,İşleme alma,4,True
+141,1,1,5,Kapanış,5,True
+142,1,1,1,Talep,1,True
+142,1,1,2,Doğrulama,2,True
+142,1,1,4,İşleme alma,4,True
+142,1,1,5,Kapanış,5,True
+143,1,1,1,Talep,1,True
+143,1,1,2,Doğrulama,2,True
+143,1,1,4,İşleme alma,4,True
+143,1,1,5,Kapanış,5,True
+144,1,1,1,Talep,1,True
+144,1,1,2,Doğrulama,2,True
+144,1,1,4,İşleme alma,4,True
+144,1,1,5,Kapanış,5,True
+145,1,1,1,Talep,1,True
+145,1,1,2,Doğrulama,2,True
+145,1,1,3,Kontrol,3,False
+145,1,1,4,İşleme alma,4,True
+145,1,1,5,Kapanış,5,True
+146,1,1,1,Talep,1,True
+146,1,1,2,Doğrulama,2,True
+146,1,1,3,Kontrol,3,False
+146,1,1,4,İşleme alma,4,True
+146,1,1,5,Kapanış,5,True
+147,1,1,1,Talep,1,True
+147,1,1,2,Doğrulama,2,True
+147,1,1,3,Kontrol,3,False
+147,1,1,4,İşleme alma,4,True
+147,1,1,5,Kapanış,5,True
+148,1,1,1,Talep,1,True
+148,1,1,2,Doğrulama,2,True
+148,1,1,3,Kontrol,3,False
+148,1,1,4,İşleme alma,4,True
+148,1,1,5,Kapanış,5,True
+149,1,1,1,Talep,1,True
+149,1,1,2,Doğrulama,2,True
+149,1,1,3,Kontrol,3,False
+149,1,1,4,İşleme alma,4,True
+149,1,1,5,Kapanış,5,True
+150,1,1,1,Talep,1,True
+150,1,1,2,Doğrulama,2,True
+150,1,1,3,Kontrol,3,False
+150,1,1,4,İşleme alma,4,True
+150,1,1,5,Kapanış,5,True
+151,1,1,1,Talep,1,True
+151,1,1,2,Doğrulama,2,True
+151,1,1,4,İşleme alma,4,True
+151,1,1,5,Kapanış,5,True
+152,1,1,1,Talep,1,True
+152,1,1,2,Doğrulama,2,True
+152,1,1,4,İşleme alma,4,True
+152,1,1,5,Kapanış,5,True
+153,1,1,1,Talep,1,True
+153,1,1,2,Doğrulama,2,True
+153,1,1,4,İşleme alma,4,True
+153,1,1,5,Kapanış,5,True
+154,1,1,1,Talep,1,True
+154,1,1,2,Doğrulama,2,True
+154,1,1,4,İşleme alma,4,True
+154,1,1,5,Kapanış,5,True
+155,1,1,1,Talep,1,True
+155,1,1,2,Doğrulama,2,True
+155,1,1,4,İşleme alma,4,True
+155,1,1,5,Kapanış,5,True
+156,1,1,1,Talep,1,True
+156,1,1,2,Doğrulama,2,True
+156,1,1,4,İşleme alma,4,True
+156,1,1,5,Kapanış,5,True
+157,1,1,1,Talep,1,True
+157,1,1,2,Doğrulama,2,True
+157,1,1,3,Kontrol,3,False
+157,1,1,4,İşleme alma,4,True
+157,1,1,5,Kapanış,5,True
+158,1,1,1,Talep,1,True
+158,1,1,2,Doğrulama,2,True
+158,1,1,4,İşleme alma,4,True
+158,1,1,5,Kapanış,5,True
+159,1,1,1,Talep,1,True
+159,1,1,2,Doğrulama,2,True
+159,1,1,3,Kontrol,3,False
+159,1,1,4,İşleme alma,4,True
+159,1,1,5,Kapanış,5,True
+160,1,1,1,Talep,1,True
+160,1,1,2,Doğrulama,2,True
+160,1,1,4,İşleme alma,4,True
+160,1,1,5,Kapanış,5,True
+161,1,1,1,Talep,1,True
+161,1,1,2,Doğrulama,2,True
+161,1,1,3,Kontrol,3,False
+161,1,1,4,İşleme alma,4,True
+161,1,1,5,Kapanış,5,True
+162,1,1,1,Talep,1,True
+162,1,1,2,Doğrulama,2,True
+162,1,1,3,Kontrol,3,False
+162,1,1,4,İşleme alma,4,True
+162,1,1,5,Kapanış,5,True
+163,1,1,1,Talep,1,True
+163,1,1,2,Doğrulama,2,True
+163,1,1,4,İşleme alma,4,True
+163,1,1,5,Kapanış,5,True
+164,1,1,1,Talep,1,True
+164,1,1,2,Doğrulama,2,True
+164,1,1,4,İşleme alma,4,True
+164,1,1,5,Kapanış,5,True
+165,1,1,1,Talep,1,True
+165,1,1,2,Doğrulama,2,True
+165,1,1,4,İşleme alma,4,True
+165,1,1,5,Kapanış,5,True
+166,1,1,1,Talep,1,True
+166,1,1,2,Doğrulama,2,True
+166,1,1,4,İşleme alma,4,True
+166,1,1,5,Kapanış,5,True
+167,1,1,1,Talep,1,True
+167,1,1,2,Doğrulama,2,True
+167,1,1,3,Kontrol,3,False
+167,1,1,4,İşleme alma,4,True
+167,1,1,5,Kapanış,5,True
+168,1,1,1,Talep,1,True
+168,1,1,2,Doğrulama,2,True
+168,1,1,4,İşleme alma,4,True
+168,1,1,5,Kapanış,5,True
+169,1,1,1,Talep,1,True
+169,1,1,2,Doğrulama,2,True
+169,1,1,4,İşleme alma,4,True
+169,1,1,5,Kapanış,5,True
+170,1,1,1,Talep,1,True
+170,1,1,2,Doğrulama,2,True
+170,1,1,3,Kontrol,3,False
+170,1,1,4,İşleme alma,4,True
+170,1,1,5,Kapanış,5,True
+171,1,1,1,Talep,1,True
+171,1,1,2,Doğrulama,2,True
+171,1,1,4,İşleme alma,4,True
+171,1,1,5,Kapanış,5,True
+172,1,1,1,Talep,1,True
+172,1,1,2,Doğrulama,2,True
+172,1,1,4,İşleme alma,4,True
+172,1,1,5,Kapanış,5,True
+173,1,1,1,Talep,1,True
+173,1,1,2,Doğrulama,2,True
+173,1,1,4,İşleme alma,4,True
+173,1,1,5,Kapanış,5,True
+174,1,1,1,Talep,1,True
+174,1,1,2,Doğrulama,2,True
+174,1,1,4,İşleme alma,4,True
+174,1,1,5,Kapanış,5,True
+175,1,1,1,Talep,1,True
+175,1,1,2,Doğrulama,2,True
+175,1,1,4,İşleme alma,4,True
+175,1,1,5,Kapanış,5,True
+176,1,1,1,Talep,1,True
+176,1,1,2,Doğrulama,2,True
+176,1,1,4,İşleme alma,4,True
+176,1,1,5,Kapanış,5,True
+177,1,1,1,Talep,1,True
+177,1,1,2,Doğrulama,2,True
+177,1,1,4,İşleme alma,4,True
+177,1,1,5,Kapanış,5,True
+178,1,1,1,Talep,1,True
+178,1,1,2,Doğrulama,2,True
+178,1,1,4,İşleme alma,4,True
+178,1,1,5,Kapanış,5,True
+179,1,1,1,Talep,1,True
+179,1,1,2,Doğrulama,2,True
+179,1,1,4,İşleme alma,4,True
+179,1,1,5,Kapanış,5,True
+180,1,1,1,Talep,1,True
+180,1,1,2,Doğrulama,2,True
+180,1,1,4,İşleme alma,4,True
+180,1,1,5,Kapanış,5,True
+181,1,1,1,Talep,1,True
+181,1,1,2,Doğrulama,2,True
+181,1,1,3,Kontrol,3,False
+181,1,1,4,İşleme alma,4,True
+181,1,1,5,Kapanış,5,True
+182,1,1,1,Talep,1,True
+182,1,1,2,Doğrulama,2,True
+182,1,1,4,İşleme alma,4,True
+182,1,1,5,Kapanış,5,True
+183,1,1,1,Talep,1,True
+183,1,1,2,Doğrulama,2,True
+183,1,1,4,İşleme alma,4,True
+183,1,1,5,Kapanış,5,True
+184,1,1,1,Talep,1,True
+184,1,1,2,Doğrulama,2,True
+184,1,1,4,İşleme alma,4,True
+184,1,1,5,Kapanış,5,True
+185,1,1,1,Talep,1,True
+185,1,1,2,Doğrulama,2,True
+185,1,1,4,İşleme alma,4,True
+185,1,1,5,Kapanış,5,True
+186,1,1,1,Talep,1,True
+186,1,1,2,Doğrulama,2,True
+186,1,1,4,İşleme alma,4,True
+186,1,1,5,Kapanış,5,True
+187,1,1,1,Talep,1,True
+187,1,1,2,Doğrulama,2,True
+187,1,1,3,Kontrol,3,False
+187,1,1,4,İşleme alma,4,True
+187,1,1,5,Kapanış,5,True
+188,1,1,1,Talep,1,True
+188,1,1,2,Doğrulama,2,True
+188,1,1,4,İşleme alma,4,True
+188,1,1,5,Kapanış,5,True
+189,1,1,1,Talep,1,True
+189,1,1,2,Doğrulama,2,True
+189,1,1,4,İşleme alma,4,True
+189,1,1,5,Kapanış,5,True
+190,1,1,1,Talep,1,True
+190,1,1,2,Doğrulama,2,True
+190,1,1,3,Kontrol,3,False
+190,1,1,4,İşleme alma,4,True
+190,1,1,5,Kapanış,5,True
+191,1,1,1,Talep,1,True
+191,1,1,2,Doğrulama,2,True
+191,1,1,4,İşleme alma,4,True
+191,1,1,5,Kapanış,5,True
+192,1,1,1,Talep,1,True
+192,1,1,2,Doğrulama,2,True
+192,1,1,4,İşleme alma,4,True
+192,1,1,5,Kapanış,5,True
+193,1,1,1,Talep,1,True
+193,1,1,2,Doğrulama,2,True
+193,1,1,3,Kontrol,3,False
+193,1,1,4,İşleme alma,4,True
+193,1,1,5,Kapanış,5,True
+194,1,1,1,Talep,1,True
+194,1,1,2,Doğrulama,2,True
+194,1,1,4,İşleme alma,4,True
+194,1,1,5,Kapanış,5,True
+195,1,1,1,Talep,1,True
+195,1,1,2,Doğrulama,2,True
+195,1,1,4,İşleme alma,4,True
+195,1,1,5,Kapanış,5,True
+196,1,1,1,Talep,1,True
+196,1,1,2,Doğrulama,2,True
+196,1,1,4,İşleme alma,4,True
+196,1,1,5,Kapanış,5,True
+197,1,1,1,Talep,1,True
+197,1,1,2,Doğrulama,2,True
+197,1,1,4,İşleme alma,4,True
+197,1,1,5,Kapanış,5,True
+198,1,1,1,Talep,1,True
+198,1,1,2,Doğrulama,2,True
+198,1,1,4,İşleme alma,4,True
+198,1,1,5,Kapanış,5,True
+199,1,1,1,Talep,1,True
+199,1,1,2,Doğrulama,2,True
+199,1,1,3,Kontrol,3,False
+199,1,1,4,İşleme alma,4,True
+199,1,1,5,Kapanış,5,True
+200,1,1,1,Talep,1,True
+200,1,1,2,Doğrulama,2,True
+200,1,1,3,Kontrol,3,False
+200,1,1,4,İşleme alma,4,True
+200,1,1,5,Kapanış,5,True
+201,1,1,1,Talep,1,True
+201,1,1,2,Doğrulama,2,True
+201,1,1,4,İşleme alma,4,True
+201,1,1,5,Kapanış,5,True
+202,1,1,1,Talep,1,True
+202,1,1,2,Doğrulama,2,True
+202,1,1,3,Kontrol,3,False
+202,1,1,4,İşleme alma,4,True
+202,1,1,5,Kapanış,5,True
+203,1,1,1,Talep,1,True
+203,1,1,2,Doğrulama,2,True
+203,1,1,3,Kontrol,3,False
+203,1,1,4,İşleme alma,4,True
+203,1,1,5,Kapanış,5,True
+204,1,1,1,Talep,1,True
+204,1,1,2,Doğrulama,2,True
+204,1,1,4,İşleme alma,4,True
+204,1,1,5,Kapanış,5,True
+205,1,1,1,Talep,1,True
+205,1,1,2,Doğrulama,2,True
+205,1,1,4,İşleme alma,4,True
+205,1,1,5,Kapanış,5,True
+206,1,1,1,Talep,1,True
+206,1,1,2,Doğrulama,2,True
+206,1,1,4,İşleme alma,4,True
+206,1,1,5,Kapanış,5,True
+207,1,1,1,Talep,1,True
+207,1,1,2,Doğrulama,2,True
+207,1,1,4,İşleme alma,4,True
+207,1,1,5,Kapanış,5,True
+208,1,1,1,Talep,1,True
+208,1,1,2,Doğrulama,2,True
+208,1,1,4,İşleme alma,4,True
+208,1,1,5,Kapanış,5,True
+209,1,1,1,Talep,1,True
+209,1,1,2,Doğrulama,2,True
+209,1,1,4,İşleme alma,4,True
+209,1,1,5,Kapanış,5,True
+210,1,1,1,Talep,1,True
+210,1,1,2,Doğrulama,2,True
+210,1,1,4,İşleme alma,4,True
+210,1,1,5,Kapanış,5,True
+211,1,1,1,Talep,1,True
+211,1,1,2,Doğrulama,2,True
+211,1,1,3,Kontrol,3,False
+211,1,1,4,İşleme alma,4,True
+211,1,1,5,Kapanış,5,True
+212,1,1,1,Talep,1,True
+212,1,1,2,Doğrulama,2,True
+212,1,1,3,Kontrol,3,False
+212,1,1,4,İşleme alma,4,True
+212,1,1,5,Kapanış,5,True
+213,1,1,1,Talep,1,True
+213,1,1,2,Doğrulama,2,True
+213,1,1,4,İşleme alma,4,True
+213,1,1,5,Kapanış,5,True
+214,1,1,1,Talep,1,True
+214,1,1,2,Doğrulama,2,True
+214,1,1,4,İşleme alma,4,True
+214,1,1,5,Kapanış,5,True
+215,1,1,1,Talep,1,True
+215,1,1,2,Doğrulama,2,True
+215,1,1,4,İşleme alma,4,True
+215,1,1,5,Kapanış,5,True
+216,1,1,1,Talep,1,True
+216,1,1,2,Doğrulama,2,True
+216,1,1,4,İşleme alma,4,True
+216,1,1,5,Kapanış,5,True
+217,1,1,1,Talep,1,True
+217,1,1,2,Doğrulama,2,True
+217,1,1,3,Kontrol,3,False
+217,1,1,4,İşleme alma,4,True
+217,1,1,5,Kapanış,5,True
+218,1,1,1,Talep,1,True
+218,1,1,2,Doğrulama,2,True
+218,1,1,3,Kontrol,3,False
+218,1,1,4,İşleme alma,4,True
+218,1,1,5,Kapanış,5,True
+219,1,1,1,Talep,1,True
+219,1,1,2,Doğrulama,2,True
+219,1,1,3,Kontrol,3,False
+219,1,1,4,İşleme alma,4,True
+219,1,1,5,Kapanış,5,True
+220,1,1,1,Talep,1,True
+220,1,1,2,Doğrulama,2,True
+220,1,1,4,İşleme alma,4,True
+220,1,1,5,Kapanış,5,True
+221,1,1,1,Talep,1,True
+221,1,1,2,Doğrulama,2,True
+221,1,1,3,Kontrol,3,False
+221,1,1,4,İşleme alma,4,True
+221,1,1,5,Kapanış,5,True
+222,1,1,1,Talep,1,True
+222,1,1,2,Doğrulama,2,True
+222,1,1,4,İşleme alma,4,True
+222,1,1,5,Kapanış,5,True
+223,1,1,1,Talep,1,True
+223,1,1,2,Doğrulama,2,True
+223,1,1,4,İşleme alma,4,True
+223,1,1,5,Kapanış,5,True
+224,1,1,1,Talep,1,True
+224,1,1,2,Doğrulama,2,True
+224,1,1,4,İşleme alma,4,True
+224,1,1,5,Kapanış,5,True
+225,1,1,1,Talep,1,True
+225,1,1,2,Doğrulama,2,True
+225,1,1,4,İşleme alma,4,True
+225,1,1,5,Kapanış,5,True
+226,1,1,1,Talep,1,True
+226,1,1,2,Doğrulama,2,True
+226,1,1,4,İşleme alma,4,True
+226,1,1,5,Kapanış,5,True
+227,1,1,1,Talep,1,True
+227,1,1,2,Doğrulama,2,True
+227,1,1,4,İşleme alma,4,True
+227,1,1,5,Kapanış,5,True
+228,1,1,1,Talep,1,True
+228,1,1,2,Doğrulama,2,True
+228,1,1,4,İşleme alma,4,True
+228,1,1,5,Kapanış,5,True
+229,1,1,1,Talep,1,True
+229,1,1,2,Doğrulama,2,True
+229,1,1,4,İşleme alma,4,True
+229,1,1,5,Kapanış,5,True
+230,1,1,1,Talep,1,True
+230,1,1,2,Doğrulama,2,True
+230,1,1,3,Kontrol,3,False
+230,1,1,4,İşleme alma,4,True
+230,1,1,5,Kapanış,5,True
+231,1,1,1,Talep,1,True
+231,1,1,2,Doğrulama,2,True
+231,1,1,4,İşleme alma,4,True
+231,1,1,5,Kapanış,5,True
+232,1,1,1,Talep,1,True
+232,1,1,2,Doğrulama,2,True
+232,1,1,3,Kontrol,3,False
+232,1,1,4,İşleme alma,4,True
+232,1,1,5,Kapanış,5,True
+233,1,1,1,Talep,1,True
+233,1,1,2,Doğrulama,2,True
+233,1,1,3,Kontrol,3,False
+233,1,1,4,İşleme alma,4,True
+233,1,1,5,Kapanış,5,True
+234,1,1,1,Talep,1,True
+234,1,1,2,Doğrulama,2,True
+234,1,1,4,İşleme alma,4,True
+234,1,1,5,Kapanış,5,True
+235,1,1,1,Talep,1,True
+235,1,1,2,Doğrulama,2,True
+235,1,1,3,Kontrol,3,False
+235,1,1,4,İşleme alma,4,True
+235,1,1,5,Kapanış,5,True
+236,1,1,1,Talep,1,True
+236,1,1,2,Doğrulama,2,True
+236,1,1,4,İşleme alma,4,True
+236,1,1,5,Kapanış,5,True
+237,1,1,1,Talep,1,True
+237,1,1,2,Doğrulama,2,True
+237,1,1,4,İşleme alma,4,True
+237,1,1,5,Kapanış,5,True
+238,1,1,1,Talep,1,True
+238,1,1,2,Doğrulama,2,True
+238,1,1,3,Kontrol,3,False
+238,1,1,4,İşleme alma,4,True
+238,1,1,5,Kapanış,5,True
+239,1,1,1,Talep,1,True
+239,1,1,2,Doğrulama,2,True
+239,1,1,3,Kontrol,3,False
+239,1,1,4,İşleme alma,4,True
+239,1,1,5,Kapanış,5,True
+240,1,1,1,Talep,1,True
+240,1,1,2,Doğrulama,2,True
+240,1,1,4,İşleme alma,4,True
+240,1,1,5,Kapanış,5,True
+241,1,1,1,Talep,1,True
+241,1,1,2,Doğrulama,2,True
+241,1,1,4,İşleme alma,4,True
+241,1,1,5,Kapanış,5,True
+242,1,1,1,Talep,1,True
+242,1,1,2,Doğrulama,2,True
+242,1,1,4,İşleme alma,4,True
+242,1,1,5,Kapanış,5,True
+243,1,1,1,Talep,1,True
+243,1,1,2,Doğrulama,2,True
+243,1,1,4,İşleme alma,4,True
+243,1,1,5,Kapanış,5,True
+244,1,1,1,Talep,1,True
+244,1,1,2,Doğrulama,2,True
+244,1,1,4,İşleme alma,4,True
+244,1,1,5,Kapanış,5,True
+245,1,1,1,Talep,1,True
+245,1,1,2,Doğrulama,2,True
+245,1,1,4,İşleme alma,4,True
+245,1,1,5,Kapanış,5,True
+246,1,1,1,Talep,1,True
+246,1,1,2,Doğrulama,2,True
+246,1,1,3,Kontrol,3,False
+246,1,1,4,İşleme alma,4,True
+246,1,1,5,Kapanış,5,True
+247,1,1,1,Talep,1,True
+247,1,1,2,Doğrulama,2,True
+247,1,1,4,İşleme alma,4,True
+247,1,1,5,Kapanış,5,True
+248,1,1,1,Talep,1,True
+248,1,1,2,Doğrulama,2,True
+248,1,1,4,İşleme alma,4,True
+248,1,1,5,Kapanış,5,True
+249,1,1,1,Talep,1,True
+249,1,1,2,Doğrulama,2,True
+249,1,1,4,İşleme alma,4,True
+249,1,1,5,Kapanış,5,True
+250,1,1,1,Talep,1,True
+250,1,1,2,Doğrulama,2,True
+250,1,1,4,İşleme alma,4,True
+250,1,1,5,Kapanış,5,True
+251,1,1,1,Talep,1,True
+251,1,1,2,Doğrulama,2,True
+251,1,1,4,İşleme alma,4,True
+251,1,1,5,Kapanış,5,True
+252,1,1,1,Talep,1,True
+252,1,1,2,Doğrulama,2,True
+252,1,1,4,İşleme alma,4,True
+252,1,1,5,Kapanış,5,True
+253,1,1,1,Talep,1,True
+253,1,1,2,Doğrulama,2,True
+253,1,1,4,İşleme alma,4,True
+253,1,1,5,Kapanış,5,True
+254,1,1,1,Talep,1,True
+254,1,1,2,Doğrulama,2,True
+254,1,1,3,Kontrol,3,False
+254,1,1,4,İşleme alma,4,True
+254,1,1,5,Kapanış,5,True
+255,1,1,1,Talep,1,True
+255,1,1,2,Doğrulama,2,True
+255,1,1,4,İşleme alma,4,True
+255,1,1,5,Kapanış,5,True
+256,1,1,1,Talep,1,True
+256,1,1,2,Doğrulama,2,True
+256,1,1,4,İşleme alma,4,True
+256,1,1,5,Kapanış,5,True
+257,1,1,1,Talep,1,True
+257,1,1,2,Doğrulama,2,True
+257,1,1,4,İşleme alma,4,True
+257,1,1,5,Kapanış,5,True
+258,1,1,1,Talep,1,True
+258,1,1,2,Doğrulama,2,True
+258,1,1,4,İşleme alma,4,True
+258,1,1,5,Kapanış,5,True
+259,1,1,1,Talep,1,True
+259,1,1,2,Doğrulama,2,True
+259,1,1,3,Kontrol,3,False
+259,1,1,4,İşleme alma,4,True
+259,1,1,5,Kapanış,5,True
+260,1,1,1,Talep,1,True
+260,1,1,2,Doğrulama,2,True
+260,1,1,4,İşleme alma,4,True
+260,1,1,5,Kapanış,5,True
+261,1,1,1,Talep,1,True
+261,1,1,2,Doğrulama,2,True
+261,1,1,4,İşleme alma,4,True
+261,1,1,5,Kapanış,5,True
+262,1,1,1,Talep,1,True
+262,1,1,2,Doğrulama,2,True
+262,1,1,3,Kontrol,3,False
+262,1,1,4,İşleme alma,4,True
+262,1,1,5,Kapanış,5,True
+263,1,1,1,Talep,1,True
+263,1,1,2,Doğrulama,2,True
+263,1,1,4,İşleme alma,4,True
+263,1,1,5,Kapanış,5,True
+264,1,1,1,Talep,1,True
+264,1,1,2,Doğrulama,2,True
+264,1,1,3,Kontrol,3,False
+264,1,1,4,İşleme alma,4,True
+264,1,1,5,Kapanış,5,True
+265,1,1,1,Talep,1,True
+265,1,1,2,Doğrulama,2,True
+265,1,1,4,İşleme alma,4,True
+265,1,1,5,Kapanış,5,True
+266,1,1,1,Talep,1,True
+266,1,1,2,Doğrulama,2,True
+266,1,1,3,Kontrol,3,False
+266,1,1,4,İşleme alma,4,True
+266,1,1,5,Kapanış,5,True
+267,1,1,1,Talep,1,True
+267,1,1,2,Doğrulama,2,True
+267,1,1,4,İşleme alma,4,True
+267,1,1,5,Kapanış,5,True
+268,1,1,1,Talep,1,True
+268,1,1,2,Doğrulama,2,True
+268,1,1,4,İşleme alma,4,True
+268,1,1,5,Kapanış,5,True
+269,1,1,1,Talep,1,True
+269,1,1,2,Doğrulama,2,True
+269,1,1,4,İşleme alma,4,True
+269,1,1,5,Kapanış,5,True
+270,1,1,1,Talep,1,True
+270,1,1,2,Doğrulama,2,True
+270,1,1,4,İşleme alma,4,True
+270,1,1,5,Kapanış,5,True
+271,1,1,1,Talep,1,True
+271,1,1,2,Doğrulama,2,True
+271,1,1,3,Kontrol,3,False
+271,1,1,4,İşleme alma,4,True
+271,1,1,5,Kapanış,5,True
+272,1,1,1,Talep,1,True
+272,1,1,2,Doğrulama,2,True
+272,1,1,4,İşleme alma,4,True
+272,1,1,5,Kapanış,5,True
+273,1,1,1,Talep,1,True
+273,1,1,2,Doğrulama,2,True
+273,1,1,4,İşleme alma,4,True
+273,1,1,5,Kapanış,5,True
+274,1,1,1,Talep,1,True
+274,1,1,2,Doğrulama,2,True
+274,1,1,4,İşleme alma,4,True
+274,1,1,5,Kapanış,5,True
+275,1,1,1,Talep,1,True
+275,1,1,2,Doğrulama,2,True
+275,1,1,3,Kontrol,3,False
+275,1,1,4,İşleme alma,4,True
+275,1,1,5,Kapanış,5,True
+276,1,1,1,Talep,1,True
+276,1,1,2,Doğrulama,2,True
+276,1,1,3,Kontrol,3,False
+276,1,1,4,İşleme alma,4,True
+276,1,1,5,Kapanış,5,True
+277,1,1,1,Talep,1,True
+277,1,1,2,Doğrulama,2,True
+277,1,1,4,İşleme alma,4,True
+277,1,1,5,Kapanış,5,True
+278,1,1,1,Talep,1,True
+278,1,1,2,Doğrulama,2,True
+278,1,1,4,İşleme alma,4,True
+278,1,1,5,Kapanış,5,True
+279,1,1,1,Talep,1,True
+279,1,1,2,Doğrulama,2,True
+279,1,1,4,İşleme alma,4,True
+279,1,1,5,Kapanış,5,True
+280,1,1,1,Talep,1,True
+280,1,1,2,Doğrulama,2,True
+280,1,1,4,İşleme alma,4,True
+280,1,1,5,Kapanış,5,True
+281,1,1,1,Talep,1,True
+281,1,1,2,Doğrulama,2,True
+281,1,1,3,Kontrol,3,False
+281,1,1,4,İşleme alma,4,True
+281,1,1,5,Kapanış,5,True
+282,1,1,1,Talep,1,True
+282,1,1,2,Doğrulama,2,True
+282,1,1,3,Kontrol,3,False
+282,1,1,4,İşleme alma,4,True
+282,1,1,5,Kapanış,5,True
+283,1,1,1,Talep,1,True
+283,1,1,2,Doğrulama,2,True
+283,1,1,3,Kontrol,3,False
+283,1,1,4,İşleme alma,4,True
+283,1,1,5,Kapanış,5,True
+284,1,1,1,Talep,1,True
+284,1,1,2,Doğrulama,2,True
+284,1,1,4,İşleme alma,4,True
+284,1,1,5,Kapanış,5,True
+285,1,1,1,Talep,1,True
+285,1,1,2,Doğrulama,2,True
+285,1,1,4,İşleme alma,4,True
+285,1,1,5,Kapanış,5,True
+286,1,1,1,Talep,1,True
+286,1,1,2,Doğrulama,2,True
+286,1,1,3,Kontrol,3,False
+286,1,1,4,İşleme alma,4,True
+286,1,1,5,Kapanış,5,True
+287,1,1,1,Talep,1,True
+287,1,1,2,Doğrulama,2,True
+287,1,1,3,Kontrol,3,False
+287,1,1,4,İşleme alma,4,True
+287,1,1,5,Kapanış,5,True
+288,1,1,1,Talep,1,True
+288,1,1,2,Doğrulama,2,True
+288,1,1,4,İşleme alma,4,True
+288,1,1,5,Kapanış,5,True
+289,1,1,1,Talep,1,True
+289,1,1,2,Doğrulama,2,True
+289,1,1,4,İşleme alma,4,True
+289,1,1,5,Kapanış,5,True
+290,1,1,1,Talep,1,True
+290,1,1,2,Doğrulama,2,True
+290,1,1,4,İşleme alma,4,True
+290,1,1,5,Kapanış,5,True
+291,1,1,1,Talep,1,True
+291,1,1,2,Doğrulama,2,True
+291,1,1,3,Kontrol,3,False
+291,1,1,4,İşleme alma,4,True
+291,1,1,5,Kapanış,5,True
+292,1,1,1,Talep,1,True
+292,1,1,2,Doğrulama,2,True
+292,1,1,3,Kontrol,3,False
+292,1,1,4,İşleme alma,4,True
+292,1,1,5,Kapanış,5,True
+293,1,1,1,Talep,1,True
+293,1,1,2,Doğrulama,2,True
+293,1,1,3,Kontrol,3,False
+293,1,1,4,İşleme alma,4,True
+293,1,1,5,Kapanış,5,True
+294,1,1,1,Talep,1,True
+294,1,1,2,Doğrulama,2,True
+294,1,1,4,İşleme alma,4,True
+294,1,1,5,Kapanış,5,True
+295,1,1,1,Talep,1,True
+295,1,1,2,Doğrulama,2,True
+295,1,1,4,İşleme alma,4,True
+295,1,1,5,Kapanış,5,True
+296,1,1,1,Talep,1,True
+296,1,1,2,Doğrulama,2,True
+296,1,1,3,Kontrol,3,False
+296,1,1,4,İşleme alma,4,True
+296,1,1,5,Kapanış,5,True
+297,1,1,1,Talep,1,True
+297,1,1,2,Doğrulama,2,True
+297,1,1,4,İşleme alma,4,True
+297,1,1,5,Kapanış,5,True
+298,1,1,1,Talep,1,True
+298,1,1,2,Doğrulama,2,True
+298,1,1,4,İşleme alma,4,True
+298,1,1,5,Kapanış,5,True
+299,1,1,1,Talep,1,True
+299,1,1,2,Doğrulama,2,True
+299,1,1,4,İşleme alma,4,True
+299,1,1,5,Kapanış,5,True
+300,1,1,1,Talep,1,True
+300,1,1,2,Doğrulama,2,True
+300,1,1,3,Kontrol,3,False
+300,1,1,4,İşleme alma,4,True
+300,1,1,5,Kapanış,5,True
+301,2,2,6,Talep,1,True
+301,2,2,7,Bilgi kontrolü,2,True
+301,2,2,8,Güncelleme,3,True
+301,2,2,9,Doğrulama,4,True
+301,2,2,10,Tamamlama,5,True
+302,2,2,6,Talep,1,True
+302,2,2,7,Bilgi kontrolü,2,True
+302,2,2,8,Güncelleme,3,True
+302,2,2,9,Doğrulama,4,True
+302,2,2,10,Tamamlama,5,True
+303,2,2,6,Talep,1,True
+303,2,2,7,Bilgi kontrolü,2,True
+303,2,2,8,Güncelleme,3,True
+303,2,2,9,Doğrulama,4,True
+303,2,2,10,Tamamlama,5,True
+304,2,2,6,Talep,1,True
+304,2,2,7,Bilgi kontrolü,2,True
+304,2,2,8,Güncelleme,3,True
+304,2,2,9,Doğrulama,4,True
+304,2,2,10,Tamamlama,5,True
+305,2,2,6,Talep,1,True
+305,2,2,7,Bilgi kontrolü,2,True
+305,2,2,8,Güncelleme,3,True
+305,2,2,9,Doğrulama,4,True
+305,2,2,10,Tamamlama,5,True
+306,2,2,6,Talep,1,True
+306,2,2,7,Bilgi kontrolü,2,True
+306,2,2,8,Güncelleme,3,True
+306,2,2,9,Doğrulama,4,True
+306,2,2,10,Tamamlama,5,True
+307,2,2,6,Talep,1,True
+307,2,2,7,Bilgi kontrolü,2,True
+307,2,2,8,Güncelleme,3,True
+307,2,2,9,Doğrulama,4,True
+307,2,2,10,Tamamlama,5,True
+308,2,2,6,Talep,1,True
+308,2,2,7,Bilgi kontrolü,2,True
+308,2,2,8,Güncelleme,3,True
+308,2,2,9,Doğrulama,4,True
+308,2,2,10,Tamamlama,5,True
+309,2,2,6,Talep,1,True
+309,2,2,7,Bilgi kontrolü,2,True
+309,2,2,8,Güncelleme,3,True
+309,2,2,9,Doğrulama,4,True
+309,2,2,10,Tamamlama,5,True
+310,2,2,6,Talep,1,True
+310,2,2,7,Bilgi kontrolü,2,True
+310,2,2,8,Güncelleme,3,True
+310,2,2,9,Doğrulama,4,True
+310,2,2,10,Tamamlama,5,True
+311,2,2,6,Talep,1,True
+311,2,2,7,Bilgi kontrolü,2,True
+311,2,2,8,Güncelleme,3,True
+311,2,2,9,Doğrulama,4,True
+311,2,2,10,Tamamlama,5,True
+312,2,2,6,Talep,1,True
+312,2,2,7,Bilgi kontrolü,2,True
+312,2,2,8,Güncelleme,3,True
+312,2,2,9,Doğrulama,4,True
+312,2,2,10,Tamamlama,5,True
+313,2,2,6,Talep,1,True
+313,2,2,7,Bilgi kontrolü,2,True
+313,2,2,8,Güncelleme,3,True
+313,2,2,9,Doğrulama,4,True
+313,2,2,10,Tamamlama,5,True
+314,2,2,6,Talep,1,True
+314,2,2,7,Bilgi kontrolü,2,True
+314,2,2,8,Güncelleme,3,True
+314,2,2,9,Doğrulama,4,True
+314,2,2,10,Tamamlama,5,True
+315,2,2,6,Talep,1,True
+315,2,2,7,Bilgi kontrolü,2,True
+315,2,2,8,Güncelleme,3,True
+315,2,2,9,Doğrulama,4,True
+315,2,2,10,Tamamlama,5,True
+316,2,2,6,Talep,1,True
+316,2,2,7,Bilgi kontrolü,2,True
+316,2,2,8,Güncelleme,3,True
+316,2,2,9,Doğrulama,4,True
+316,2,2,10,Tamamlama,5,True
+317,2,2,6,Talep,1,True
+317,2,2,7,Bilgi kontrolü,2,True
+317,2,2,8,Güncelleme,3,True
+317,2,2,9,Doğrulama,4,True
+317,2,2,10,Tamamlama,5,True
+318,2,2,6,Talep,1,True
+318,2,2,7,Bilgi kontrolü,2,True
+318,2,2,8,Güncelleme,3,True
+318,2,2,9,Doğrulama,4,True
+318,2,2,10,Tamamlama,5,True
+319,2,2,6,Talep,1,True
+319,2,2,7,Bilgi kontrolü,2,True
+319,2,2,8,Güncelleme,3,True
+319,2,2,9,Doğrulama,4,True
+319,2,2,10,Tamamlama,5,True
+320,2,2,6,Talep,1,True
+320,2,2,7,Bilgi kontrolü,2,True
+320,2,2,8,Güncelleme,3,True
+320,2,2,9,Doğrulama,4,True
+320,2,2,10,Tamamlama,5,True
+321,2,2,6,Talep,1,True
+321,2,2,7,Bilgi kontrolü,2,True
+321,2,2,8,Güncelleme,3,True
+321,2,2,9,Doğrulama,4,True
+321,2,2,10,Tamamlama,5,True
+322,2,2,6,Talep,1,True
+322,2,2,7,Bilgi kontrolü,2,True
+322,2,2,8,Güncelleme,3,True
+322,2,2,9,Doğrulama,4,True
+322,2,2,10,Tamamlama,5,True
+323,2,2,6,Talep,1,True
+323,2,2,7,Bilgi kontrolü,2,True
+323,2,2,8,Güncelleme,3,True
+323,2,2,9,Doğrulama,4,True
+323,2,2,10,Tamamlama,5,True
+324,2,2,6,Talep,1,True
+324,2,2,7,Bilgi kontrolü,2,True
+324,2,2,8,Güncelleme,3,True
+324,2,2,9,Doğrulama,4,True
+324,2,2,10,Tamamlama,5,True
+325,2,2,6,Talep,1,True
+325,2,2,7,Bilgi kontrolü,2,True
+325,2,2,8,Güncelleme,3,True
+325,2,2,9,Doğrulama,4,True
+325,2,2,10,Tamamlama,5,True
+326,2,2,6,Talep,1,True
+326,2,2,7,Bilgi kontrolü,2,True
+326,2,2,8,Güncelleme,3,True
+326,2,2,9,Doğrulama,4,True
+326,2,2,10,Tamamlama,5,True
+327,2,2,6,Talep,1,True
+327,2,2,7,Bilgi kontrolü,2,True
+327,2,2,8,Güncelleme,3,True
+327,2,2,9,Doğrulama,4,True
+327,2,2,10,Tamamlama,5,True
+328,2,2,6,Talep,1,True
+328,2,2,7,Bilgi kontrolü,2,True
+328,2,2,8,Güncelleme,3,True
+328,2,2,9,Doğrulama,4,True
+328,2,2,10,Tamamlama,5,True
+329,2,2,6,Talep,1,True
+329,2,2,7,Bilgi kontrolü,2,True
+329,2,2,8,Güncelleme,3,True
+329,2,2,9,Doğrulama,4,True
+329,2,2,10,Tamamlama,5,True
+330,2,2,6,Talep,1,True
+330,2,2,7,Bilgi kontrolü,2,True
+330,2,2,8,Güncelleme,3,True
+330,2,2,9,Doğrulama,4,True
+330,2,2,10,Tamamlama,5,True
+331,2,2,6,Talep,1,True
+331,2,2,7,Bilgi kontrolü,2,True
+331,2,2,8,Güncelleme,3,True
+331,2,2,9,Doğrulama,4,True
+331,2,2,10,Tamamlama,5,True
+332,2,2,6,Talep,1,True
+332,2,2,7,Bilgi kontrolü,2,True
+332,2,2,8,Güncelleme,3,True
+332,2,2,9,Doğrulama,4,True
+332,2,2,10,Tamamlama,5,True
+333,2,2,6,Talep,1,True
+333,2,2,7,Bilgi kontrolü,2,True
+333,2,2,8,Güncelleme,3,True
+333,2,2,9,Doğrulama,4,True
+333,2,2,10,Tamamlama,5,True
+334,2,2,6,Talep,1,True
+334,2,2,7,Bilgi kontrolü,2,True
+334,2,2,8,Güncelleme,3,True
+334,2,2,9,Doğrulama,4,True
+334,2,2,10,Tamamlama,5,True
+335,2,2,6,Talep,1,True
+335,2,2,7,Bilgi kontrolü,2,True
+335,2,2,8,Güncelleme,3,True
+335,2,2,9,Doğrulama,4,True
+335,2,2,10,Tamamlama,5,True
+336,2,2,6,Talep,1,True
+336,2,2,7,Bilgi kontrolü,2,True
+336,2,2,8,Güncelleme,3,True
+336,2,2,9,Doğrulama,4,True
+336,2,2,10,Tamamlama,5,True
+337,2,2,6,Talep,1,True
+337,2,2,7,Bilgi kontrolü,2,True
+337,2,2,8,Güncelleme,3,True
+337,2,2,9,Doğrulama,4,True
+337,2,2,10,Tamamlama,5,True
+338,2,2,6,Talep,1,True
+338,2,2,7,Bilgi kontrolü,2,True
+338,2,2,8,Güncelleme,3,True
+338,2,2,9,Doğrulama,4,True
+338,2,2,10,Tamamlama,5,True
+339,2,2,6,Talep,1,True
+339,2,2,7,Bilgi kontrolü,2,True
+339,2,2,8,Güncelleme,3,True
+339,2,2,9,Doğrulama,4,True
+339,2,2,10,Tamamlama,5,True
+340,2,2,6,Talep,1,True
+340,2,2,7,Bilgi kontrolü,2,True
+340,2,2,8,Güncelleme,3,True
+340,2,2,9,Doğrulama,4,True
+340,2,2,10,Tamamlama,5,True
+341,2,2,6,Talep,1,True
+341,2,2,7,Bilgi kontrolü,2,True
+341,2,2,8,Güncelleme,3,True
+341,2,2,9,Doğrulama,4,True
+341,2,2,10,Tamamlama,5,True
+342,2,2,6,Talep,1,True
+342,2,2,7,Bilgi kontrolü,2,True
+342,2,2,8,Güncelleme,3,True
+342,2,2,9,Doğrulama,4,True
+342,2,2,10,Tamamlama,5,True
+343,2,2,6,Talep,1,True
+343,2,2,7,Bilgi kontrolü,2,True
+343,2,2,8,Güncelleme,3,True
+343,2,2,9,Doğrulama,4,True
+343,2,2,10,Tamamlama,5,True
+344,2,2,6,Talep,1,True
+344,2,2,7,Bilgi kontrolü,2,True
+344,2,2,8,Güncelleme,3,True
+344,2,2,9,Doğrulama,4,True
+344,2,2,10,Tamamlama,5,True
+345,2,2,6,Talep,1,True
+345,2,2,7,Bilgi kontrolü,2,True
+345,2,2,8,Güncelleme,3,True
+345,2,2,9,Doğrulama,4,True
+345,2,2,10,Tamamlama,5,True
+346,2,2,6,Talep,1,True
+346,2,2,7,Bilgi kontrolü,2,True
+346,2,2,8,Güncelleme,3,True
+346,2,2,9,Doğrulama,4,True
+346,2,2,10,Tamamlama,5,True
+347,2,2,6,Talep,1,True
+347,2,2,7,Bilgi kontrolü,2,True
+347,2,2,8,Güncelleme,3,True
+347,2,2,9,Doğrulama,4,True
+347,2,2,10,Tamamlama,5,True
+348,2,2,6,Talep,1,True
+348,2,2,7,Bilgi kontrolü,2,True
+348,2,2,8,Güncelleme,3,True
+348,2,2,9,Doğrulama,4,True
+348,2,2,10,Tamamlama,5,True
+349,2,2,6,Talep,1,True
+349,2,2,7,Bilgi kontrolü,2,True
+349,2,2,8,Güncelleme,3,True
+349,2,2,9,Doğrulama,4,True
+349,2,2,10,Tamamlama,5,True
+350,2,2,6,Talep,1,True
+350,2,2,7,Bilgi kontrolü,2,True
+350,2,2,8,Güncelleme,3,True
+350,2,2,9,Doğrulama,4,True
+350,2,2,10,Tamamlama,5,True
+351,2,2,6,Talep,1,True
+351,2,2,7,Bilgi kontrolü,2,True
+351,2,2,8,Güncelleme,3,True
+351,2,2,9,Doğrulama,4,True
+351,2,2,10,Tamamlama,5,True
+352,2,2,6,Talep,1,True
+352,2,2,7,Bilgi kontrolü,2,True
+352,2,2,8,Güncelleme,3,True
+352,2,2,9,Doğrulama,4,True
+352,2,2,10,Tamamlama,5,True
+353,2,2,6,Talep,1,True
+353,2,2,7,Bilgi kontrolü,2,True
+353,2,2,8,Güncelleme,3,True
+353,2,2,9,Doğrulama,4,True
+353,2,2,10,Tamamlama,5,True
+354,2,2,6,Talep,1,True
+354,2,2,7,Bilgi kontrolü,2,True
+354,2,2,8,Güncelleme,3,True
+354,2,2,9,Doğrulama,4,True
+354,2,2,10,Tamamlama,5,True
+355,2,2,6,Talep,1,True
+355,2,2,7,Bilgi kontrolü,2,True
+355,2,2,8,Güncelleme,3,True
+355,2,2,9,Doğrulama,4,True
+355,2,2,10,Tamamlama,5,True
+356,2,2,6,Talep,1,True
+356,2,2,7,Bilgi kontrolü,2,True
+356,2,2,8,Güncelleme,3,True
+356,2,2,9,Doğrulama,4,True
+356,2,2,10,Tamamlama,5,True
+357,2,2,6,Talep,1,True
+357,2,2,7,Bilgi kontrolü,2,True
+357,2,2,8,Güncelleme,3,True
+357,2,2,9,Doğrulama,4,True
+357,2,2,10,Tamamlama,5,True
+358,2,2,6,Talep,1,True
+358,2,2,7,Bilgi kontrolü,2,True
+358,2,2,8,Güncelleme,3,True
+358,2,2,9,Doğrulama,4,True
+358,2,2,10,Tamamlama,5,True
+359,2,2,6,Talep,1,True
+359,2,2,7,Bilgi kontrolü,2,True
+359,2,2,8,Güncelleme,3,True
+359,2,2,9,Doğrulama,4,True
+359,2,2,10,Tamamlama,5,True
+360,2,2,6,Talep,1,True
+360,2,2,7,Bilgi kontrolü,2,True
+360,2,2,8,Güncelleme,3,True
+360,2,2,9,Doğrulama,4,True
+360,2,2,10,Tamamlama,5,True
+361,2,2,6,Talep,1,True
+361,2,2,7,Bilgi kontrolü,2,True
+361,2,2,8,Güncelleme,3,True
+361,2,2,9,Doğrulama,4,True
+361,2,2,10,Tamamlama,5,True
+362,2,2,6,Talep,1,True
+362,2,2,7,Bilgi kontrolü,2,True
+362,2,2,8,Güncelleme,3,True
+362,2,2,9,Doğrulama,4,True
+362,2,2,10,Tamamlama,5,True
+363,2,2,6,Talep,1,True
+363,2,2,7,Bilgi kontrolü,2,True
+363,2,2,8,Güncelleme,3,True
+363,2,2,9,Doğrulama,4,True
+363,2,2,10,Tamamlama,5,True
+364,2,2,6,Talep,1,True
+364,2,2,7,Bilgi kontrolü,2,True
+364,2,2,8,Güncelleme,3,True
+364,2,2,9,Doğrulama,4,True
+364,2,2,10,Tamamlama,5,True
+365,2,2,6,Talep,1,True
+365,2,2,7,Bilgi kontrolü,2,True
+365,2,2,8,Güncelleme,3,True
+365,2,2,9,Doğrulama,4,True
+365,2,2,10,Tamamlama,5,True
+366,2,2,6,Talep,1,True
+366,2,2,7,Bilgi kontrolü,2,True
+366,2,2,8,Güncelleme,3,True
+366,2,2,9,Doğrulama,4,True
+366,2,2,10,Tamamlama,5,True
+367,2,2,6,Talep,1,True
+367,2,2,7,Bilgi kontrolü,2,True
+367,2,2,8,Güncelleme,3,True
+367,2,2,9,Doğrulama,4,True
+367,2,2,10,Tamamlama,5,True
+368,2,2,6,Talep,1,True
+368,2,2,7,Bilgi kontrolü,2,True
+368,2,2,8,Güncelleme,3,True
+368,2,2,9,Doğrulama,4,True
+368,2,2,10,Tamamlama,5,True
+369,2,2,6,Talep,1,True
+369,2,2,7,Bilgi kontrolü,2,True
+369,2,2,8,Güncelleme,3,True
+369,2,2,9,Doğrulama,4,True
+369,2,2,10,Tamamlama,5,True
+370,2,2,6,Talep,1,True
+370,2,2,7,Bilgi kontrolü,2,True
+370,2,2,8,Güncelleme,3,True
+370,2,2,9,Doğrulama,4,True
+370,2,2,10,Tamamlama,5,True
+371,2,2,6,Talep,1,True
+371,2,2,7,Bilgi kontrolü,2,True
+371,2,2,8,Güncelleme,3,True
+371,2,2,9,Doğrulama,4,True
+371,2,2,10,Tamamlama,5,True
+372,2,2,6,Talep,1,True
+372,2,2,7,Bilgi kontrolü,2,True
+372,2,2,8,Güncelleme,3,True
+372,2,2,9,Doğrulama,4,True
+372,2,2,10,Tamamlama,5,True
+373,2,2,6,Talep,1,True
+373,2,2,7,Bilgi kontrolü,2,True
+373,2,2,8,Güncelleme,3,True
+373,2,2,9,Doğrulama,4,True
+373,2,2,10,Tamamlama,5,True
+374,2,2,6,Talep,1,True
+374,2,2,7,Bilgi kontrolü,2,True
+374,2,2,8,Güncelleme,3,True
+374,2,2,9,Doğrulama,4,True
+374,2,2,10,Tamamlama,5,True
+375,2,2,6,Talep,1,True
+375,2,2,7,Bilgi kontrolü,2,True
+375,2,2,8,Güncelleme,3,True
+375,2,2,9,Doğrulama,4,True
+375,2,2,10,Tamamlama,5,True
+376,2,2,6,Talep,1,True
+376,2,2,7,Bilgi kontrolü,2,True
+376,2,2,8,Güncelleme,3,True
+376,2,2,9,Doğrulama,4,True
+376,2,2,10,Tamamlama,5,True
+377,2,2,6,Talep,1,True
+377,2,2,7,Bilgi kontrolü,2,True
+377,2,2,8,Güncelleme,3,True
+377,2,2,9,Doğrulama,4,True
+377,2,2,10,Tamamlama,5,True
+378,2,2,6,Talep,1,True
+378,2,2,7,Bilgi kontrolü,2,True
+378,2,2,8,Güncelleme,3,True
+378,2,2,9,Doğrulama,4,True
+378,2,2,10,Tamamlama,5,True
+379,2,2,6,Talep,1,True
+379,2,2,7,Bilgi kontrolü,2,True
+379,2,2,8,Güncelleme,3,True
+379,2,2,9,Doğrulama,4,True
+379,2,2,10,Tamamlama,5,True
+380,2,2,6,Talep,1,True
+380,2,2,7,Bilgi kontrolü,2,True
+380,2,2,8,Güncelleme,3,True
+380,2,2,9,Doğrulama,4,True
+380,2,2,10,Tamamlama,5,True
+381,2,2,6,Talep,1,True
+381,2,2,7,Bilgi kontrolü,2,True
+381,2,2,8,Güncelleme,3,True
+381,2,2,9,Doğrulama,4,True
+381,2,2,10,Tamamlama,5,True
+382,2,2,6,Talep,1,True
+382,2,2,7,Bilgi kontrolü,2,True
+382,2,2,8,Güncelleme,3,True
+382,2,2,9,Doğrulama,4,True
+382,2,2,10,Tamamlama,5,True
+383,2,2,6,Talep,1,True
+383,2,2,7,Bilgi kontrolü,2,True
+383,2,2,8,Güncelleme,3,True
+383,2,2,9,Doğrulama,4,True
+383,2,2,10,Tamamlama,5,True
+384,2,2,6,Talep,1,True
+384,2,2,7,Bilgi kontrolü,2,True
+384,2,2,8,Güncelleme,3,True
+384,2,2,9,Doğrulama,4,True
+384,2,2,10,Tamamlama,5,True
+385,2,2,6,Talep,1,True
+385,2,2,7,Bilgi kontrolü,2,True
+385,2,2,8,Güncelleme,3,True
+385,2,2,9,Doğrulama,4,True
+385,2,2,10,Tamamlama,5,True
+386,2,2,6,Talep,1,True
+386,2,2,7,Bilgi kontrolü,2,True
+386,2,2,8,Güncelleme,3,True
+386,2,2,9,Doğrulama,4,True
+386,2,2,10,Tamamlama,5,True
+387,2,2,6,Talep,1,True
+387,2,2,7,Bilgi kontrolü,2,True
+387,2,2,8,Güncelleme,3,True
+387,2,2,9,Doğrulama,4,True
+387,2,2,10,Tamamlama,5,True
+388,2,2,6,Talep,1,True
+388,2,2,7,Bilgi kontrolü,2,True
+388,2,2,8,Güncelleme,3,True
+388,2,2,9,Doğrulama,4,True
+388,2,2,10,Tamamlama,5,True
+389,2,2,6,Talep,1,True
+389,2,2,7,Bilgi kontrolü,2,True
+389,2,2,8,Güncelleme,3,True
+389,2,2,9,Doğrulama,4,True
+389,2,2,10,Tamamlama,5,True
+390,2,2,6,Talep,1,True
+390,2,2,7,Bilgi kontrolü,2,True
+390,2,2,8,Güncelleme,3,True
+390,2,2,9,Doğrulama,4,True
+390,2,2,10,Tamamlama,5,True
+391,2,2,6,Talep,1,True
+391,2,2,7,Bilgi kontrolü,2,True
+391,2,2,8,Güncelleme,3,True
+391,2,2,9,Doğrulama,4,True
+391,2,2,10,Tamamlama,5,True
+392,2,2,6,Talep,1,True
+392,2,2,7,Bilgi kontrolü,2,True
+392,2,2,8,Güncelleme,3,True
+392,2,2,9,Doğrulama,4,True
+392,2,2,10,Tamamlama,5,True
+393,2,2,6,Talep,1,True
+393,2,2,7,Bilgi kontrolü,2,True
+393,2,2,8,Güncelleme,3,True
+393,2,2,9,Doğrulama,4,True
+393,2,2,10,Tamamlama,5,True
+394,2,2,6,Talep,1,True
+394,2,2,7,Bilgi kontrolü,2,True
+394,2,2,8,Güncelleme,3,True
+394,2,2,9,Doğrulama,4,True
+394,2,2,10,Tamamlama,5,True
+395,2,2,6,Talep,1,True
+395,2,2,7,Bilgi kontrolü,2,True
+395,2,2,8,Güncelleme,3,True
+395,2,2,9,Doğrulama,4,True
+395,2,2,10,Tamamlama,5,True
+396,2,2,6,Talep,1,True
+396,2,2,7,Bilgi kontrolü,2,True
+396,2,2,8,Güncelleme,3,True
+396,2,2,9,Doğrulama,4,True
+396,2,2,10,Tamamlama,5,True
+397,2,2,6,Talep,1,True
+397,2,2,7,Bilgi kontrolü,2,True
+397,2,2,8,Güncelleme,3,True
+397,2,2,9,Doğrulama,4,True
+397,2,2,10,Tamamlama,5,True
+398,2,2,6,Talep,1,True
+398,2,2,7,Bilgi kontrolü,2,True
+398,2,2,8,Güncelleme,3,True
+398,2,2,9,Doğrulama,4,True
+398,2,2,10,Tamamlama,5,True
+399,2,2,6,Talep,1,True
+399,2,2,7,Bilgi kontrolü,2,True
+399,2,2,8,Güncelleme,3,True
+399,2,2,9,Doğrulama,4,True
+399,2,2,10,Tamamlama,5,True
+400,2,2,6,Talep,1,True
+400,2,2,7,Bilgi kontrolü,2,True
+400,2,2,8,Güncelleme,3,True
+400,2,2,9,Doğrulama,4,True
+400,2,2,10,Tamamlama,5,True
+401,2,2,6,Talep,1,True
+401,2,2,7,Bilgi kontrolü,2,True
+401,2,2,8,Güncelleme,3,True
+401,2,2,9,Doğrulama,4,True
+401,2,2,10,Tamamlama,5,True
+402,2,2,6,Talep,1,True
+402,2,2,7,Bilgi kontrolü,2,True
+402,2,2,8,Güncelleme,3,True
+402,2,2,9,Doğrulama,4,True
+402,2,2,10,Tamamlama,5,True
+403,2,2,6,Talep,1,True
+403,2,2,7,Bilgi kontrolü,2,True
+403,2,2,8,Güncelleme,3,True
+403,2,2,9,Doğrulama,4,True
+403,2,2,10,Tamamlama,5,True
+404,2,2,6,Talep,1,True
+404,2,2,7,Bilgi kontrolü,2,True
+404,2,2,8,Güncelleme,3,True
+404,2,2,9,Doğrulama,4,True
+404,2,2,10,Tamamlama,5,True
+405,2,2,6,Talep,1,True
+405,2,2,7,Bilgi kontrolü,2,True
+405,2,2,8,Güncelleme,3,True
+405,2,2,9,Doğrulama,4,True
+405,2,2,10,Tamamlama,5,True
+406,2,2,6,Talep,1,True
+406,2,2,7,Bilgi kontrolü,2,True
+406,2,2,8,Güncelleme,3,True
+406,2,2,9,Doğrulama,4,True
+406,2,2,10,Tamamlama,5,True
+407,2,2,6,Talep,1,True
+407,2,2,7,Bilgi kontrolü,2,True
+407,2,2,8,Güncelleme,3,True
+407,2,2,9,Doğrulama,4,True
+407,2,2,10,Tamamlama,5,True
+408,2,2,6,Talep,1,True
+408,2,2,7,Bilgi kontrolü,2,True
+408,2,2,8,Güncelleme,3,True
+408,2,2,9,Doğrulama,4,True
+408,2,2,10,Tamamlama,5,True
+409,2,2,6,Talep,1,True
+409,2,2,7,Bilgi kontrolü,2,True
+409,2,2,8,Güncelleme,3,True
+409,2,2,9,Doğrulama,4,True
+409,2,2,10,Tamamlama,5,True
+410,2,2,6,Talep,1,True
+410,2,2,7,Bilgi kontrolü,2,True
+410,2,2,8,Güncelleme,3,True
+410,2,2,9,Doğrulama,4,True
+410,2,2,10,Tamamlama,5,True
+411,2,2,6,Talep,1,True
+411,2,2,7,Bilgi kontrolü,2,True
+411,2,2,8,Güncelleme,3,True
+411,2,2,9,Doğrulama,4,True
+411,2,2,10,Tamamlama,5,True
+412,2,2,6,Talep,1,True
+412,2,2,7,Bilgi kontrolü,2,True
+412,2,2,8,Güncelleme,3,True
+412,2,2,9,Doğrulama,4,True
+412,2,2,10,Tamamlama,5,True
+413,2,2,6,Talep,1,True
+413,2,2,7,Bilgi kontrolü,2,True
+413,2,2,8,Güncelleme,3,True
+413,2,2,9,Doğrulama,4,True
+413,2,2,10,Tamamlama,5,True
+414,2,2,6,Talep,1,True
+414,2,2,7,Bilgi kontrolü,2,True
+414,2,2,8,Güncelleme,3,True
+414,2,2,9,Doğrulama,4,True
+414,2,2,10,Tamamlama,5,True
+415,2,2,6,Talep,1,True
+415,2,2,7,Bilgi kontrolü,2,True
+415,2,2,8,Güncelleme,3,True
+415,2,2,9,Doğrulama,4,True
+415,2,2,10,Tamamlama,5,True
+416,2,2,6,Talep,1,True
+416,2,2,7,Bilgi kontrolü,2,True
+416,2,2,8,Güncelleme,3,True
+416,2,2,9,Doğrulama,4,True
+416,2,2,10,Tamamlama,5,True
+417,2,2,6,Talep,1,True
+417,2,2,7,Bilgi kontrolü,2,True
+417,2,2,8,Güncelleme,3,True
+417,2,2,9,Doğrulama,4,True
+417,2,2,10,Tamamlama,5,True
+418,2,2,6,Talep,1,True
+418,2,2,7,Bilgi kontrolü,2,True
+418,2,2,8,Güncelleme,3,True
+418,2,2,9,Doğrulama,4,True
+418,2,2,10,Tamamlama,5,True
+419,2,2,6,Talep,1,True
+419,2,2,7,Bilgi kontrolü,2,True
+419,2,2,8,Güncelleme,3,True
+419,2,2,9,Doğrulama,4,True
+419,2,2,10,Tamamlama,5,True
+420,2,2,6,Talep,1,True
+420,2,2,7,Bilgi kontrolü,2,True
+420,2,2,8,Güncelleme,3,True
+420,2,2,9,Doğrulama,4,True
+420,2,2,10,Tamamlama,5,True
+421,2,2,6,Talep,1,True
+421,2,2,7,Bilgi kontrolü,2,True
+421,2,2,8,Güncelleme,3,True
+421,2,2,9,Doğrulama,4,True
+421,2,2,10,Tamamlama,5,True
+422,2,2,6,Talep,1,True
+422,2,2,7,Bilgi kontrolü,2,True
+422,2,2,8,Güncelleme,3,True
+422,2,2,9,Doğrulama,4,True
+422,2,2,10,Tamamlama,5,True
+423,2,2,6,Talep,1,True
+423,2,2,7,Bilgi kontrolü,2,True
+423,2,2,8,Güncelleme,3,True
+423,2,2,9,Doğrulama,4,True
+423,2,2,10,Tamamlama,5,True
+424,2,2,6,Talep,1,True
+424,2,2,7,Bilgi kontrolü,2,True
+424,2,2,8,Güncelleme,3,True
+424,2,2,9,Doğrulama,4,True
+424,2,2,10,Tamamlama,5,True
+425,2,2,6,Talep,1,True
+425,2,2,7,Bilgi kontrolü,2,True
+425,2,2,8,Güncelleme,3,True
+425,2,2,9,Doğrulama,4,True
+425,2,2,10,Tamamlama,5,True
+426,2,2,6,Talep,1,True
+426,2,2,7,Bilgi kontrolü,2,True
+426,2,2,8,Güncelleme,3,True
+426,2,2,9,Doğrulama,4,True
+426,2,2,10,Tamamlama,5,True
+427,2,2,6,Talep,1,True
+427,2,2,7,Bilgi kontrolü,2,True
+427,2,2,8,Güncelleme,3,True
+427,2,2,9,Doğrulama,4,True
+427,2,2,10,Tamamlama,5,True
+428,2,2,6,Talep,1,True
+428,2,2,7,Bilgi kontrolü,2,True
+428,2,2,8,Güncelleme,3,True
+428,2,2,9,Doğrulama,4,True
+428,2,2,10,Tamamlama,5,True
+429,2,2,6,Talep,1,True
+429,2,2,7,Bilgi kontrolü,2,True
+429,2,2,8,Güncelleme,3,True
+429,2,2,9,Doğrulama,4,True
+429,2,2,10,Tamamlama,5,True
+430,2,2,6,Talep,1,True
+430,2,2,7,Bilgi kontrolü,2,True
+430,2,2,8,Güncelleme,3,True
+430,2,2,9,Doğrulama,4,True
+430,2,2,10,Tamamlama,5,True
+431,2,2,6,Talep,1,True
+431,2,2,7,Bilgi kontrolü,2,True
+431,2,2,8,Güncelleme,3,True
+431,2,2,9,Doğrulama,4,True
+431,2,2,10,Tamamlama,5,True
+432,2,2,6,Talep,1,True
+432,2,2,7,Bilgi kontrolü,2,True
+432,2,2,8,Güncelleme,3,True
+432,2,2,9,Doğrulama,4,True
+432,2,2,10,Tamamlama,5,True
+433,2,2,6,Talep,1,True
+433,2,2,7,Bilgi kontrolü,2,True
+433,2,2,8,Güncelleme,3,True
+433,2,2,9,Doğrulama,4,True
+433,2,2,10,Tamamlama,5,True
+434,2,2,6,Talep,1,True
+434,2,2,7,Bilgi kontrolü,2,True
+434,2,2,8,Güncelleme,3,True
+434,2,2,9,Doğrulama,4,True
+434,2,2,10,Tamamlama,5,True
+435,2,2,6,Talep,1,True
+435,2,2,7,Bilgi kontrolü,2,True
+435,2,2,8,Güncelleme,3,True
+435,2,2,9,Doğrulama,4,True
+435,2,2,10,Tamamlama,5,True
+436,2,2,6,Talep,1,True
+436,2,2,7,Bilgi kontrolü,2,True
+436,2,2,8,Güncelleme,3,True
+436,2,2,9,Doğrulama,4,True
+436,2,2,10,Tamamlama,5,True
+437,2,2,6,Talep,1,True
+437,2,2,7,Bilgi kontrolü,2,True
+437,2,2,8,Güncelleme,3,True
+437,2,2,9,Doğrulama,4,True
+437,2,2,10,Tamamlama,5,True
+438,2,2,6,Talep,1,True
+438,2,2,7,Bilgi kontrolü,2,True
+438,2,2,8,Güncelleme,3,True
+438,2,2,9,Doğrulama,4,True
+438,2,2,10,Tamamlama,5,True
+439,2,2,6,Talep,1,True
+439,2,2,7,Bilgi kontrolü,2,True
+439,2,2,8,Güncelleme,3,True
+439,2,2,9,Doğrulama,4,True
+439,2,2,10,Tamamlama,5,True
+440,2,2,6,Talep,1,True
+440,2,2,7,Bilgi kontrolü,2,True
+440,2,2,8,Güncelleme,3,True
+440,2,2,9,Doğrulama,4,True
+440,2,2,10,Tamamlama,5,True
+441,2,2,6,Talep,1,True
+441,2,2,7,Bilgi kontrolü,2,True
+441,2,2,8,Güncelleme,3,True
+441,2,2,9,Doğrulama,4,True
+441,2,2,10,Tamamlama,5,True
+442,2,2,6,Talep,1,True
+442,2,2,7,Bilgi kontrolü,2,True
+442,2,2,8,Güncelleme,3,True
+442,2,2,9,Doğrulama,4,True
+442,2,2,10,Tamamlama,5,True
+443,2,2,6,Talep,1,True
+443,2,2,7,Bilgi kontrolü,2,True
+443,2,2,8,Güncelleme,3,True
+443,2,2,9,Doğrulama,4,True
+443,2,2,10,Tamamlama,5,True
+444,2,2,6,Talep,1,True
+444,2,2,7,Bilgi kontrolü,2,True
+444,2,2,8,Güncelleme,3,True
+444,2,2,9,Doğrulama,4,True
+444,2,2,10,Tamamlama,5,True
+445,2,2,6,Talep,1,True
+445,2,2,7,Bilgi kontrolü,2,True
+445,2,2,8,Güncelleme,3,True
+445,2,2,9,Doğrulama,4,True
+445,2,2,10,Tamamlama,5,True
+446,2,2,6,Talep,1,True
+446,2,2,7,Bilgi kontrolü,2,True
+446,2,2,8,Güncelleme,3,True
+446,2,2,9,Doğrulama,4,True
+446,2,2,10,Tamamlama,5,True
+447,2,2,6,Talep,1,True
+447,2,2,7,Bilgi kontrolü,2,True
+447,2,2,8,Güncelleme,3,True
+447,2,2,9,Doğrulama,4,True
+447,2,2,10,Tamamlama,5,True
+448,2,2,6,Talep,1,True
+448,2,2,7,Bilgi kontrolü,2,True
+448,2,2,8,Güncelleme,3,True
+448,2,2,9,Doğrulama,4,True
+448,2,2,10,Tamamlama,5,True
+449,2,2,6,Talep,1,True
+449,2,2,7,Bilgi kontrolü,2,True
+449,2,2,8,Güncelleme,3,True
+449,2,2,9,Doğrulama,4,True
+449,2,2,10,Tamamlama,5,True
+450,2,2,6,Talep,1,True
+450,2,2,7,Bilgi kontrolü,2,True
+450,2,2,8,Güncelleme,3,True
+450,2,2,9,Doğrulama,4,True
+450,2,2,10,Tamamlama,5,True
+451,2,2,6,Talep,1,True
+451,2,2,7,Bilgi kontrolü,2,True
+451,2,2,8,Güncelleme,3,True
+451,2,2,9,Doğrulama,4,True
+451,2,2,10,Tamamlama,5,True
+452,2,2,6,Talep,1,True
+452,2,2,7,Bilgi kontrolü,2,True
+452,2,2,8,Güncelleme,3,True
+452,2,2,9,Doğrulama,4,True
+452,2,2,10,Tamamlama,5,True
+453,2,2,6,Talep,1,True
+453,2,2,7,Bilgi kontrolü,2,True
+453,2,2,8,Güncelleme,3,True
+453,2,2,9,Doğrulama,4,True
+453,2,2,10,Tamamlama,5,True
+454,2,2,6,Talep,1,True
+454,2,2,7,Bilgi kontrolü,2,True
+454,2,2,8,Güncelleme,3,True
+454,2,2,9,Doğrulama,4,True
+454,2,2,10,Tamamlama,5,True
+455,2,2,6,Talep,1,True
+455,2,2,7,Bilgi kontrolü,2,True
+455,2,2,8,Güncelleme,3,True
+455,2,2,9,Doğrulama,4,True
+455,2,2,10,Tamamlama,5,True
+456,2,2,6,Talep,1,True
+456,2,2,7,Bilgi kontrolü,2,True
+456,2,2,8,Güncelleme,3,True
+456,2,2,9,Doğrulama,4,True
+456,2,2,10,Tamamlama,5,True
+457,2,2,6,Talep,1,True
+457,2,2,7,Bilgi kontrolü,2,True
+457,2,2,8,Güncelleme,3,True
+457,2,2,9,Doğrulama,4,True
+457,2,2,10,Tamamlama,5,True
+458,2,2,6,Talep,1,True
+458,2,2,7,Bilgi kontrolü,2,True
+458,2,2,8,Güncelleme,3,True
+458,2,2,9,Doğrulama,4,True
+458,2,2,10,Tamamlama,5,True
+459,2,2,6,Talep,1,True
+459,2,2,7,Bilgi kontrolü,2,True
+459,2,2,8,Güncelleme,3,True
+459,2,2,9,Doğrulama,4,True
+459,2,2,10,Tamamlama,5,True
+460,2,2,6,Talep,1,True
+460,2,2,7,Bilgi kontrolü,2,True
+460,2,2,8,Güncelleme,3,True
+460,2,2,9,Doğrulama,4,True
+460,2,2,10,Tamamlama,5,True
+461,2,2,6,Talep,1,True
+461,2,2,7,Bilgi kontrolü,2,True
+461,2,2,8,Güncelleme,3,True
+461,2,2,9,Doğrulama,4,True
+461,2,2,10,Tamamlama,5,True
+462,2,2,6,Talep,1,True
+462,2,2,7,Bilgi kontrolü,2,True
+462,2,2,8,Güncelleme,3,True
+462,2,2,9,Doğrulama,4,True
+462,2,2,10,Tamamlama,5,True
+463,2,2,6,Talep,1,True
+463,2,2,7,Bilgi kontrolü,2,True
+463,2,2,8,Güncelleme,3,True
+463,2,2,9,Doğrulama,4,True
+463,2,2,10,Tamamlama,5,True
+464,2,2,6,Talep,1,True
+464,2,2,7,Bilgi kontrolü,2,True
+464,2,2,8,Güncelleme,3,True
+464,2,2,9,Doğrulama,4,True
+464,2,2,10,Tamamlama,5,True
+465,2,2,6,Talep,1,True
+465,2,2,7,Bilgi kontrolü,2,True
+465,2,2,8,Güncelleme,3,True
+465,2,2,9,Doğrulama,4,True
+465,2,2,10,Tamamlama,5,True
+466,2,2,6,Talep,1,True
+466,2,2,7,Bilgi kontrolü,2,True
+466,2,2,8,Güncelleme,3,True
+466,2,2,9,Doğrulama,4,True
+466,2,2,10,Tamamlama,5,True
+467,2,2,6,Talep,1,True
+467,2,2,7,Bilgi kontrolü,2,True
+467,2,2,8,Güncelleme,3,True
+467,2,2,9,Doğrulama,4,True
+467,2,2,10,Tamamlama,5,True
+468,2,2,6,Talep,1,True
+468,2,2,7,Bilgi kontrolü,2,True
+468,2,2,8,Güncelleme,3,True
+468,2,2,9,Doğrulama,4,True
+468,2,2,10,Tamamlama,5,True
+469,2,2,6,Talep,1,True
+469,2,2,7,Bilgi kontrolü,2,True
+469,2,2,8,Güncelleme,3,True
+469,2,2,9,Doğrulama,4,True
+469,2,2,10,Tamamlama,5,True
+470,2,2,6,Talep,1,True
+470,2,2,7,Bilgi kontrolü,2,True
+470,2,2,8,Güncelleme,3,True
+470,2,2,9,Doğrulama,4,True
+470,2,2,10,Tamamlama,5,True
+471,2,2,6,Talep,1,True
+471,2,2,7,Bilgi kontrolü,2,True
+471,2,2,8,Güncelleme,3,True
+471,2,2,9,Doğrulama,4,True
+471,2,2,10,Tamamlama,5,True
+472,2,2,6,Talep,1,True
+472,2,2,7,Bilgi kontrolü,2,True
+472,2,2,8,Güncelleme,3,True
+472,2,2,9,Doğrulama,4,True
+472,2,2,10,Tamamlama,5,True
+473,2,2,6,Talep,1,True
+473,2,2,7,Bilgi kontrolü,2,True
+473,2,2,8,Güncelleme,3,True
+473,2,2,9,Doğrulama,4,True
+473,2,2,10,Tamamlama,5,True
+474,2,2,6,Talep,1,True
+474,2,2,7,Bilgi kontrolü,2,True
+474,2,2,8,Güncelleme,3,True
+474,2,2,9,Doğrulama,4,True
+474,2,2,10,Tamamlama,5,True
+475,2,2,6,Talep,1,True
+475,2,2,7,Bilgi kontrolü,2,True
+475,2,2,8,Güncelleme,3,True
+475,2,2,9,Doğrulama,4,True
+475,2,2,10,Tamamlama,5,True
+476,2,2,6,Talep,1,True
+476,2,2,7,Bilgi kontrolü,2,True
+476,2,2,8,Güncelleme,3,True
+476,2,2,9,Doğrulama,4,True
+476,2,2,10,Tamamlama,5,True
+477,2,2,6,Talep,1,True
+477,2,2,7,Bilgi kontrolü,2,True
+477,2,2,8,Güncelleme,3,True
+477,2,2,9,Doğrulama,4,True
+477,2,2,10,Tamamlama,5,True
+478,2,2,6,Talep,1,True
+478,2,2,7,Bilgi kontrolü,2,True
+478,2,2,8,Güncelleme,3,True
+478,2,2,9,Doğrulama,4,True
+478,2,2,10,Tamamlama,5,True
+479,2,2,6,Talep,1,True
+479,2,2,7,Bilgi kontrolü,2,True
+479,2,2,8,Güncelleme,3,True
+479,2,2,9,Doğrulama,4,True
+479,2,2,10,Tamamlama,5,True
+480,2,2,6,Talep,1,True
+480,2,2,7,Bilgi kontrolü,2,True
+480,2,2,8,Güncelleme,3,True
+480,2,2,9,Doğrulama,4,True
+480,2,2,10,Tamamlama,5,True
+481,2,2,6,Talep,1,True
+481,2,2,7,Bilgi kontrolü,2,True
+481,2,2,8,Güncelleme,3,True
+481,2,2,9,Doğrulama,4,True
+481,2,2,10,Tamamlama,5,True
+482,2,2,6,Talep,1,True
+482,2,2,7,Bilgi kontrolü,2,True
+482,2,2,8,Güncelleme,3,True
+482,2,2,9,Doğrulama,4,True
+482,2,2,10,Tamamlama,5,True
+483,2,2,6,Talep,1,True
+483,2,2,7,Bilgi kontrolü,2,True
+483,2,2,8,Güncelleme,3,True
+483,2,2,9,Doğrulama,4,True
+483,2,2,10,Tamamlama,5,True
+484,2,2,6,Talep,1,True
+484,2,2,7,Bilgi kontrolü,2,True
+484,2,2,8,Güncelleme,3,True
+484,2,2,9,Doğrulama,4,True
+484,2,2,10,Tamamlama,5,True
+485,2,2,6,Talep,1,True
+485,2,2,7,Bilgi kontrolü,2,True
+485,2,2,8,Güncelleme,3,True
+485,2,2,9,Doğrulama,4,True
+485,2,2,10,Tamamlama,5,True
+486,2,2,6,Talep,1,True
+486,2,2,7,Bilgi kontrolü,2,True
+486,2,2,8,Güncelleme,3,True
+486,2,2,9,Doğrulama,4,True
+486,2,2,10,Tamamlama,5,True
+487,2,2,6,Talep,1,True
+487,2,2,7,Bilgi kontrolü,2,True
+487,2,2,8,Güncelleme,3,True
+487,2,2,9,Doğrulama,4,True
+487,2,2,10,Tamamlama,5,True
+488,2,2,6,Talep,1,True
+488,2,2,7,Bilgi kontrolü,2,True
+488,2,2,8,Güncelleme,3,True
+488,2,2,9,Doğrulama,4,True
+488,2,2,10,Tamamlama,5,True
+489,2,2,6,Talep,1,True
+489,2,2,7,Bilgi kontrolü,2,True
+489,2,2,8,Güncelleme,3,True
+489,2,2,9,Doğrulama,4,True
+489,2,2,10,Tamamlama,5,True
+490,2,2,6,Talep,1,True
+490,2,2,7,Bilgi kontrolü,2,True
+490,2,2,8,Güncelleme,3,True
+490,2,2,9,Doğrulama,4,True
+490,2,2,10,Tamamlama,5,True
+491,2,2,6,Talep,1,True
+491,2,2,7,Bilgi kontrolü,2,True
+491,2,2,8,Güncelleme,3,True
+491,2,2,9,Doğrulama,4,True
+491,2,2,10,Tamamlama,5,True
+492,2,2,6,Talep,1,True
+492,2,2,7,Bilgi kontrolü,2,True
+492,2,2,8,Güncelleme,3,True
+492,2,2,9,Doğrulama,4,True
+492,2,2,10,Tamamlama,5,True
+493,2,2,6,Talep,1,True
+493,2,2,7,Bilgi kontrolü,2,True
+493,2,2,8,Güncelleme,3,True
+493,2,2,9,Doğrulama,4,True
+493,2,2,10,Tamamlama,5,True
+494,2,2,6,Talep,1,True
+494,2,2,7,Bilgi kontrolü,2,True
+494,2,2,8,Güncelleme,3,True
+494,2,2,9,Doğrulama,4,True
+494,2,2,10,Tamamlama,5,True
+495,2,2,6,Talep,1,True
+495,2,2,7,Bilgi kontrolü,2,True
+495,2,2,8,Güncelleme,3,True
+495,2,2,9,Doğrulama,4,True
+495,2,2,10,Tamamlama,5,True
+496,2,2,6,Talep,1,True
+496,2,2,7,Bilgi kontrolü,2,True
+496,2,2,8,Güncelleme,3,True
+496,2,2,9,Doğrulama,4,True
+496,2,2,10,Tamamlama,5,True
+497,2,2,6,Talep,1,True
+497,2,2,7,Bilgi kontrolü,2,True
+497,2,2,8,Güncelleme,3,True
+497,2,2,9,Doğrulama,4,True
+497,2,2,10,Tamamlama,5,True
+498,2,2,6,Talep,1,True
+498,2,2,7,Bilgi kontrolü,2,True
+498,2,2,8,Güncelleme,3,True
+498,2,2,9,Doğrulama,4,True
+498,2,2,10,Tamamlama,5,True
+499,2,2,6,Talep,1,True
+499,2,2,7,Bilgi kontrolü,2,True
+499,2,2,8,Güncelleme,3,True
+499,2,2,9,Doğrulama,4,True
+499,2,2,10,Tamamlama,5,True
+500,2,2,6,Talep,1,True
+500,2,2,7,Bilgi kontrolü,2,True
+500,2,2,8,Güncelleme,3,True
+500,2,2,9,Doğrulama,4,True
+500,2,2,10,Tamamlama,5,True
+501,3,3,11,Talep,1,True
+501,3,3,12,Kimlik/yetki kontrolü,2,True
+501,3,3,13,Hesap işlemi,3,True
+501,3,3,14,Onay,4,False
+501,3,3,15,Tamamlama,5,True
+502,3,3,11,Talep,1,True
+502,3,3,12,Kimlik/yetki kontrolü,2,True
+502,3,3,13,Hesap işlemi,3,True
+502,3,3,15,Tamamlama,5,True
+503,3,3,11,Talep,1,True
+503,3,3,12,Kimlik/yetki kontrolü,2,True
+503,3,3,13,Hesap işlemi,3,True
+503,3,3,15,Tamamlama,5,True
+504,3,3,11,Talep,1,True
+504,3,3,12,Kimlik/yetki kontrolü,2,True
+504,3,3,13,Hesap işlemi,3,True
+504,3,3,14,Onay,4,False
+504,3,3,15,Tamamlama,5,True
+505,3,3,11,Talep,1,True
+505,3,3,12,Kimlik/yetki kontrolü,2,True
+505,3,3,13,Hesap işlemi,3,True
+505,3,3,14,Onay,4,False
+505,3,3,15,Tamamlama,5,True
+506,3,3,11,Talep,1,True
+506,3,3,12,Kimlik/yetki kontrolü,2,True
+506,3,3,13,Hesap işlemi,3,True
+506,3,3,15,Tamamlama,5,True
+507,3,3,11,Talep,1,True
+507,3,3,12,Kimlik/yetki kontrolü,2,True
+507,3,3,13,Hesap işlemi,3,True
+507,3,3,15,Tamamlama,5,True
+508,3,3,11,Talep,1,True
+508,3,3,12,Kimlik/yetki kontrolü,2,True
+508,3,3,13,Hesap işlemi,3,True
+508,3,3,15,Tamamlama,5,True
+509,3,3,11,Talep,1,True
+509,3,3,12,Kimlik/yetki kontrolü,2,True
+509,3,3,13,Hesap işlemi,3,True
+509,3,3,15,Tamamlama,5,True
+510,3,3,11,Talep,1,True
+510,3,3,12,Kimlik/yetki kontrolü,2,True
+510,3,3,13,Hesap işlemi,3,True
+510,3,3,15,Tamamlama,5,True
+511,3,3,11,Talep,1,True
+511,3,3,12,Kimlik/yetki kontrolü,2,True
+511,3,3,13,Hesap işlemi,3,True
+511,3,3,15,Tamamlama,5,True
+512,3,3,11,Talep,1,True
+512,3,3,12,Kimlik/yetki kontrolü,2,True
+512,3,3,13,Hesap işlemi,3,True
+512,3,3,15,Tamamlama,5,True
+513,3,3,11,Talep,1,True
+513,3,3,12,Kimlik/yetki kontrolü,2,True
+513,3,3,13,Hesap işlemi,3,True
+513,3,3,15,Tamamlama,5,True
+514,3,3,11,Talep,1,True
+514,3,3,12,Kimlik/yetki kontrolü,2,True
+514,3,3,13,Hesap işlemi,3,True
+514,3,3,15,Tamamlama,5,True
+515,3,3,11,Talep,1,True
+515,3,3,12,Kimlik/yetki kontrolü,2,True
+515,3,3,13,Hesap işlemi,3,True
+515,3,3,15,Tamamlama,5,True
+516,3,3,11,Talep,1,True
+516,3,3,12,Kimlik/yetki kontrolü,2,True
+516,3,3,13,Hesap işlemi,3,True
+516,3,3,15,Tamamlama,5,True
+517,3,3,11,Talep,1,True
+517,3,3,12,Kimlik/yetki kontrolü,2,True
+517,3,3,13,Hesap işlemi,3,True
+517,3,3,15,Tamamlama,5,True
+518,3,3,11,Talep,1,True
+518,3,3,12,Kimlik/yetki kontrolü,2,True
+518,3,3,13,Hesap işlemi,3,True
+518,3,3,15,Tamamlama,5,True
+519,3,3,11,Talep,1,True
+519,3,3,12,Kimlik/yetki kontrolü,2,True
+519,3,3,13,Hesap işlemi,3,True
+519,3,3,15,Tamamlama,5,True
+520,3,3,11,Talep,1,True
+520,3,3,12,Kimlik/yetki kontrolü,2,True
+520,3,3,13,Hesap işlemi,3,True
+520,3,3,14,Onay,4,False
+520,3,3,15,Tamamlama,5,True
+521,3,3,11,Talep,1,True
+521,3,3,12,Kimlik/yetki kontrolü,2,True
+521,3,3,13,Hesap işlemi,3,True
+521,3,3,15,Tamamlama,5,True
+522,3,3,11,Talep,1,True
+522,3,3,12,Kimlik/yetki kontrolü,2,True
+522,3,3,13,Hesap işlemi,3,True
+522,3,3,15,Tamamlama,5,True
+523,3,3,11,Talep,1,True
+523,3,3,12,Kimlik/yetki kontrolü,2,True
+523,3,3,13,Hesap işlemi,3,True
+523,3,3,15,Tamamlama,5,True
+524,3,3,11,Talep,1,True
+524,3,3,12,Kimlik/yetki kontrolü,2,True
+524,3,3,13,Hesap işlemi,3,True
+524,3,3,15,Tamamlama,5,True
+525,3,3,11,Talep,1,True
+525,3,3,12,Kimlik/yetki kontrolü,2,True
+525,3,3,13,Hesap işlemi,3,True
+525,3,3,15,Tamamlama,5,True
+526,3,3,11,Talep,1,True
+526,3,3,12,Kimlik/yetki kontrolü,2,True
+526,3,3,13,Hesap işlemi,3,True
+526,3,3,15,Tamamlama,5,True
+527,3,3,11,Talep,1,True
+527,3,3,12,Kimlik/yetki kontrolü,2,True
+527,3,3,13,Hesap işlemi,3,True
+527,3,3,15,Tamamlama,5,True
+528,3,3,11,Talep,1,True
+528,3,3,12,Kimlik/yetki kontrolü,2,True
+528,3,3,13,Hesap işlemi,3,True
+528,3,3,14,Onay,4,False
+528,3,3,15,Tamamlama,5,True
+529,3,3,11,Talep,1,True
+529,3,3,12,Kimlik/yetki kontrolü,2,True
+529,3,3,13,Hesap işlemi,3,True
+529,3,3,15,Tamamlama,5,True
+530,3,3,11,Talep,1,True
+530,3,3,12,Kimlik/yetki kontrolü,2,True
+530,3,3,13,Hesap işlemi,3,True
+530,3,3,14,Onay,4,False
+530,3,3,15,Tamamlama,5,True
+531,3,3,11,Talep,1,True
+531,3,3,12,Kimlik/yetki kontrolü,2,True
+531,3,3,13,Hesap işlemi,3,True
+531,3,3,15,Tamamlama,5,True
+532,3,3,11,Talep,1,True
+532,3,3,12,Kimlik/yetki kontrolü,2,True
+532,3,3,13,Hesap işlemi,3,True
+532,3,3,14,Onay,4,False
+532,3,3,15,Tamamlama,5,True
+533,3,3,11,Talep,1,True
+533,3,3,12,Kimlik/yetki kontrolü,2,True
+533,3,3,13,Hesap işlemi,3,True
+533,3,3,15,Tamamlama,5,True
+534,3,3,11,Talep,1,True
+534,3,3,12,Kimlik/yetki kontrolü,2,True
+534,3,3,13,Hesap işlemi,3,True
+534,3,3,15,Tamamlama,5,True
+535,3,3,11,Talep,1,True
+535,3,3,12,Kimlik/yetki kontrolü,2,True
+535,3,3,13,Hesap işlemi,3,True
+535,3,3,15,Tamamlama,5,True
+536,3,3,11,Talep,1,True
+536,3,3,12,Kimlik/yetki kontrolü,2,True
+536,3,3,13,Hesap işlemi,3,True
+536,3,3,14,Onay,4,False
+536,3,3,15,Tamamlama,5,True
+537,3,3,11,Talep,1,True
+537,3,3,12,Kimlik/yetki kontrolü,2,True
+537,3,3,13,Hesap işlemi,3,True
+537,3,3,15,Tamamlama,5,True
+538,3,3,11,Talep,1,True
+538,3,3,12,Kimlik/yetki kontrolü,2,True
+538,3,3,13,Hesap işlemi,3,True
+538,3,3,15,Tamamlama,5,True
+539,3,3,11,Talep,1,True
+539,3,3,12,Kimlik/yetki kontrolü,2,True
+539,3,3,13,Hesap işlemi,3,True
+539,3,3,15,Tamamlama,5,True
+540,3,3,11,Talep,1,True
+540,3,3,12,Kimlik/yetki kontrolü,2,True
+540,3,3,13,Hesap işlemi,3,True
+540,3,3,15,Tamamlama,5,True
+541,3,3,11,Talep,1,True
+541,3,3,12,Kimlik/yetki kontrolü,2,True
+541,3,3,13,Hesap işlemi,3,True
+541,3,3,15,Tamamlama,5,True
+542,3,3,11,Talep,1,True
+542,3,3,12,Kimlik/yetki kontrolü,2,True
+542,3,3,13,Hesap işlemi,3,True
+542,3,3,15,Tamamlama,5,True
+543,3,3,11,Talep,1,True
+543,3,3,12,Kimlik/yetki kontrolü,2,True
+543,3,3,13,Hesap işlemi,3,True
+543,3,3,15,Tamamlama,5,True
+544,3,3,11,Talep,1,True
+544,3,3,12,Kimlik/yetki kontrolü,2,True
+544,3,3,13,Hesap işlemi,3,True
+544,3,3,14,Onay,4,False
+544,3,3,15,Tamamlama,5,True
+545,3,3,11,Talep,1,True
+545,3,3,12,Kimlik/yetki kontrolü,2,True
+545,3,3,13,Hesap işlemi,3,True
+545,3,3,14,Onay,4,False
+545,3,3,15,Tamamlama,5,True
+546,3,3,11,Talep,1,True
+546,3,3,12,Kimlik/yetki kontrolü,2,True
+546,3,3,13,Hesap işlemi,3,True
+546,3,3,15,Tamamlama,5,True
+547,3,3,11,Talep,1,True
+547,3,3,12,Kimlik/yetki kontrolü,2,True
+547,3,3,13,Hesap işlemi,3,True
+547,3,3,15,Tamamlama,5,True
+548,3,3,11,Talep,1,True
+548,3,3,12,Kimlik/yetki kontrolü,2,True
+548,3,3,13,Hesap işlemi,3,True
+548,3,3,15,Tamamlama,5,True
+549,3,3,11,Talep,1,True
+549,3,3,12,Kimlik/yetki kontrolü,2,True
+549,3,3,13,Hesap işlemi,3,True
+549,3,3,15,Tamamlama,5,True
+550,3,3,11,Talep,1,True
+550,3,3,12,Kimlik/yetki kontrolü,2,True
+550,3,3,13,Hesap işlemi,3,True
+550,3,3,15,Tamamlama,5,True
+551,3,3,11,Talep,1,True
+551,3,3,12,Kimlik/yetki kontrolü,2,True
+551,3,3,13,Hesap işlemi,3,True
+551,3,3,15,Tamamlama,5,True
+552,3,3,11,Talep,1,True
+552,3,3,12,Kimlik/yetki kontrolü,2,True
+552,3,3,13,Hesap işlemi,3,True
+552,3,3,14,Onay,4,False
+552,3,3,15,Tamamlama,5,True
+553,3,3,11,Talep,1,True
+553,3,3,12,Kimlik/yetki kontrolü,2,True
+553,3,3,13,Hesap işlemi,3,True
+553,3,3,15,Tamamlama,5,True
+554,3,3,11,Talep,1,True
+554,3,3,12,Kimlik/yetki kontrolü,2,True
+554,3,3,13,Hesap işlemi,3,True
+554,3,3,15,Tamamlama,5,True
+555,3,3,11,Talep,1,True
+555,3,3,12,Kimlik/yetki kontrolü,2,True
+555,3,3,13,Hesap işlemi,3,True
+555,3,3,14,Onay,4,False
+555,3,3,15,Tamamlama,5,True
+556,3,3,11,Talep,1,True
+556,3,3,12,Kimlik/yetki kontrolü,2,True
+556,3,3,13,Hesap işlemi,3,True
+556,3,3,15,Tamamlama,5,True
+557,3,3,11,Talep,1,True
+557,3,3,12,Kimlik/yetki kontrolü,2,True
+557,3,3,13,Hesap işlemi,3,True
+557,3,3,15,Tamamlama,5,True
+558,3,3,11,Talep,1,True
+558,3,3,12,Kimlik/yetki kontrolü,2,True
+558,3,3,13,Hesap işlemi,3,True
+558,3,3,15,Tamamlama,5,True
+559,3,3,11,Talep,1,True
+559,3,3,12,Kimlik/yetki kontrolü,2,True
+559,3,3,13,Hesap işlemi,3,True
+559,3,3,15,Tamamlama,5,True
+560,3,3,11,Talep,1,True
+560,3,3,12,Kimlik/yetki kontrolü,2,True
+560,3,3,13,Hesap işlemi,3,True
+560,3,3,14,Onay,4,False
+560,3,3,15,Tamamlama,5,True
+561,3,3,11,Talep,1,True
+561,3,3,12,Kimlik/yetki kontrolü,2,True
+561,3,3,13,Hesap işlemi,3,True
+561,3,3,14,Onay,4,False
+561,3,3,15,Tamamlama,5,True
+562,3,3,11,Talep,1,True
+562,3,3,12,Kimlik/yetki kontrolü,2,True
+562,3,3,13,Hesap işlemi,3,True
+562,3,3,15,Tamamlama,5,True
+563,3,3,11,Talep,1,True
+563,3,3,12,Kimlik/yetki kontrolü,2,True
+563,3,3,13,Hesap işlemi,3,True
+563,3,3,15,Tamamlama,5,True
+564,3,3,11,Talep,1,True
+564,3,3,12,Kimlik/yetki kontrolü,2,True
+564,3,3,13,Hesap işlemi,3,True
+564,3,3,15,Tamamlama,5,True
+565,3,3,11,Talep,1,True
+565,3,3,12,Kimlik/yetki kontrolü,2,True
+565,3,3,13,Hesap işlemi,3,True
+565,3,3,15,Tamamlama,5,True
+566,3,3,11,Talep,1,True
+566,3,3,12,Kimlik/yetki kontrolü,2,True
+566,3,3,13,Hesap işlemi,3,True
+566,3,3,14,Onay,4,False
+566,3,3,15,Tamamlama,5,True
+567,3,3,11,Talep,1,True
+567,3,3,12,Kimlik/yetki kontrolü,2,True
+567,3,3,13,Hesap işlemi,3,True
+567,3,3,15,Tamamlama,5,True
+568,3,3,11,Talep,1,True
+568,3,3,12,Kimlik/yetki kontrolü,2,True
+568,3,3,13,Hesap işlemi,3,True
+568,3,3,14,Onay,4,False
+568,3,3,15,Tamamlama,5,True
+569,3,3,11,Talep,1,True
+569,3,3,12,Kimlik/yetki kontrolü,2,True
+569,3,3,13,Hesap işlemi,3,True
+569,3,3,15,Tamamlama,5,True
+570,3,3,11,Talep,1,True
+570,3,3,12,Kimlik/yetki kontrolü,2,True
+570,3,3,13,Hesap işlemi,3,True
+570,3,3,15,Tamamlama,5,True
+571,3,3,11,Talep,1,True
+571,3,3,12,Kimlik/yetki kontrolü,2,True
+571,3,3,13,Hesap işlemi,3,True
+571,3,3,14,Onay,4,False
+571,3,3,15,Tamamlama,5,True
+572,3,3,11,Talep,1,True
+572,3,3,12,Kimlik/yetki kontrolü,2,True
+572,3,3,13,Hesap işlemi,3,True
+572,3,3,15,Tamamlama,5,True
+573,3,3,11,Talep,1,True
+573,3,3,12,Kimlik/yetki kontrolü,2,True
+573,3,3,13,Hesap işlemi,3,True
+573,3,3,15,Tamamlama,5,True
+574,3,3,11,Talep,1,True
+574,3,3,12,Kimlik/yetki kontrolü,2,True
+574,3,3,13,Hesap işlemi,3,True
+574,3,3,15,Tamamlama,5,True
+575,3,3,11,Talep,1,True
+575,3,3,12,Kimlik/yetki kontrolü,2,True
+575,3,3,13,Hesap işlemi,3,True
+575,3,3,15,Tamamlama,5,True
+576,3,3,11,Talep,1,True
+576,3,3,12,Kimlik/yetki kontrolü,2,True
+576,3,3,13,Hesap işlemi,3,True
+576,3,3,15,Tamamlama,5,True
+577,3,3,11,Talep,1,True
+577,3,3,12,Kimlik/yetki kontrolü,2,True
+577,3,3,13,Hesap işlemi,3,True
+577,3,3,14,Onay,4,False
+577,3,3,15,Tamamlama,5,True
+578,3,3,11,Talep,1,True
+578,3,3,12,Kimlik/yetki kontrolü,2,True
+578,3,3,13,Hesap işlemi,3,True
+578,3,3,15,Tamamlama,5,True
+579,3,3,11,Talep,1,True
+579,3,3,12,Kimlik/yetki kontrolü,2,True
+579,3,3,13,Hesap işlemi,3,True
+579,3,3,15,Tamamlama,5,True
+580,3,3,11,Talep,1,True
+580,3,3,12,Kimlik/yetki kontrolü,2,True
+580,3,3,13,Hesap işlemi,3,True
+580,3,3,15,Tamamlama,5,True
+581,3,3,11,Talep,1,True
+581,3,3,12,Kimlik/yetki kontrolü,2,True
+581,3,3,13,Hesap işlemi,3,True
+581,3,3,15,Tamamlama,5,True
+582,3,3,11,Talep,1,True
+582,3,3,12,Kimlik/yetki kontrolü,2,True
+582,3,3,13,Hesap işlemi,3,True
+582,3,3,15,Tamamlama,5,True
+583,3,3,11,Talep,1,True
+583,3,3,12,Kimlik/yetki kontrolü,2,True
+583,3,3,13,Hesap işlemi,3,True
+583,3,3,15,Tamamlama,5,True
+584,3,3,11,Talep,1,True
+584,3,3,12,Kimlik/yetki kontrolü,2,True
+584,3,3,13,Hesap işlemi,3,True
+584,3,3,15,Tamamlama,5,True
+585,3,3,11,Talep,1,True
+585,3,3,12,Kimlik/yetki kontrolü,2,True
+585,3,3,13,Hesap işlemi,3,True
+585,3,3,15,Tamamlama,5,True
+586,3,3,11,Talep,1,True
+586,3,3,12,Kimlik/yetki kontrolü,2,True
+586,3,3,13,Hesap işlemi,3,True
+586,3,3,14,Onay,4,False
+586,3,3,15,Tamamlama,5,True
+587,3,3,11,Talep,1,True
+587,3,3,12,Kimlik/yetki kontrolü,2,True
+587,3,3,13,Hesap işlemi,3,True
+587,3,3,15,Tamamlama,5,True
+588,3,3,11,Talep,1,True
+588,3,3,12,Kimlik/yetki kontrolü,2,True
+588,3,3,13,Hesap işlemi,3,True
+588,3,3,14,Onay,4,False
+588,3,3,15,Tamamlama,5,True
+589,3,3,11,Talep,1,True
+589,3,3,12,Kimlik/yetki kontrolü,2,True
+589,3,3,13,Hesap işlemi,3,True
+589,3,3,15,Tamamlama,5,True
+590,3,3,11,Talep,1,True
+590,3,3,12,Kimlik/yetki kontrolü,2,True
+590,3,3,13,Hesap işlemi,3,True
+590,3,3,15,Tamamlama,5,True
+591,3,3,11,Talep,1,True
+591,3,3,12,Kimlik/yetki kontrolü,2,True
+591,3,3,13,Hesap işlemi,3,True
+591,3,3,14,Onay,4,False
+591,3,3,15,Tamamlama,5,True
+592,3,3,11,Talep,1,True
+592,3,3,12,Kimlik/yetki kontrolü,2,True
+592,3,3,13,Hesap işlemi,3,True
+592,3,3,15,Tamamlama,5,True
+593,3,3,11,Talep,1,True
+593,3,3,12,Kimlik/yetki kontrolü,2,True
+593,3,3,13,Hesap işlemi,3,True
+593,3,3,15,Tamamlama,5,True
+594,3,3,11,Talep,1,True
+594,3,3,12,Kimlik/yetki kontrolü,2,True
+594,3,3,13,Hesap işlemi,3,True
+594,3,3,14,Onay,4,False
+594,3,3,15,Tamamlama,5,True
+595,3,3,11,Talep,1,True
+595,3,3,12,Kimlik/yetki kontrolü,2,True
+595,3,3,13,Hesap işlemi,3,True
+595,3,3,15,Tamamlama,5,True
+596,3,3,11,Talep,1,True
+596,3,3,12,Kimlik/yetki kontrolü,2,True
+596,3,3,13,Hesap işlemi,3,True
+596,3,3,15,Tamamlama,5,True
+597,3,3,11,Talep,1,True
+597,3,3,12,Kimlik/yetki kontrolü,2,True
+597,3,3,13,Hesap işlemi,3,True
+597,3,3,15,Tamamlama,5,True
+598,3,3,11,Talep,1,True
+598,3,3,12,Kimlik/yetki kontrolü,2,True
+598,3,3,13,Hesap işlemi,3,True
+598,3,3,14,Onay,4,False
+598,3,3,15,Tamamlama,5,True
+599,3,3,11,Talep,1,True
+599,3,3,12,Kimlik/yetki kontrolü,2,True
+599,3,3,13,Hesap işlemi,3,True
+599,3,3,14,Onay,4,False
+599,3,3,15,Tamamlama,5,True
+600,3,3,11,Talep,1,True
+600,3,3,12,Kimlik/yetki kontrolü,2,True
+600,3,3,13,Hesap işlemi,3,True
+600,3,3,15,Tamamlama,5,True
+601,3,3,11,Talep,1,True
+601,3,3,12,Kimlik/yetki kontrolü,2,True
+601,3,3,13,Hesap işlemi,3,True
+601,3,3,14,Onay,4,False
+601,3,3,15,Tamamlama,5,True
+602,3,3,11,Talep,1,True
+602,3,3,12,Kimlik/yetki kontrolü,2,True
+602,3,3,13,Hesap işlemi,3,True
+602,3,3,15,Tamamlama,5,True
+603,3,3,11,Talep,1,True
+603,3,3,12,Kimlik/yetki kontrolü,2,True
+603,3,3,13,Hesap işlemi,3,True
+603,3,3,14,Onay,4,False
+603,3,3,15,Tamamlama,5,True
+604,3,3,11,Talep,1,True
+604,3,3,12,Kimlik/yetki kontrolü,2,True
+604,3,3,13,Hesap işlemi,3,True
+604,3,3,15,Tamamlama,5,True
+605,3,3,11,Talep,1,True
+605,3,3,12,Kimlik/yetki kontrolü,2,True
+605,3,3,13,Hesap işlemi,3,True
+605,3,3,14,Onay,4,False
+605,3,3,15,Tamamlama,5,True
+606,3,3,11,Talep,1,True
+606,3,3,12,Kimlik/yetki kontrolü,2,True
+606,3,3,13,Hesap işlemi,3,True
+606,3,3,15,Tamamlama,5,True
+607,3,3,11,Talep,1,True
+607,3,3,12,Kimlik/yetki kontrolü,2,True
+607,3,3,13,Hesap işlemi,3,True
+607,3,3,15,Tamamlama,5,True
+608,3,3,11,Talep,1,True
+608,3,3,12,Kimlik/yetki kontrolü,2,True
+608,3,3,13,Hesap işlemi,3,True
+608,3,3,15,Tamamlama,5,True
+609,3,3,11,Talep,1,True
+609,3,3,12,Kimlik/yetki kontrolü,2,True
+609,3,3,13,Hesap işlemi,3,True
+609,3,3,14,Onay,4,False
+609,3,3,15,Tamamlama,5,True
+610,3,3,11,Talep,1,True
+610,3,3,12,Kimlik/yetki kontrolü,2,True
+610,3,3,13,Hesap işlemi,3,True
+610,3,3,14,Onay,4,False
+610,3,3,15,Tamamlama,5,True
+611,3,3,11,Talep,1,True
+611,3,3,12,Kimlik/yetki kontrolü,2,True
+611,3,3,13,Hesap işlemi,3,True
+611,3,3,15,Tamamlama,5,True
+612,3,3,11,Talep,1,True
+612,3,3,12,Kimlik/yetki kontrolü,2,True
+612,3,3,13,Hesap işlemi,3,True
+612,3,3,15,Tamamlama,5,True
+613,3,3,11,Talep,1,True
+613,3,3,12,Kimlik/yetki kontrolü,2,True
+613,3,3,13,Hesap işlemi,3,True
+613,3,3,15,Tamamlama,5,True
+614,3,3,11,Talep,1,True
+614,3,3,12,Kimlik/yetki kontrolü,2,True
+614,3,3,13,Hesap işlemi,3,True
+614,3,3,14,Onay,4,False
+614,3,3,15,Tamamlama,5,True
+615,3,3,11,Talep,1,True
+615,3,3,12,Kimlik/yetki kontrolü,2,True
+615,3,3,13,Hesap işlemi,3,True
+615,3,3,15,Tamamlama,5,True
+616,3,3,11,Talep,1,True
+616,3,3,12,Kimlik/yetki kontrolü,2,True
+616,3,3,13,Hesap işlemi,3,True
+616,3,3,15,Tamamlama,5,True
+617,3,3,11,Talep,1,True
+617,3,3,12,Kimlik/yetki kontrolü,2,True
+617,3,3,13,Hesap işlemi,3,True
+617,3,3,15,Tamamlama,5,True
+618,3,3,11,Talep,1,True
+618,3,3,12,Kimlik/yetki kontrolü,2,True
+618,3,3,13,Hesap işlemi,3,True
+618,3,3,15,Tamamlama,5,True
+619,3,3,11,Talep,1,True
+619,3,3,12,Kimlik/yetki kontrolü,2,True
+619,3,3,13,Hesap işlemi,3,True
+619,3,3,15,Tamamlama,5,True
+620,3,3,11,Talep,1,True
+620,3,3,12,Kimlik/yetki kontrolü,2,True
+620,3,3,13,Hesap işlemi,3,True
+620,3,3,15,Tamamlama,5,True
+621,3,3,11,Talep,1,True
+621,3,3,12,Kimlik/yetki kontrolü,2,True
+621,3,3,13,Hesap işlemi,3,True
+621,3,3,15,Tamamlama,5,True
+622,3,3,11,Talep,1,True
+622,3,3,12,Kimlik/yetki kontrolü,2,True
+622,3,3,13,Hesap işlemi,3,True
+622,3,3,15,Tamamlama,5,True
+623,3,3,11,Talep,1,True
+623,3,3,12,Kimlik/yetki kontrolü,2,True
+623,3,3,13,Hesap işlemi,3,True
+623,3,3,15,Tamamlama,5,True
+624,3,3,11,Talep,1,True
+624,3,3,12,Kimlik/yetki kontrolü,2,True
+624,3,3,13,Hesap işlemi,3,True
+624,3,3,15,Tamamlama,5,True
+625,3,3,11,Talep,1,True
+625,3,3,12,Kimlik/yetki kontrolü,2,True
+625,3,3,13,Hesap işlemi,3,True
+625,3,3,14,Onay,4,False
+625,3,3,15,Tamamlama,5,True
+626,3,3,11,Talep,1,True
+626,3,3,12,Kimlik/yetki kontrolü,2,True
+626,3,3,13,Hesap işlemi,3,True
+626,3,3,15,Tamamlama,5,True
+627,3,3,11,Talep,1,True
+627,3,3,12,Kimlik/yetki kontrolü,2,True
+627,3,3,13,Hesap işlemi,3,True
+627,3,3,15,Tamamlama,5,True
+628,3,3,11,Talep,1,True
+628,3,3,12,Kimlik/yetki kontrolü,2,True
+628,3,3,13,Hesap işlemi,3,True
+628,3,3,14,Onay,4,False
+628,3,3,15,Tamamlama,5,True
+629,3,3,11,Talep,1,True
+629,3,3,12,Kimlik/yetki kontrolü,2,True
+629,3,3,13,Hesap işlemi,3,True
+629,3,3,15,Tamamlama,5,True
+630,3,3,11,Talep,1,True
+630,3,3,12,Kimlik/yetki kontrolü,2,True
+630,3,3,13,Hesap işlemi,3,True
+630,3,3,15,Tamamlama,5,True
+631,3,3,11,Talep,1,True
+631,3,3,12,Kimlik/yetki kontrolü,2,True
+631,3,3,13,Hesap işlemi,3,True
+631,3,3,15,Tamamlama,5,True
+632,3,3,11,Talep,1,True
+632,3,3,12,Kimlik/yetki kontrolü,2,True
+632,3,3,13,Hesap işlemi,3,True
+632,3,3,15,Tamamlama,5,True
+633,3,3,11,Talep,1,True
+633,3,3,12,Kimlik/yetki kontrolü,2,True
+633,3,3,13,Hesap işlemi,3,True
+633,3,3,15,Tamamlama,5,True
+634,3,3,11,Talep,1,True
+634,3,3,12,Kimlik/yetki kontrolü,2,True
+634,3,3,13,Hesap işlemi,3,True
+634,3,3,15,Tamamlama,5,True
+635,3,3,11,Talep,1,True
+635,3,3,12,Kimlik/yetki kontrolü,2,True
+635,3,3,13,Hesap işlemi,3,True
+635,3,3,15,Tamamlama,5,True
+636,3,3,11,Talep,1,True
+636,3,3,12,Kimlik/yetki kontrolü,2,True
+636,3,3,13,Hesap işlemi,3,True
+636,3,3,15,Tamamlama,5,True
+637,3,3,11,Talep,1,True
+637,3,3,12,Kimlik/yetki kontrolü,2,True
+637,3,3,13,Hesap işlemi,3,True
+637,3,3,14,Onay,4,False
+637,3,3,15,Tamamlama,5,True
+638,3,3,11,Talep,1,True
+638,3,3,12,Kimlik/yetki kontrolü,2,True
+638,3,3,13,Hesap işlemi,3,True
+638,3,3,15,Tamamlama,5,True
+639,3,3,11,Talep,1,True
+639,3,3,12,Kimlik/yetki kontrolü,2,True
+639,3,3,13,Hesap işlemi,3,True
+639,3,3,15,Tamamlama,5,True
+640,3,3,11,Talep,1,True
+640,3,3,12,Kimlik/yetki kontrolü,2,True
+640,3,3,13,Hesap işlemi,3,True
+640,3,3,14,Onay,4,False
+640,3,3,15,Tamamlama,5,True
+641,3,3,11,Talep,1,True
+641,3,3,12,Kimlik/yetki kontrolü,2,True
+641,3,3,13,Hesap işlemi,3,True
+641,3,3,15,Tamamlama,5,True
+642,3,3,11,Talep,1,True
+642,3,3,12,Kimlik/yetki kontrolü,2,True
+642,3,3,13,Hesap işlemi,3,True
+642,3,3,15,Tamamlama,5,True
+643,3,3,11,Talep,1,True
+643,3,3,12,Kimlik/yetki kontrolü,2,True
+643,3,3,13,Hesap işlemi,3,True
+643,3,3,15,Tamamlama,5,True
+644,3,3,11,Talep,1,True
+644,3,3,12,Kimlik/yetki kontrolü,2,True
+644,3,3,13,Hesap işlemi,3,True
+644,3,3,15,Tamamlama,5,True
+645,3,3,11,Talep,1,True
+645,3,3,12,Kimlik/yetki kontrolü,2,True
+645,3,3,13,Hesap işlemi,3,True
+645,3,3,14,Onay,4,False
+645,3,3,15,Tamamlama,5,True
+646,3,3,11,Talep,1,True
+646,3,3,12,Kimlik/yetki kontrolü,2,True
+646,3,3,13,Hesap işlemi,3,True
+646,3,3,15,Tamamlama,5,True
+647,3,3,11,Talep,1,True
+647,3,3,12,Kimlik/yetki kontrolü,2,True
+647,3,3,13,Hesap işlemi,3,True
+647,3,3,15,Tamamlama,5,True
+648,3,3,11,Talep,1,True
+648,3,3,12,Kimlik/yetki kontrolü,2,True
+648,3,3,13,Hesap işlemi,3,True
+648,3,3,15,Tamamlama,5,True
+649,3,3,11,Talep,1,True
+649,3,3,12,Kimlik/yetki kontrolü,2,True
+649,3,3,13,Hesap işlemi,3,True
+649,3,3,15,Tamamlama,5,True
+650,3,3,11,Talep,1,True
+650,3,3,12,Kimlik/yetki kontrolü,2,True
+650,3,3,13,Hesap işlemi,3,True
+650,3,3,15,Tamamlama,5,True
+651,3,3,11,Talep,1,True
+651,3,3,12,Kimlik/yetki kontrolü,2,True
+651,3,3,13,Hesap işlemi,3,True
+651,3,3,14,Onay,4,False
+651,3,3,15,Tamamlama,5,True
+652,3,3,11,Talep,1,True
+652,3,3,12,Kimlik/yetki kontrolü,2,True
+652,3,3,13,Hesap işlemi,3,True
+652,3,3,15,Tamamlama,5,True
+653,3,3,11,Talep,1,True
+653,3,3,12,Kimlik/yetki kontrolü,2,True
+653,3,3,13,Hesap işlemi,3,True
+653,3,3,15,Tamamlama,5,True
+654,3,3,11,Talep,1,True
+654,3,3,12,Kimlik/yetki kontrolü,2,True
+654,3,3,13,Hesap işlemi,3,True
+654,3,3,15,Tamamlama,5,True
+655,3,3,11,Talep,1,True
+655,3,3,12,Kimlik/yetki kontrolü,2,True
+655,3,3,13,Hesap işlemi,3,True
+655,3,3,15,Tamamlama,5,True
+656,3,3,11,Talep,1,True
+656,3,3,12,Kimlik/yetki kontrolü,2,True
+656,3,3,13,Hesap işlemi,3,True
+656,3,3,15,Tamamlama,5,True
+657,3,3,11,Talep,1,True
+657,3,3,12,Kimlik/yetki kontrolü,2,True
+657,3,3,13,Hesap işlemi,3,True
+657,3,3,14,Onay,4,False
+657,3,3,15,Tamamlama,5,True
+658,3,3,11,Talep,1,True
+658,3,3,12,Kimlik/yetki kontrolü,2,True
+658,3,3,13,Hesap işlemi,3,True
+658,3,3,15,Tamamlama,5,True
+659,3,3,11,Talep,1,True
+659,3,3,12,Kimlik/yetki kontrolü,2,True
+659,3,3,13,Hesap işlemi,3,True
+659,3,3,14,Onay,4,False
+659,3,3,15,Tamamlama,5,True
+660,3,3,11,Talep,1,True
+660,3,3,12,Kimlik/yetki kontrolü,2,True
+660,3,3,13,Hesap işlemi,3,True
+660,3,3,15,Tamamlama,5,True
+661,3,3,11,Talep,1,True
+661,3,3,12,Kimlik/yetki kontrolü,2,True
+661,3,3,13,Hesap işlemi,3,True
+661,3,3,15,Tamamlama,5,True
+662,3,3,11,Talep,1,True
+662,3,3,12,Kimlik/yetki kontrolü,2,True
+662,3,3,13,Hesap işlemi,3,True
+662,3,3,15,Tamamlama,5,True
+663,3,3,11,Talep,1,True
+663,3,3,12,Kimlik/yetki kontrolü,2,True
+663,3,3,13,Hesap işlemi,3,True
+663,3,3,14,Onay,4,False
+663,3,3,15,Tamamlama,5,True
+664,3,3,11,Talep,1,True
+664,3,3,12,Kimlik/yetki kontrolü,2,True
+664,3,3,13,Hesap işlemi,3,True
+664,3,3,15,Tamamlama,5,True
+665,3,3,11,Talep,1,True
+665,3,3,12,Kimlik/yetki kontrolü,2,True
+665,3,3,13,Hesap işlemi,3,True
+665,3,3,15,Tamamlama,5,True
+666,3,3,11,Talep,1,True
+666,3,3,12,Kimlik/yetki kontrolü,2,True
+666,3,3,13,Hesap işlemi,3,True
+666,3,3,15,Tamamlama,5,True
+667,3,3,11,Talep,1,True
+667,3,3,12,Kimlik/yetki kontrolü,2,True
+667,3,3,13,Hesap işlemi,3,True
+667,3,3,14,Onay,4,False
+667,3,3,15,Tamamlama,5,True
+668,3,3,11,Talep,1,True
+668,3,3,12,Kimlik/yetki kontrolü,2,True
+668,3,3,13,Hesap işlemi,3,True
+668,3,3,15,Tamamlama,5,True
+669,3,3,11,Talep,1,True
+669,3,3,12,Kimlik/yetki kontrolü,2,True
+669,3,3,13,Hesap işlemi,3,True
+669,3,3,15,Tamamlama,5,True
+670,3,3,11,Talep,1,True
+670,3,3,12,Kimlik/yetki kontrolü,2,True
+670,3,3,13,Hesap işlemi,3,True
+670,3,3,15,Tamamlama,5,True
+671,3,3,11,Talep,1,True
+671,3,3,12,Kimlik/yetki kontrolü,2,True
+671,3,3,13,Hesap işlemi,3,True
+671,3,3,14,Onay,4,False
+671,3,3,15,Tamamlama,5,True
+672,3,3,11,Talep,1,True
+672,3,3,12,Kimlik/yetki kontrolü,2,True
+672,3,3,13,Hesap işlemi,3,True
+672,3,3,15,Tamamlama,5,True
+673,3,3,11,Talep,1,True
+673,3,3,12,Kimlik/yetki kontrolü,2,True
+673,3,3,13,Hesap işlemi,3,True
+673,3,3,15,Tamamlama,5,True
+674,3,3,11,Talep,1,True
+674,3,3,12,Kimlik/yetki kontrolü,2,True
+674,3,3,13,Hesap işlemi,3,True
+674,3,3,15,Tamamlama,5,True
+675,3,3,11,Talep,1,True
+675,3,3,12,Kimlik/yetki kontrolü,2,True
+675,3,3,13,Hesap işlemi,3,True
+675,3,3,15,Tamamlama,5,True
+676,3,3,11,Talep,1,True
+676,3,3,12,Kimlik/yetki kontrolü,2,True
+676,3,3,13,Hesap işlemi,3,True
+676,3,3,14,Onay,4,False
+676,3,3,15,Tamamlama,5,True
+677,3,3,11,Talep,1,True
+677,3,3,12,Kimlik/yetki kontrolü,2,True
+677,3,3,13,Hesap işlemi,3,True
+677,3,3,15,Tamamlama,5,True
+678,3,3,11,Talep,1,True
+678,3,3,12,Kimlik/yetki kontrolü,2,True
+678,3,3,13,Hesap işlemi,3,True
+678,3,3,15,Tamamlama,5,True
+679,3,3,11,Talep,1,True
+679,3,3,12,Kimlik/yetki kontrolü,2,True
+679,3,3,13,Hesap işlemi,3,True
+679,3,3,15,Tamamlama,5,True
+680,3,3,11,Talep,1,True
+680,3,3,12,Kimlik/yetki kontrolü,2,True
+680,3,3,13,Hesap işlemi,3,True
+680,3,3,14,Onay,4,False
+680,3,3,15,Tamamlama,5,True
+681,4,4,16,Talep,1,True
+681,4,4,17,Belge kontrolü,2,True
+681,4,4,18,Operasyonel inceleme,3,True
+681,4,4,19,Onay,4,True
+681,4,4,20,Tamamlama,5,True
+682,4,4,16,Talep,1,True
+682,4,4,17,Belge kontrolü,2,True
+682,4,4,18,Operasyonel inceleme,3,True
+682,4,4,19,Onay,4,True
+682,4,4,20,Tamamlama,5,True
+683,4,4,16,Talep,1,True
+683,4,4,17,Belge kontrolü,2,True
+683,4,4,18,Operasyonel inceleme,3,True
+683,4,4,19,Onay,4,True
+683,4,4,20,Tamamlama,5,True
+684,4,4,16,Talep,1,True
+684,4,4,17,Belge kontrolü,2,True
+684,4,4,18,Operasyonel inceleme,3,True
+684,4,4,19,Onay,4,True
+684,4,4,20,Tamamlama,5,True
+685,4,4,16,Talep,1,True
+685,4,4,17,Belge kontrolü,2,True
+685,4,4,18,Operasyonel inceleme,3,True
+685,4,4,19,Onay,4,True
+685,4,4,20,Tamamlama,5,True
+686,4,4,16,Talep,1,True
+686,4,4,17,Belge kontrolü,2,True
+686,4,4,18,Operasyonel inceleme,3,True
+686,4,4,19,Onay,4,True
+686,4,4,20,Tamamlama,5,True
+687,4,4,16,Talep,1,True
+687,4,4,17,Belge kontrolü,2,True
+687,4,4,18,Operasyonel inceleme,3,True
+687,4,4,19,Onay,4,True
+687,4,4,20,Tamamlama,5,True
+688,4,4,16,Talep,1,True
+688,4,4,17,Belge kontrolü,2,True
+688,4,4,18,Operasyonel inceleme,3,True
+688,4,4,19,Onay,4,True
+688,4,4,20,Tamamlama,5,True
+689,4,4,16,Talep,1,True
+689,4,4,17,Belge kontrolü,2,True
+689,4,4,18,Operasyonel inceleme,3,True
+689,4,4,19,Onay,4,True
+689,4,4,20,Tamamlama,5,True
+690,4,4,16,Talep,1,True
+690,4,4,17,Belge kontrolü,2,True
+690,4,4,18,Operasyonel inceleme,3,True
+690,4,4,19,Onay,4,True
+690,4,4,20,Tamamlama,5,True
+691,4,4,16,Talep,1,True
+691,4,4,17,Belge kontrolü,2,True
+691,4,4,18,Operasyonel inceleme,3,True
+691,4,4,19,Onay,4,True
+691,4,4,20,Tamamlama,5,True
+692,4,4,16,Talep,1,True
+692,4,4,17,Belge kontrolü,2,True
+692,4,4,18,Operasyonel inceleme,3,True
+692,4,4,19,Onay,4,True
+692,4,4,20,Tamamlama,5,True
+693,4,4,16,Talep,1,True
+693,4,4,17,Belge kontrolü,2,True
+693,4,4,18,Operasyonel inceleme,3,True
+693,4,4,19,Onay,4,True
+693,4,4,20,Tamamlama,5,True
+694,4,4,16,Talep,1,True
+694,4,4,17,Belge kontrolü,2,True
+694,4,4,18,Operasyonel inceleme,3,True
+694,4,4,19,Onay,4,True
+694,4,4,20,Tamamlama,5,True
+695,4,4,16,Talep,1,True
+695,4,4,17,Belge kontrolü,2,True
+695,4,4,18,Operasyonel inceleme,3,True
+695,4,4,19,Onay,4,True
+695,4,4,20,Tamamlama,5,True
+696,4,4,16,Talep,1,True
+696,4,4,17,Belge kontrolü,2,True
+696,4,4,18,Operasyonel inceleme,3,True
+696,4,4,19,Onay,4,True
+696,4,4,20,Tamamlama,5,True
+697,4,4,16,Talep,1,True
+697,4,4,17,Belge kontrolü,2,True
+697,4,4,18,Operasyonel inceleme,3,True
+697,4,4,19,Onay,4,True
+697,4,4,20,Tamamlama,5,True
+698,4,4,16,Talep,1,True
+698,4,4,17,Belge kontrolü,2,True
+698,4,4,18,Operasyonel inceleme,3,True
+698,4,4,19,Onay,4,True
+698,4,4,20,Tamamlama,5,True
+699,4,4,16,Talep,1,True
+699,4,4,17,Belge kontrolü,2,True
+699,4,4,18,Operasyonel inceleme,3,True
+699,4,4,19,Onay,4,True
+699,4,4,20,Tamamlama,5,True
+700,4,4,16,Talep,1,True
+700,4,4,17,Belge kontrolü,2,True
+700,4,4,18,Operasyonel inceleme,3,True
+700,4,4,19,Onay,4,True
+700,4,4,20,Tamamlama,5,True
+701,4,4,16,Talep,1,True
+701,4,4,17,Belge kontrolü,2,True
+701,4,4,18,Operasyonel inceleme,3,True
+701,4,4,19,Onay,4,True
+701,4,4,20,Tamamlama,5,True
+702,4,4,16,Talep,1,True
+702,4,4,17,Belge kontrolü,2,True
+702,4,4,18,Operasyonel inceleme,3,True
+702,4,4,19,Onay,4,True
+702,4,4,20,Tamamlama,5,True
+703,4,4,16,Talep,1,True
+703,4,4,17,Belge kontrolü,2,True
+703,4,4,18,Operasyonel inceleme,3,True
+703,4,4,19,Onay,4,True
+703,4,4,20,Tamamlama,5,True
+704,4,4,16,Talep,1,True
+704,4,4,17,Belge kontrolü,2,True
+704,4,4,18,Operasyonel inceleme,3,True
+704,4,4,19,Onay,4,True
+704,4,4,20,Tamamlama,5,True
+705,4,4,16,Talep,1,True
+705,4,4,17,Belge kontrolü,2,True
+705,4,4,18,Operasyonel inceleme,3,True
+705,4,4,19,Onay,4,True
+705,4,4,20,Tamamlama,5,True
+706,4,4,16,Talep,1,True
+706,4,4,17,Belge kontrolü,2,True
+706,4,4,18,Operasyonel inceleme,3,True
+706,4,4,19,Onay,4,True
+706,4,4,20,Tamamlama,5,True
+707,4,4,16,Talep,1,True
+707,4,4,17,Belge kontrolü,2,True
+707,4,4,18,Operasyonel inceleme,3,True
+707,4,4,19,Onay,4,True
+707,4,4,20,Tamamlama,5,True
+708,4,4,16,Talep,1,True
+708,4,4,17,Belge kontrolü,2,True
+708,4,4,18,Operasyonel inceleme,3,True
+708,4,4,19,Onay,4,True
+708,4,4,20,Tamamlama,5,True
+709,4,4,16,Talep,1,True
+709,4,4,17,Belge kontrolü,2,True
+709,4,4,18,Operasyonel inceleme,3,True
+709,4,4,19,Onay,4,True
+709,4,4,20,Tamamlama,5,True
+710,4,4,16,Talep,1,True
+710,4,4,17,Belge kontrolü,2,True
+710,4,4,18,Operasyonel inceleme,3,True
+710,4,4,19,Onay,4,True
+710,4,4,20,Tamamlama,5,True
+711,4,4,16,Talep,1,True
+711,4,4,17,Belge kontrolü,2,True
+711,4,4,18,Operasyonel inceleme,3,True
+711,4,4,19,Onay,4,True
+711,4,4,20,Tamamlama,5,True
+712,4,4,16,Talep,1,True
+712,4,4,17,Belge kontrolü,2,True
+712,4,4,18,Operasyonel inceleme,3,True
+712,4,4,19,Onay,4,True
+712,4,4,20,Tamamlama,5,True
+713,4,4,16,Talep,1,True
+713,4,4,17,Belge kontrolü,2,True
+713,4,4,18,Operasyonel inceleme,3,True
+713,4,4,19,Onay,4,True
+713,4,4,20,Tamamlama,5,True
+714,4,4,16,Talep,1,True
+714,4,4,17,Belge kontrolü,2,True
+714,4,4,18,Operasyonel inceleme,3,True
+714,4,4,19,Onay,4,True
+714,4,4,20,Tamamlama,5,True
+715,4,4,16,Talep,1,True
+715,4,4,17,Belge kontrolü,2,True
+715,4,4,18,Operasyonel inceleme,3,True
+715,4,4,19,Onay,4,True
+715,4,4,20,Tamamlama,5,True
+716,4,4,16,Talep,1,True
+716,4,4,17,Belge kontrolü,2,True
+716,4,4,18,Operasyonel inceleme,3,True
+716,4,4,19,Onay,4,True
+716,4,4,20,Tamamlama,5,True
+717,4,4,16,Talep,1,True
+717,4,4,17,Belge kontrolü,2,True
+717,4,4,18,Operasyonel inceleme,3,True
+717,4,4,19,Onay,4,True
+717,4,4,20,Tamamlama,5,True
+718,4,4,16,Talep,1,True
+718,4,4,17,Belge kontrolü,2,True
+718,4,4,18,Operasyonel inceleme,3,True
+718,4,4,19,Onay,4,True
+718,4,4,20,Tamamlama,5,True
+719,4,4,16,Talep,1,True
+719,4,4,17,Belge kontrolü,2,True
+719,4,4,18,Operasyonel inceleme,3,True
+719,4,4,19,Onay,4,True
+719,4,4,20,Tamamlama,5,True
+720,4,4,16,Talep,1,True
+720,4,4,17,Belge kontrolü,2,True
+720,4,4,18,Operasyonel inceleme,3,True
+720,4,4,19,Onay,4,True
+720,4,4,20,Tamamlama,5,True
+721,4,4,16,Talep,1,True
+721,4,4,17,Belge kontrolü,2,True
+721,4,4,18,Operasyonel inceleme,3,True
+721,4,4,19,Onay,4,True
+721,4,4,20,Tamamlama,5,True
+722,4,4,16,Talep,1,True
+722,4,4,17,Belge kontrolü,2,True
+722,4,4,18,Operasyonel inceleme,3,True
+722,4,4,19,Onay,4,True
+722,4,4,20,Tamamlama,5,True
+723,4,4,16,Talep,1,True
+723,4,4,17,Belge kontrolü,2,True
+723,4,4,18,Operasyonel inceleme,3,True
+723,4,4,19,Onay,4,True
+723,4,4,20,Tamamlama,5,True
+724,4,4,16,Talep,1,True
+724,4,4,17,Belge kontrolü,2,True
+724,4,4,18,Operasyonel inceleme,3,True
+724,4,4,19,Onay,4,True
+724,4,4,20,Tamamlama,5,True
+725,4,4,16,Talep,1,True
+725,4,4,17,Belge kontrolü,2,True
+725,4,4,18,Operasyonel inceleme,3,True
+725,4,4,19,Onay,4,True
+725,4,4,20,Tamamlama,5,True
+726,4,4,16,Talep,1,True
+726,4,4,17,Belge kontrolü,2,True
+726,4,4,18,Operasyonel inceleme,3,True
+726,4,4,19,Onay,4,True
+726,4,4,20,Tamamlama,5,True
+727,4,4,16,Talep,1,True
+727,4,4,17,Belge kontrolü,2,True
+727,4,4,18,Operasyonel inceleme,3,True
+727,4,4,19,Onay,4,True
+727,4,4,20,Tamamlama,5,True
+728,4,4,16,Talep,1,True
+728,4,4,17,Belge kontrolü,2,True
+728,4,4,18,Operasyonel inceleme,3,True
+728,4,4,19,Onay,4,True
+728,4,4,20,Tamamlama,5,True
+729,4,4,16,Talep,1,True
+729,4,4,17,Belge kontrolü,2,True
+729,4,4,18,Operasyonel inceleme,3,True
+729,4,4,19,Onay,4,True
+729,4,4,20,Tamamlama,5,True
+730,4,4,16,Talep,1,True
+730,4,4,17,Belge kontrolü,2,True
+730,4,4,18,Operasyonel inceleme,3,True
+730,4,4,19,Onay,4,True
+730,4,4,20,Tamamlama,5,True
+731,4,4,16,Talep,1,True
+731,4,4,17,Belge kontrolü,2,True
+731,4,4,18,Operasyonel inceleme,3,True
+731,4,4,19,Onay,4,True
+731,4,4,20,Tamamlama,5,True
+732,4,4,16,Talep,1,True
+732,4,4,17,Belge kontrolü,2,True
+732,4,4,18,Operasyonel inceleme,3,True
+732,4,4,19,Onay,4,True
+732,4,4,20,Tamamlama,5,True
+733,4,4,16,Talep,1,True
+733,4,4,17,Belge kontrolü,2,True
+733,4,4,18,Operasyonel inceleme,3,True
+733,4,4,19,Onay,4,True
+733,4,4,20,Tamamlama,5,True
+734,4,4,16,Talep,1,True
+734,4,4,17,Belge kontrolü,2,True
+734,4,4,18,Operasyonel inceleme,3,True
+734,4,4,19,Onay,4,True
+734,4,4,20,Tamamlama,5,True
+735,4,4,16,Talep,1,True
+735,4,4,17,Belge kontrolü,2,True
+735,4,4,18,Operasyonel inceleme,3,True
+735,4,4,19,Onay,4,True
+735,4,4,20,Tamamlama,5,True
+736,4,4,16,Talep,1,True
+736,4,4,17,Belge kontrolü,2,True
+736,4,4,18,Operasyonel inceleme,3,True
+736,4,4,19,Onay,4,True
+736,4,4,20,Tamamlama,5,True
+737,4,4,16,Talep,1,True
+737,4,4,17,Belge kontrolü,2,True
+737,4,4,18,Operasyonel inceleme,3,True
+737,4,4,19,Onay,4,True
+737,4,4,20,Tamamlama,5,True
+738,4,4,16,Talep,1,True
+738,4,4,17,Belge kontrolü,2,True
+738,4,4,18,Operasyonel inceleme,3,True
+738,4,4,19,Onay,4,True
+738,4,4,20,Tamamlama,5,True
+739,4,4,16,Talep,1,True
+739,4,4,17,Belge kontrolü,2,True
+739,4,4,18,Operasyonel inceleme,3,True
+739,4,4,19,Onay,4,True
+739,4,4,20,Tamamlama,5,True
+740,4,4,16,Talep,1,True
+740,4,4,17,Belge kontrolü,2,True
+740,4,4,18,Operasyonel inceleme,3,True
+740,4,4,19,Onay,4,True
+740,4,4,20,Tamamlama,5,True
+741,4,4,16,Talep,1,True
+741,4,4,17,Belge kontrolü,2,True
+741,4,4,18,Operasyonel inceleme,3,True
+741,4,4,19,Onay,4,True
+741,4,4,20,Tamamlama,5,True
+742,4,4,16,Talep,1,True
+742,4,4,17,Belge kontrolü,2,True
+742,4,4,18,Operasyonel inceleme,3,True
+742,4,4,19,Onay,4,True
+742,4,4,20,Tamamlama,5,True
+743,4,4,16,Talep,1,True
+743,4,4,17,Belge kontrolü,2,True
+743,4,4,18,Operasyonel inceleme,3,True
+743,4,4,19,Onay,4,True
+743,4,4,20,Tamamlama,5,True
+744,4,4,16,Talep,1,True
+744,4,4,17,Belge kontrolü,2,True
+744,4,4,18,Operasyonel inceleme,3,True
+744,4,4,19,Onay,4,True
+744,4,4,20,Tamamlama,5,True
+745,4,4,16,Talep,1,True
+745,4,4,17,Belge kontrolü,2,True
+745,4,4,18,Operasyonel inceleme,3,True
+745,4,4,19,Onay,4,True
+745,4,4,20,Tamamlama,5,True
+746,4,4,16,Talep,1,True
+746,4,4,17,Belge kontrolü,2,True
+746,4,4,18,Operasyonel inceleme,3,True
+746,4,4,19,Onay,4,True
+746,4,4,20,Tamamlama,5,True
+747,4,4,16,Talep,1,True
+747,4,4,17,Belge kontrolü,2,True
+747,4,4,18,Operasyonel inceleme,3,True
+747,4,4,19,Onay,4,True
+747,4,4,20,Tamamlama,5,True
+748,4,4,16,Talep,1,True
+748,4,4,17,Belge kontrolü,2,True
+748,4,4,18,Operasyonel inceleme,3,True
+748,4,4,19,Onay,4,True
+748,4,4,20,Tamamlama,5,True
+749,4,4,16,Talep,1,True
+749,4,4,17,Belge kontrolü,2,True
+749,4,4,18,Operasyonel inceleme,3,True
+749,4,4,19,Onay,4,True
+749,4,4,20,Tamamlama,5,True
+750,4,4,16,Talep,1,True
+750,4,4,17,Belge kontrolü,2,True
+750,4,4,18,Operasyonel inceleme,3,True
+750,4,4,19,Onay,4,True
+750,4,4,20,Tamamlama,5,True
+751,4,4,16,Talep,1,True
+751,4,4,17,Belge kontrolü,2,True
+751,4,4,18,Operasyonel inceleme,3,True
+751,4,4,19,Onay,4,True
+751,4,4,20,Tamamlama,5,True
+752,4,4,16,Talep,1,True
+752,4,4,17,Belge kontrolü,2,True
+752,4,4,18,Operasyonel inceleme,3,True
+752,4,4,19,Onay,4,True
+752,4,4,20,Tamamlama,5,True
+753,4,4,16,Talep,1,True
+753,4,4,17,Belge kontrolü,2,True
+753,4,4,18,Operasyonel inceleme,3,True
+753,4,4,19,Onay,4,True
+753,4,4,20,Tamamlama,5,True
+754,4,4,16,Talep,1,True
+754,4,4,17,Belge kontrolü,2,True
+754,4,4,18,Operasyonel inceleme,3,True
+754,4,4,19,Onay,4,True
+754,4,4,20,Tamamlama,5,True
+755,4,4,16,Talep,1,True
+755,4,4,17,Belge kontrolü,2,True
+755,4,4,18,Operasyonel inceleme,3,True
+755,4,4,19,Onay,4,True
+755,4,4,20,Tamamlama,5,True
+756,4,4,16,Talep,1,True
+756,4,4,17,Belge kontrolü,2,True
+756,4,4,18,Operasyonel inceleme,3,True
+756,4,4,19,Onay,4,True
+756,4,4,20,Tamamlama,5,True
+757,4,4,16,Talep,1,True
+757,4,4,17,Belge kontrolü,2,True
+757,4,4,18,Operasyonel inceleme,3,True
+757,4,4,19,Onay,4,True
+757,4,4,20,Tamamlama,5,True
+758,4,4,16,Talep,1,True
+758,4,4,17,Belge kontrolü,2,True
+758,4,4,18,Operasyonel inceleme,3,True
+758,4,4,19,Onay,4,True
+758,4,4,20,Tamamlama,5,True
+759,4,4,16,Talep,1,True
+759,4,4,17,Belge kontrolü,2,True
+759,4,4,18,Operasyonel inceleme,3,True
+759,4,4,19,Onay,4,True
+759,4,4,20,Tamamlama,5,True
+760,4,4,16,Talep,1,True
+760,4,4,17,Belge kontrolü,2,True
+760,4,4,18,Operasyonel inceleme,3,True
+760,4,4,19,Onay,4,True
+760,4,4,20,Tamamlama,5,True
+761,4,4,16,Talep,1,True
+761,4,4,17,Belge kontrolü,2,True
+761,4,4,18,Operasyonel inceleme,3,True
+761,4,4,19,Onay,4,True
+761,4,4,20,Tamamlama,5,True
+762,4,4,16,Talep,1,True
+762,4,4,17,Belge kontrolü,2,True
+762,4,4,18,Operasyonel inceleme,3,True
+762,4,4,19,Onay,4,True
+762,4,4,20,Tamamlama,5,True
+763,4,4,16,Talep,1,True
+763,4,4,17,Belge kontrolü,2,True
+763,4,4,18,Operasyonel inceleme,3,True
+763,4,4,19,Onay,4,True
+763,4,4,20,Tamamlama,5,True
+764,4,4,16,Talep,1,True
+764,4,4,17,Belge kontrolü,2,True
+764,4,4,18,Operasyonel inceleme,3,True
+764,4,4,19,Onay,4,True
+764,4,4,20,Tamamlama,5,True
+765,4,4,16,Talep,1,True
+765,4,4,17,Belge kontrolü,2,True
+765,4,4,18,Operasyonel inceleme,3,True
+765,4,4,19,Onay,4,True
+765,4,4,20,Tamamlama,5,True
+766,4,4,16,Talep,1,True
+766,4,4,17,Belge kontrolü,2,True
+766,4,4,18,Operasyonel inceleme,3,True
+766,4,4,19,Onay,4,True
+766,4,4,20,Tamamlama,5,True
+767,4,4,16,Talep,1,True
+767,4,4,17,Belge kontrolü,2,True
+767,4,4,18,Operasyonel inceleme,3,True
+767,4,4,19,Onay,4,True
+767,4,4,20,Tamamlama,5,True
+768,4,4,16,Talep,1,True
+768,4,4,17,Belge kontrolü,2,True
+768,4,4,18,Operasyonel inceleme,3,True
+768,4,4,19,Onay,4,True
+768,4,4,20,Tamamlama,5,True
+769,4,4,16,Talep,1,True
+769,4,4,17,Belge kontrolü,2,True
+769,4,4,18,Operasyonel inceleme,3,True
+769,4,4,19,Onay,4,True
+769,4,4,20,Tamamlama,5,True
+770,4,4,16,Talep,1,True
+770,4,4,17,Belge kontrolü,2,True
+770,4,4,18,Operasyonel inceleme,3,True
+770,4,4,19,Onay,4,True
+770,4,4,20,Tamamlama,5,True
+771,4,4,16,Talep,1,True
+771,4,4,17,Belge kontrolü,2,True
+771,4,4,18,Operasyonel inceleme,3,True
+771,4,4,19,Onay,4,True
+771,4,4,20,Tamamlama,5,True
+772,4,4,16,Talep,1,True
+772,4,4,17,Belge kontrolü,2,True
+772,4,4,18,Operasyonel inceleme,3,True
+772,4,4,19,Onay,4,True
+772,4,4,20,Tamamlama,5,True
+773,4,4,16,Talep,1,True
+773,4,4,17,Belge kontrolü,2,True
+773,4,4,18,Operasyonel inceleme,3,True
+773,4,4,19,Onay,4,True
+773,4,4,20,Tamamlama,5,True
+774,4,4,16,Talep,1,True
+774,4,4,17,Belge kontrolü,2,True
+774,4,4,18,Operasyonel inceleme,3,True
+774,4,4,19,Onay,4,True
+774,4,4,20,Tamamlama,5,True
+775,4,4,16,Talep,1,True
+775,4,4,17,Belge kontrolü,2,True
+775,4,4,18,Operasyonel inceleme,3,True
+775,4,4,19,Onay,4,True
+775,4,4,20,Tamamlama,5,True
+776,4,4,16,Talep,1,True
+776,4,4,17,Belge kontrolü,2,True
+776,4,4,18,Operasyonel inceleme,3,True
+776,4,4,19,Onay,4,True
+776,4,4,20,Tamamlama,5,True
+777,4,4,16,Talep,1,True
+777,4,4,17,Belge kontrolü,2,True
+777,4,4,18,Operasyonel inceleme,3,True
+777,4,4,19,Onay,4,True
+777,4,4,20,Tamamlama,5,True
+778,4,4,16,Talep,1,True
+778,4,4,17,Belge kontrolü,2,True
+778,4,4,18,Operasyonel inceleme,3,True
+778,4,4,19,Onay,4,True
+778,4,4,20,Tamamlama,5,True
+779,4,4,16,Talep,1,True
+779,4,4,17,Belge kontrolü,2,True
+779,4,4,18,Operasyonel inceleme,3,True
+779,4,4,19,Onay,4,True
+779,4,4,20,Tamamlama,5,True
+780,4,4,16,Talep,1,True
+780,4,4,17,Belge kontrolü,2,True
+780,4,4,18,Operasyonel inceleme,3,True
+780,4,4,19,Onay,4,True
+780,4,4,20,Tamamlama,5,True
+781,4,4,16,Talep,1,True
+781,4,4,17,Belge kontrolü,2,True
+781,4,4,18,Operasyonel inceleme,3,True
+781,4,4,19,Onay,4,True
+781,4,4,20,Tamamlama,5,True
+782,4,4,16,Talep,1,True
+782,4,4,17,Belge kontrolü,2,True
+782,4,4,18,Operasyonel inceleme,3,True
+782,4,4,19,Onay,4,True
+782,4,4,20,Tamamlama,5,True
+783,4,4,16,Talep,1,True
+783,4,4,17,Belge kontrolü,2,True
+783,4,4,18,Operasyonel inceleme,3,True
+783,4,4,19,Onay,4,True
+783,4,4,20,Tamamlama,5,True
+784,4,4,16,Talep,1,True
+784,4,4,17,Belge kontrolü,2,True
+784,4,4,18,Operasyonel inceleme,3,True
+784,4,4,19,Onay,4,True
+784,4,4,20,Tamamlama,5,True
+785,4,4,16,Talep,1,True
+785,4,4,17,Belge kontrolü,2,True
+785,4,4,18,Operasyonel inceleme,3,True
+785,4,4,19,Onay,4,True
+785,4,4,20,Tamamlama,5,True
+786,4,4,16,Talep,1,True
+786,4,4,17,Belge kontrolü,2,True
+786,4,4,18,Operasyonel inceleme,3,True
+786,4,4,19,Onay,4,True
+786,4,4,20,Tamamlama,5,True
+787,4,4,16,Talep,1,True
+787,4,4,17,Belge kontrolü,2,True
+787,4,4,18,Operasyonel inceleme,3,True
+787,4,4,19,Onay,4,True
+787,4,4,20,Tamamlama,5,True
+788,4,4,16,Talep,1,True
+788,4,4,17,Belge kontrolü,2,True
+788,4,4,18,Operasyonel inceleme,3,True
+788,4,4,19,Onay,4,True
+788,4,4,20,Tamamlama,5,True
+789,4,4,16,Talep,1,True
+789,4,4,17,Belge kontrolü,2,True
+789,4,4,18,Operasyonel inceleme,3,True
+789,4,4,19,Onay,4,True
+789,4,4,20,Tamamlama,5,True
+790,4,4,16,Talep,1,True
+790,4,4,17,Belge kontrolü,2,True
+790,4,4,18,Operasyonel inceleme,3,True
+790,4,4,19,Onay,4,True
+790,4,4,20,Tamamlama,5,True
+791,4,4,16,Talep,1,True
+791,4,4,17,Belge kontrolü,2,True
+791,4,4,18,Operasyonel inceleme,3,True
+791,4,4,19,Onay,4,True
+791,4,4,20,Tamamlama,5,True
+792,4,4,16,Talep,1,True
+792,4,4,17,Belge kontrolü,2,True
+792,4,4,18,Operasyonel inceleme,3,True
+792,4,4,19,Onay,4,True
+792,4,4,20,Tamamlama,5,True
+793,4,4,16,Talep,1,True
+793,4,4,17,Belge kontrolü,2,True
+793,4,4,18,Operasyonel inceleme,3,True
+793,4,4,19,Onay,4,True
+793,4,4,20,Tamamlama,5,True
+794,4,4,16,Talep,1,True
+794,4,4,17,Belge kontrolü,2,True
+794,4,4,18,Operasyonel inceleme,3,True
+794,4,4,19,Onay,4,True
+794,4,4,20,Tamamlama,5,True
+795,4,4,16,Talep,1,True
+795,4,4,17,Belge kontrolü,2,True
+795,4,4,18,Operasyonel inceleme,3,True
+795,4,4,19,Onay,4,True
+795,4,4,20,Tamamlama,5,True
+796,4,4,16,Talep,1,True
+796,4,4,17,Belge kontrolü,2,True
+796,4,4,18,Operasyonel inceleme,3,True
+796,4,4,19,Onay,4,True
+796,4,4,20,Tamamlama,5,True
+797,4,4,16,Talep,1,True
+797,4,4,17,Belge kontrolü,2,True
+797,4,4,18,Operasyonel inceleme,3,True
+797,4,4,19,Onay,4,True
+797,4,4,20,Tamamlama,5,True
+798,4,4,16,Talep,1,True
+798,4,4,17,Belge kontrolü,2,True
+798,4,4,18,Operasyonel inceleme,3,True
+798,4,4,19,Onay,4,True
+798,4,4,20,Tamamlama,5,True
+799,4,4,16,Talep,1,True
+799,4,4,17,Belge kontrolü,2,True
+799,4,4,18,Operasyonel inceleme,3,True
+799,4,4,19,Onay,4,True
+799,4,4,20,Tamamlama,5,True
+800,4,4,16,Talep,1,True
+800,4,4,17,Belge kontrolü,2,True
+800,4,4,18,Operasyonel inceleme,3,True
+800,4,4,19,Onay,4,True
+800,4,4,20,Tamamlama,5,True
+801,4,4,16,Talep,1,True
+801,4,4,17,Belge kontrolü,2,True
+801,4,4,18,Operasyonel inceleme,3,True
+801,4,4,19,Onay,4,True
+801,4,4,20,Tamamlama,5,True
+802,4,4,16,Talep,1,True
+802,4,4,17,Belge kontrolü,2,True
+802,4,4,18,Operasyonel inceleme,3,True
+802,4,4,19,Onay,4,True
+802,4,4,20,Tamamlama,5,True
+803,4,4,16,Talep,1,True
+803,4,4,17,Belge kontrolü,2,True
+803,4,4,18,Operasyonel inceleme,3,True
+803,4,4,19,Onay,4,True
+803,4,4,20,Tamamlama,5,True
+804,4,4,16,Talep,1,True
+804,4,4,17,Belge kontrolü,2,True
+804,4,4,18,Operasyonel inceleme,3,True
+804,4,4,19,Onay,4,True
+804,4,4,20,Tamamlama,5,True
+805,4,4,16,Talep,1,True
+805,4,4,17,Belge kontrolü,2,True
+805,4,4,18,Operasyonel inceleme,3,True
+805,4,4,19,Onay,4,True
+805,4,4,20,Tamamlama,5,True
+806,4,4,16,Talep,1,True
+806,4,4,17,Belge kontrolü,2,True
+806,4,4,18,Operasyonel inceleme,3,True
+806,4,4,19,Onay,4,True
+806,4,4,20,Tamamlama,5,True
+807,4,4,16,Talep,1,True
+807,4,4,17,Belge kontrolü,2,True
+807,4,4,18,Operasyonel inceleme,3,True
+807,4,4,19,Onay,4,True
+807,4,4,20,Tamamlama,5,True
+808,4,4,16,Talep,1,True
+808,4,4,17,Belge kontrolü,2,True
+808,4,4,18,Operasyonel inceleme,3,True
+808,4,4,19,Onay,4,True
+808,4,4,20,Tamamlama,5,True
+809,4,4,16,Talep,1,True
+809,4,4,17,Belge kontrolü,2,True
+809,4,4,18,Operasyonel inceleme,3,True
+809,4,4,19,Onay,4,True
+809,4,4,20,Tamamlama,5,True
+810,4,4,16,Talep,1,True
+810,4,4,17,Belge kontrolü,2,True
+810,4,4,18,Operasyonel inceleme,3,True
+810,4,4,19,Onay,4,True
+810,4,4,20,Tamamlama,5,True
+811,4,4,16,Talep,1,True
+811,4,4,17,Belge kontrolü,2,True
+811,4,4,18,Operasyonel inceleme,3,True
+811,4,4,19,Onay,4,True
+811,4,4,20,Tamamlama,5,True
+812,4,4,16,Talep,1,True
+812,4,4,17,Belge kontrolü,2,True
+812,4,4,18,Operasyonel inceleme,3,True
+812,4,4,19,Onay,4,True
+812,4,4,20,Tamamlama,5,True
+813,4,4,16,Talep,1,True
+813,4,4,17,Belge kontrolü,2,True
+813,4,4,18,Operasyonel inceleme,3,True
+813,4,4,19,Onay,4,True
+813,4,4,20,Tamamlama,5,True
+814,4,4,16,Talep,1,True
+814,4,4,17,Belge kontrolü,2,True
+814,4,4,18,Operasyonel inceleme,3,True
+814,4,4,19,Onay,4,True
+814,4,4,20,Tamamlama,5,True
+815,4,4,16,Talep,1,True
+815,4,4,17,Belge kontrolü,2,True
+815,4,4,18,Operasyonel inceleme,3,True
+815,4,4,19,Onay,4,True
+815,4,4,20,Tamamlama,5,True
+816,4,4,16,Talep,1,True
+816,4,4,17,Belge kontrolü,2,True
+816,4,4,18,Operasyonel inceleme,3,True
+816,4,4,19,Onay,4,True
+816,4,4,20,Tamamlama,5,True
+817,4,4,16,Talep,1,True
+817,4,4,17,Belge kontrolü,2,True
+817,4,4,18,Operasyonel inceleme,3,True
+817,4,4,19,Onay,4,True
+817,4,4,20,Tamamlama,5,True
+818,4,4,16,Talep,1,True
+818,4,4,17,Belge kontrolü,2,True
+818,4,4,18,Operasyonel inceleme,3,True
+818,4,4,19,Onay,4,True
+818,4,4,20,Tamamlama,5,True
+819,4,4,16,Talep,1,True
+819,4,4,17,Belge kontrolü,2,True
+819,4,4,18,Operasyonel inceleme,3,True
+819,4,4,19,Onay,4,True
+819,4,4,20,Tamamlama,5,True
+820,4,4,16,Talep,1,True
+820,4,4,17,Belge kontrolü,2,True
+820,4,4,18,Operasyonel inceleme,3,True
+820,4,4,19,Onay,4,True
+820,4,4,20,Tamamlama,5,True
+821,4,4,16,Talep,1,True
+821,4,4,17,Belge kontrolü,2,True
+821,4,4,18,Operasyonel inceleme,3,True
+821,4,4,19,Onay,4,True
+821,4,4,20,Tamamlama,5,True
+822,4,4,16,Talep,1,True
+822,4,4,17,Belge kontrolü,2,True
+822,4,4,18,Operasyonel inceleme,3,True
+822,4,4,19,Onay,4,True
+822,4,4,20,Tamamlama,5,True
+823,4,4,16,Talep,1,True
+823,4,4,17,Belge kontrolü,2,True
+823,4,4,18,Operasyonel inceleme,3,True
+823,4,4,19,Onay,4,True
+823,4,4,20,Tamamlama,5,True
+824,4,4,16,Talep,1,True
+824,4,4,17,Belge kontrolü,2,True
+824,4,4,18,Operasyonel inceleme,3,True
+824,4,4,19,Onay,4,True
+824,4,4,20,Tamamlama,5,True
+825,4,4,16,Talep,1,True
+825,4,4,17,Belge kontrolü,2,True
+825,4,4,18,Operasyonel inceleme,3,True
+825,4,4,19,Onay,4,True
+825,4,4,20,Tamamlama,5,True
+826,4,4,16,Talep,1,True
+826,4,4,17,Belge kontrolü,2,True
+826,4,4,18,Operasyonel inceleme,3,True
+826,4,4,19,Onay,4,True
+826,4,4,20,Tamamlama,5,True
+827,4,4,16,Talep,1,True
+827,4,4,17,Belge kontrolü,2,True
+827,4,4,18,Operasyonel inceleme,3,True
+827,4,4,19,Onay,4,True
+827,4,4,20,Tamamlama,5,True
+828,4,4,16,Talep,1,True
+828,4,4,17,Belge kontrolü,2,True
+828,4,4,18,Operasyonel inceleme,3,True
+828,4,4,19,Onay,4,True
+828,4,4,20,Tamamlama,5,True
+829,4,4,16,Talep,1,True
+829,4,4,17,Belge kontrolü,2,True
+829,4,4,18,Operasyonel inceleme,3,True
+829,4,4,19,Onay,4,True
+829,4,4,20,Tamamlama,5,True
+830,4,4,16,Talep,1,True
+830,4,4,17,Belge kontrolü,2,True
+830,4,4,18,Operasyonel inceleme,3,True
+830,4,4,19,Onay,4,True
+830,4,4,20,Tamamlama,5,True
+831,5,5,21,Dosya kaydı,1,True
+831,5,5,22,Belge kontrolü,2,True
+831,5,5,23,İnceleme,3,True
+831,5,5,24,Dış koordinasyon,4,True
+831,5,5,25,Kapanış,5,True
+832,5,5,21,Dosya kaydı,1,True
+832,5,5,22,Belge kontrolü,2,True
+832,5,5,23,İnceleme,3,True
+832,5,5,24,Dış koordinasyon,4,True
+832,5,5,25,Kapanış,5,True
+833,5,5,21,Dosya kaydı,1,True
+833,5,5,22,Belge kontrolü,2,True
+833,5,5,23,İnceleme,3,True
+833,5,5,24,Dış koordinasyon,4,True
+833,5,5,25,Kapanış,5,True
+834,5,5,21,Dosya kaydı,1,True
+834,5,5,22,Belge kontrolü,2,True
+834,5,5,23,İnceleme,3,True
+834,5,5,24,Dış koordinasyon,4,True
+834,5,5,25,Kapanış,5,True
+835,5,5,21,Dosya kaydı,1,True
+835,5,5,22,Belge kontrolü,2,True
+835,5,5,23,İnceleme,3,True
+835,5,5,24,Dış koordinasyon,4,True
+835,5,5,25,Kapanış,5,True
+836,5,5,21,Dosya kaydı,1,True
+836,5,5,22,Belge kontrolü,2,True
+836,5,5,23,İnceleme,3,True
+836,5,5,24,Dış koordinasyon,4,True
+836,5,5,25,Kapanış,5,True
+837,5,5,21,Dosya kaydı,1,True
+837,5,5,22,Belge kontrolü,2,True
+837,5,5,23,İnceleme,3,True
+837,5,5,24,Dış koordinasyon,4,True
+837,5,5,25,Kapanış,5,True
+838,5,5,21,Dosya kaydı,1,True
+838,5,5,22,Belge kontrolü,2,True
+838,5,5,23,İnceleme,3,True
+838,5,5,24,Dış koordinasyon,4,True
+838,5,5,25,Kapanış,5,True
+839,5,5,21,Dosya kaydı,1,True
+839,5,5,22,Belge kontrolü,2,True
+839,5,5,23,İnceleme,3,True
+839,5,5,24,Dış koordinasyon,4,True
+839,5,5,25,Kapanış,5,True
+840,5,5,21,Dosya kaydı,1,True
+840,5,5,22,Belge kontrolü,2,True
+840,5,5,23,İnceleme,3,True
+840,5,5,24,Dış koordinasyon,4,True
+840,5,5,25,Kapanış,5,True
+841,5,5,21,Dosya kaydı,1,True
+841,5,5,22,Belge kontrolü,2,True
+841,5,5,23,İnceleme,3,True
+841,5,5,24,Dış koordinasyon,4,True
+841,5,5,25,Kapanış,5,True
+842,5,5,21,Dosya kaydı,1,True
+842,5,5,22,Belge kontrolü,2,True
+842,5,5,23,İnceleme,3,True
+842,5,5,24,Dış koordinasyon,4,True
+842,5,5,25,Kapanış,5,True
+843,5,5,21,Dosya kaydı,1,True
+843,5,5,22,Belge kontrolü,2,True
+843,5,5,23,İnceleme,3,True
+843,5,5,24,Dış koordinasyon,4,True
+843,5,5,25,Kapanış,5,True
+844,5,5,21,Dosya kaydı,1,True
+844,5,5,22,Belge kontrolü,2,True
+844,5,5,23,İnceleme,3,True
+844,5,5,24,Dış koordinasyon,4,True
+844,5,5,25,Kapanış,5,True
+845,5,5,21,Dosya kaydı,1,True
+845,5,5,22,Belge kontrolü,2,True
+845,5,5,23,İnceleme,3,True
+845,5,5,24,Dış koordinasyon,4,True
+845,5,5,25,Kapanış,5,True
+846,5,5,21,Dosya kaydı,1,True
+846,5,5,22,Belge kontrolü,2,True
+846,5,5,23,İnceleme,3,True
+846,5,5,24,Dış koordinasyon,4,True
+846,5,5,25,Kapanış,5,True
+847,5,5,21,Dosya kaydı,1,True
+847,5,5,22,Belge kontrolü,2,True
+847,5,5,23,İnceleme,3,True
+847,5,5,24,Dış koordinasyon,4,True
+847,5,5,25,Kapanış,5,True
+848,5,5,21,Dosya kaydı,1,True
+848,5,5,22,Belge kontrolü,2,True
+848,5,5,23,İnceleme,3,True
+848,5,5,24,Dış koordinasyon,4,True
+848,5,5,25,Kapanış,5,True
+849,5,5,21,Dosya kaydı,1,True
+849,5,5,22,Belge kontrolü,2,True
+849,5,5,23,İnceleme,3,True
+849,5,5,24,Dış koordinasyon,4,True
+849,5,5,25,Kapanış,5,True
+850,5,5,21,Dosya kaydı,1,True
+850,5,5,22,Belge kontrolü,2,True
+850,5,5,23,İnceleme,3,True
+850,5,5,24,Dış koordinasyon,4,True
+850,5,5,25,Kapanış,5,True
+851,5,5,21,Dosya kaydı,1,True
+851,5,5,22,Belge kontrolü,2,True
+851,5,5,23,İnceleme,3,True
+851,5,5,24,Dış koordinasyon,4,True
+851,5,5,25,Kapanış,5,True
+852,5,5,21,Dosya kaydı,1,True
+852,5,5,22,Belge kontrolü,2,True
+852,5,5,23,İnceleme,3,True
+852,5,5,24,Dış koordinasyon,4,True
+852,5,5,25,Kapanış,5,True
+853,5,5,21,Dosya kaydı,1,True
+853,5,5,22,Belge kontrolü,2,True
+853,5,5,23,İnceleme,3,True
+853,5,5,24,Dış koordinasyon,4,True
+853,5,5,25,Kapanış,5,True
+854,5,5,21,Dosya kaydı,1,True
+854,5,5,22,Belge kontrolü,2,True
+854,5,5,23,İnceleme,3,True
+854,5,5,24,Dış koordinasyon,4,True
+854,5,5,25,Kapanış,5,True
+855,5,5,21,Dosya kaydı,1,True
+855,5,5,22,Belge kontrolü,2,True
+855,5,5,23,İnceleme,3,True
+855,5,5,24,Dış koordinasyon,4,True
+855,5,5,25,Kapanış,5,True
+856,5,5,21,Dosya kaydı,1,True
+856,5,5,22,Belge kontrolü,2,True
+856,5,5,23,İnceleme,3,True
+856,5,5,24,Dış koordinasyon,4,True
+856,5,5,25,Kapanış,5,True
+857,5,5,21,Dosya kaydı,1,True
+857,5,5,22,Belge kontrolü,2,True
+857,5,5,23,İnceleme,3,True
+857,5,5,24,Dış koordinasyon,4,True
+857,5,5,25,Kapanış,5,True
+858,5,5,21,Dosya kaydı,1,True
+858,5,5,22,Belge kontrolü,2,True
+858,5,5,23,İnceleme,3,True
+858,5,5,24,Dış koordinasyon,4,True
+858,5,5,25,Kapanış,5,True
+859,5,5,21,Dosya kaydı,1,True
+859,5,5,22,Belge kontrolü,2,True
+859,5,5,23,İnceleme,3,True
+859,5,5,24,Dış koordinasyon,4,True
+859,5,5,25,Kapanış,5,True
+860,5,5,21,Dosya kaydı,1,True
+860,5,5,22,Belge kontrolü,2,True
+860,5,5,23,İnceleme,3,True
+860,5,5,24,Dış koordinasyon,4,True
+860,5,5,25,Kapanış,5,True
+861,5,5,21,Dosya kaydı,1,True
+861,5,5,22,Belge kontrolü,2,True
+861,5,5,23,İnceleme,3,True
+861,5,5,24,Dış koordinasyon,4,True
+861,5,5,25,Kapanış,5,True
+862,5,5,21,Dosya kaydı,1,True
+862,5,5,22,Belge kontrolü,2,True
+862,5,5,23,İnceleme,3,True
+862,5,5,24,Dış koordinasyon,4,True
+862,5,5,25,Kapanış,5,True
+863,5,5,21,Dosya kaydı,1,True
+863,5,5,22,Belge kontrolü,2,True
+863,5,5,23,İnceleme,3,True
+863,5,5,24,Dış koordinasyon,4,True
+863,5,5,25,Kapanış,5,True
+864,5,5,21,Dosya kaydı,1,True
+864,5,5,22,Belge kontrolü,2,True
+864,5,5,23,İnceleme,3,True
+864,5,5,24,Dış koordinasyon,4,True
+864,5,5,25,Kapanış,5,True
+865,5,5,21,Dosya kaydı,1,True
+865,5,5,22,Belge kontrolü,2,True
+865,5,5,23,İnceleme,3,True
+865,5,5,24,Dış koordinasyon,4,True
+865,5,5,25,Kapanış,5,True
+866,5,5,21,Dosya kaydı,1,True
+866,5,5,22,Belge kontrolü,2,True
+866,5,5,23,İnceleme,3,True
+866,5,5,24,Dış koordinasyon,4,True
+866,5,5,25,Kapanış,5,True
+867,5,5,21,Dosya kaydı,1,True
+867,5,5,22,Belge kontrolü,2,True
+867,5,5,23,İnceleme,3,True
+867,5,5,24,Dış koordinasyon,4,True
+867,5,5,25,Kapanış,5,True
+868,5,5,21,Dosya kaydı,1,True
+868,5,5,22,Belge kontrolü,2,True
+868,5,5,23,İnceleme,3,True
+868,5,5,24,Dış koordinasyon,4,True
+868,5,5,25,Kapanış,5,True
+869,5,5,21,Dosya kaydı,1,True
+869,5,5,22,Belge kontrolü,2,True
+869,5,5,23,İnceleme,3,True
+869,5,5,24,Dış koordinasyon,4,True
+869,5,5,25,Kapanış,5,True
+870,5,5,21,Dosya kaydı,1,True
+870,5,5,22,Belge kontrolü,2,True
+870,5,5,23,İnceleme,3,True
+870,5,5,24,Dış koordinasyon,4,True
+870,5,5,25,Kapanış,5,True
+871,5,5,21,Dosya kaydı,1,True
+871,5,5,22,Belge kontrolü,2,True
+871,5,5,23,İnceleme,3,True
+871,5,5,24,Dış koordinasyon,4,True
+871,5,5,25,Kapanış,5,True
+872,5,5,21,Dosya kaydı,1,True
+872,5,5,22,Belge kontrolü,2,True
+872,5,5,23,İnceleme,3,True
+872,5,5,24,Dış koordinasyon,4,True
+872,5,5,25,Kapanış,5,True
+873,5,5,21,Dosya kaydı,1,True
+873,5,5,22,Belge kontrolü,2,True
+873,5,5,23,İnceleme,3,True
+873,5,5,24,Dış koordinasyon,4,True
+873,5,5,25,Kapanış,5,True
+874,5,5,21,Dosya kaydı,1,True
+874,5,5,22,Belge kontrolü,2,True
+874,5,5,23,İnceleme,3,True
+874,5,5,24,Dış koordinasyon,4,True
+874,5,5,25,Kapanış,5,True
+875,5,5,21,Dosya kaydı,1,True
+875,5,5,22,Belge kontrolü,2,True
+875,5,5,23,İnceleme,3,True
+875,5,5,24,Dış koordinasyon,4,True
+875,5,5,25,Kapanış,5,True
+876,5,5,21,Dosya kaydı,1,True
+876,5,5,22,Belge kontrolü,2,True
+876,5,5,23,İnceleme,3,True
+876,5,5,24,Dış koordinasyon,4,True
+876,5,5,25,Kapanış,5,True
+877,5,5,21,Dosya kaydı,1,True
+877,5,5,22,Belge kontrolü,2,True
+877,5,5,23,İnceleme,3,True
+877,5,5,24,Dış koordinasyon,4,True
+877,5,5,25,Kapanış,5,True
+878,5,5,21,Dosya kaydı,1,True
+878,5,5,22,Belge kontrolü,2,True
+878,5,5,23,İnceleme,3,True
+878,5,5,24,Dış koordinasyon,4,True
+878,5,5,25,Kapanış,5,True
+879,5,5,21,Dosya kaydı,1,True
+879,5,5,22,Belge kontrolü,2,True
+879,5,5,23,İnceleme,3,True
+879,5,5,24,Dış koordinasyon,4,True
+879,5,5,25,Kapanış,5,True
+880,5,5,21,Dosya kaydı,1,True
+880,5,5,22,Belge kontrolü,2,True
+880,5,5,23,İnceleme,3,True
+880,5,5,24,Dış koordinasyon,4,True
+880,5,5,25,Kapanış,5,True
+881,5,5,21,Dosya kaydı,1,True
+881,5,5,22,Belge kontrolü,2,True
+881,5,5,23,İnceleme,3,True
+881,5,5,24,Dış koordinasyon,4,True
+881,5,5,25,Kapanış,5,True
+882,5,5,21,Dosya kaydı,1,True
+882,5,5,22,Belge kontrolü,2,True
+882,5,5,23,İnceleme,3,True
+882,5,5,24,Dış koordinasyon,4,True
+882,5,5,25,Kapanış,5,True
+883,5,5,21,Dosya kaydı,1,True
+883,5,5,22,Belge kontrolü,2,True
+883,5,5,23,İnceleme,3,True
+883,5,5,24,Dış koordinasyon,4,True
+883,5,5,25,Kapanış,5,True
+884,5,5,21,Dosya kaydı,1,True
+884,5,5,22,Belge kontrolü,2,True
+884,5,5,23,İnceleme,3,True
+884,5,5,24,Dış koordinasyon,4,True
+884,5,5,25,Kapanış,5,True
+885,5,5,21,Dosya kaydı,1,True
+885,5,5,22,Belge kontrolü,2,True
+885,5,5,23,İnceleme,3,True
+885,5,5,24,Dış koordinasyon,4,True
+885,5,5,25,Kapanış,5,True
+886,5,5,21,Dosya kaydı,1,True
+886,5,5,22,Belge kontrolü,2,True
+886,5,5,23,İnceleme,3,True
+886,5,5,24,Dış koordinasyon,4,True
+886,5,5,25,Kapanış,5,True
+887,5,5,21,Dosya kaydı,1,True
+887,5,5,22,Belge kontrolü,2,True
+887,5,5,23,İnceleme,3,True
+887,5,5,24,Dış koordinasyon,4,True
+887,5,5,25,Kapanış,5,True
+888,5,5,21,Dosya kaydı,1,True
+888,5,5,22,Belge kontrolü,2,True
+888,5,5,23,İnceleme,3,True
+888,5,5,24,Dış koordinasyon,4,True
+888,5,5,25,Kapanış,5,True
+889,5,5,21,Dosya kaydı,1,True
+889,5,5,22,Belge kontrolü,2,True
+889,5,5,23,İnceleme,3,True
+889,5,5,24,Dış koordinasyon,4,True
+889,5,5,25,Kapanış,5,True
+890,5,5,21,Dosya kaydı,1,True
+890,5,5,22,Belge kontrolü,2,True
+890,5,5,23,İnceleme,3,True
+890,5,5,24,Dış koordinasyon,4,True
+890,5,5,25,Kapanış,5,True
+891,5,5,21,Dosya kaydı,1,True
+891,5,5,22,Belge kontrolü,2,True
+891,5,5,23,İnceleme,3,True
+891,5,5,24,Dış koordinasyon,4,True
+891,5,5,25,Kapanış,5,True
+892,5,5,21,Dosya kaydı,1,True
+892,5,5,22,Belge kontrolü,2,True
+892,5,5,23,İnceleme,3,True
+892,5,5,24,Dış koordinasyon,4,True
+892,5,5,25,Kapanış,5,True
+893,5,5,21,Dosya kaydı,1,True
+893,5,5,22,Belge kontrolü,2,True
+893,5,5,23,İnceleme,3,True
+893,5,5,24,Dış koordinasyon,4,True
+893,5,5,25,Kapanış,5,True
+894,5,5,21,Dosya kaydı,1,True
+894,5,5,22,Belge kontrolü,2,True
+894,5,5,23,İnceleme,3,True
+894,5,5,24,Dış koordinasyon,4,True
+894,5,5,25,Kapanış,5,True
+895,5,5,21,Dosya kaydı,1,True
+895,5,5,22,Belge kontrolü,2,True
+895,5,5,23,İnceleme,3,True
+895,5,5,24,Dış koordinasyon,4,True
+895,5,5,25,Kapanış,5,True
+896,5,5,21,Dosya kaydı,1,True
+896,5,5,22,Belge kontrolü,2,True
+896,5,5,23,İnceleme,3,True
+896,5,5,24,Dış koordinasyon,4,True
+896,5,5,25,Kapanış,5,True
+897,5,5,21,Dosya kaydı,1,True
+897,5,5,22,Belge kontrolü,2,True
+897,5,5,23,İnceleme,3,True
+897,5,5,24,Dış koordinasyon,4,True
+897,5,5,25,Kapanış,5,True
+898,5,5,21,Dosya kaydı,1,True
+898,5,5,22,Belge kontrolü,2,True
+898,5,5,23,İnceleme,3,True
+898,5,5,24,Dış koordinasyon,4,True
+898,5,5,25,Kapanış,5,True
+899,5,5,21,Dosya kaydı,1,True
+899,5,5,22,Belge kontrolü,2,True
+899,5,5,23,İnceleme,3,True
+899,5,5,24,Dış koordinasyon,4,True
+899,5,5,25,Kapanış,5,True
+900,5,5,21,Dosya kaydı,1,True
+900,5,5,22,Belge kontrolü,2,True
+900,5,5,23,İnceleme,3,True
+900,5,5,24,Dış koordinasyon,4,True
+900,5,5,25,Kapanış,5,True
+901,5,5,21,Dosya kaydı,1,True
+901,5,5,22,Belge kontrolü,2,True
+901,5,5,23,İnceleme,3,True
+901,5,5,24,Dış koordinasyon,4,True
+901,5,5,25,Kapanış,5,True
+902,5,5,21,Dosya kaydı,1,True
+902,5,5,22,Belge kontrolü,2,True
+902,5,5,23,İnceleme,3,True
+902,5,5,24,Dış koordinasyon,4,True
+902,5,5,25,Kapanış,5,True
+903,5,5,21,Dosya kaydı,1,True
+903,5,5,22,Belge kontrolü,2,True
+903,5,5,23,İnceleme,3,True
+903,5,5,24,Dış koordinasyon,4,True
+903,5,5,25,Kapanış,5,True
+904,5,5,21,Dosya kaydı,1,True
+904,5,5,22,Belge kontrolü,2,True
+904,5,5,23,İnceleme,3,True
+904,5,5,24,Dış koordinasyon,4,True
+904,5,5,25,Kapanış,5,True
+905,5,5,21,Dosya kaydı,1,True
+905,5,5,22,Belge kontrolü,2,True
+905,5,5,23,İnceleme,3,True
+905,5,5,24,Dış koordinasyon,4,True
+905,5,5,25,Kapanış,5,True
+906,5,5,21,Dosya kaydı,1,True
+906,5,5,22,Belge kontrolü,2,True
+906,5,5,23,İnceleme,3,True
+906,5,5,24,Dış koordinasyon,4,True
+906,5,5,25,Kapanış,5,True
+907,5,5,21,Dosya kaydı,1,True
+907,5,5,22,Belge kontrolü,2,True
+907,5,5,23,İnceleme,3,True
+907,5,5,24,Dış koordinasyon,4,True
+907,5,5,25,Kapanış,5,True
+908,5,5,21,Dosya kaydı,1,True
+908,5,5,22,Belge kontrolü,2,True
+908,5,5,23,İnceleme,3,True
+908,5,5,24,Dış koordinasyon,4,True
+908,5,5,25,Kapanış,5,True
+909,5,5,21,Dosya kaydı,1,True
+909,5,5,22,Belge kontrolü,2,True
+909,5,5,23,İnceleme,3,True
+909,5,5,24,Dış koordinasyon,4,True
+909,5,5,25,Kapanış,5,True
+910,5,5,21,Dosya kaydı,1,True
+910,5,5,22,Belge kontrolü,2,True
+910,5,5,23,İnceleme,3,True
+910,5,5,24,Dış koordinasyon,4,True
+910,5,5,25,Kapanış,5,True
+911,5,5,21,Dosya kaydı,1,True
+911,5,5,22,Belge kontrolü,2,True
+911,5,5,23,İnceleme,3,True
+911,5,5,24,Dış koordinasyon,4,True
+911,5,5,25,Kapanış,5,True
+912,5,5,21,Dosya kaydı,1,True
+912,5,5,22,Belge kontrolü,2,True
+912,5,5,23,İnceleme,3,True
+912,5,5,24,Dış koordinasyon,4,True
+912,5,5,25,Kapanış,5,True
+913,5,5,21,Dosya kaydı,1,True
+913,5,5,22,Belge kontrolü,2,True
+913,5,5,23,İnceleme,3,True
+913,5,5,24,Dış koordinasyon,4,True
+913,5,5,25,Kapanış,5,True
+914,5,5,21,Dosya kaydı,1,True
+914,5,5,22,Belge kontrolü,2,True
+914,5,5,23,İnceleme,3,True
+914,5,5,24,Dış koordinasyon,4,True
+914,5,5,25,Kapanış,5,True
+915,5,5,21,Dosya kaydı,1,True
+915,5,5,22,Belge kontrolü,2,True
+915,5,5,23,İnceleme,3,True
+915,5,5,24,Dış koordinasyon,4,True
+915,5,5,25,Kapanış,5,True
+916,5,5,21,Dosya kaydı,1,True
+916,5,5,22,Belge kontrolü,2,True
+916,5,5,23,İnceleme,3,True
+916,5,5,24,Dış koordinasyon,4,True
+916,5,5,25,Kapanış,5,True
+917,5,5,21,Dosya kaydı,1,True
+917,5,5,22,Belge kontrolü,2,True
+917,5,5,23,İnceleme,3,True
+917,5,5,24,Dış koordinasyon,4,True
+917,5,5,25,Kapanış,5,True
+918,5,5,21,Dosya kaydı,1,True
+918,5,5,22,Belge kontrolü,2,True
+918,5,5,23,İnceleme,3,True
+918,5,5,24,Dış koordinasyon,4,True
+918,5,5,25,Kapanış,5,True
+919,5,5,21,Dosya kaydı,1,True
+919,5,5,22,Belge kontrolü,2,True
+919,5,5,23,İnceleme,3,True
+919,5,5,24,Dış koordinasyon,4,True
+919,5,5,25,Kapanış,5,True
+920,5,5,21,Dosya kaydı,1,True
+920,5,5,22,Belge kontrolü,2,True
+920,5,5,23,İnceleme,3,True
+920,5,5,24,Dış koordinasyon,4,True
+920,5,5,25,Kapanış,5,True
+921,5,5,21,Dosya kaydı,1,True
+921,5,5,22,Belge kontrolü,2,True
+921,5,5,23,İnceleme,3,True
+921,5,5,24,Dış koordinasyon,4,True
+921,5,5,25,Kapanış,5,True
+922,5,5,21,Dosya kaydı,1,True
+922,5,5,22,Belge kontrolü,2,True
+922,5,5,23,İnceleme,3,True
+922,5,5,24,Dış koordinasyon,4,True
+922,5,5,25,Kapanış,5,True
+923,5,5,21,Dosya kaydı,1,True
+923,5,5,22,Belge kontrolü,2,True
+923,5,5,23,İnceleme,3,True
+923,5,5,24,Dış koordinasyon,4,True
+923,5,5,25,Kapanış,5,True
+924,5,5,21,Dosya kaydı,1,True
+924,5,5,22,Belge kontrolü,2,True
+924,5,5,23,İnceleme,3,True
+924,5,5,24,Dış koordinasyon,4,True
+924,5,5,25,Kapanış,5,True
+925,5,5,21,Dosya kaydı,1,True
+925,5,5,22,Belge kontrolü,2,True
+925,5,5,23,İnceleme,3,True
+925,5,5,24,Dış koordinasyon,4,True
+925,5,5,25,Kapanış,5,True
+926,5,5,21,Dosya kaydı,1,True
+926,5,5,22,Belge kontrolü,2,True
+926,5,5,23,İnceleme,3,True
+926,5,5,24,Dış koordinasyon,4,True
+926,5,5,25,Kapanış,5,True
+927,5,5,21,Dosya kaydı,1,True
+927,5,5,22,Belge kontrolü,2,True
+927,5,5,23,İnceleme,3,True
+927,5,5,24,Dış koordinasyon,4,True
+927,5,5,25,Kapanış,5,True
+928,5,5,21,Dosya kaydı,1,True
+928,5,5,22,Belge kontrolü,2,True
+928,5,5,23,İnceleme,3,True
+928,5,5,24,Dış koordinasyon,4,True
+928,5,5,25,Kapanış,5,True
+929,5,5,21,Dosya kaydı,1,True
+929,5,5,22,Belge kontrolü,2,True
+929,5,5,23,İnceleme,3,True
+929,5,5,24,Dış koordinasyon,4,True
+929,5,5,25,Kapanış,5,True
+930,5,5,21,Dosya kaydı,1,True
+930,5,5,22,Belge kontrolü,2,True
+930,5,5,23,İnceleme,3,True
+930,5,5,24,Dış koordinasyon,4,True
+930,5,5,25,Kapanış,5,True
+931,6,6,26,Kontrol kaydı,1,True
+931,6,6,27,İnceleme,2,True
+931,6,6,28,Bulgu değerlendirme,3,True
+931,6,6,30,Kapanış,5,True
+932,6,6,26,Kontrol kaydı,1,True
+932,6,6,27,İnceleme,2,True
+932,6,6,28,Bulgu değerlendirme,3,True
+932,6,6,30,Kapanış,5,True
+933,6,6,26,Kontrol kaydı,1,True
+933,6,6,27,İnceleme,2,True
+933,6,6,28,Bulgu değerlendirme,3,True
+933,6,6,30,Kapanış,5,True
+934,6,6,26,Kontrol kaydı,1,True
+934,6,6,27,İnceleme,2,True
+934,6,6,28,Bulgu değerlendirme,3,True
+934,6,6,30,Kapanış,5,True
+935,6,6,26,Kontrol kaydı,1,True
+935,6,6,27,İnceleme,2,True
+935,6,6,28,Bulgu değerlendirme,3,True
+935,6,6,30,Kapanış,5,True
+936,6,6,26,Kontrol kaydı,1,True
+936,6,6,27,İnceleme,2,True
+936,6,6,28,Bulgu değerlendirme,3,True
+936,6,6,30,Kapanış,5,True
+937,6,6,26,Kontrol kaydı,1,True
+937,6,6,27,İnceleme,2,True
+937,6,6,28,Bulgu değerlendirme,3,True
+937,6,6,30,Kapanış,5,True
+938,6,6,26,Kontrol kaydı,1,True
+938,6,6,27,İnceleme,2,True
+938,6,6,28,Bulgu değerlendirme,3,True
+938,6,6,30,Kapanış,5,True
+939,6,6,26,Kontrol kaydı,1,True
+939,6,6,27,İnceleme,2,True
+939,6,6,28,Bulgu değerlendirme,3,True
+939,6,6,30,Kapanış,5,True
+940,6,6,26,Kontrol kaydı,1,True
+940,6,6,27,İnceleme,2,True
+940,6,6,28,Bulgu değerlendirme,3,True
+940,6,6,30,Kapanış,5,True
+941,6,6,26,Kontrol kaydı,1,True
+941,6,6,27,İnceleme,2,True
+941,6,6,28,Bulgu değerlendirme,3,True
+941,6,6,30,Kapanış,5,True
+942,6,6,26,Kontrol kaydı,1,True
+942,6,6,27,İnceleme,2,True
+942,6,6,28,Bulgu değerlendirme,3,True
+942,6,6,30,Kapanış,5,True
+943,6,6,26,Kontrol kaydı,1,True
+943,6,6,27,İnceleme,2,True
+943,6,6,28,Bulgu değerlendirme,3,True
+943,6,6,30,Kapanış,5,True
+944,6,6,26,Kontrol kaydı,1,True
+944,6,6,27,İnceleme,2,True
+944,6,6,28,Bulgu değerlendirme,3,True
+944,6,6,30,Kapanış,5,True
+945,6,6,26,Kontrol kaydı,1,True
+945,6,6,27,İnceleme,2,True
+945,6,6,28,Bulgu değerlendirme,3,True
+945,6,6,30,Kapanış,5,True
+946,6,6,26,Kontrol kaydı,1,True
+946,6,6,27,İnceleme,2,True
+946,6,6,28,Bulgu değerlendirme,3,True
+946,6,6,30,Kapanış,5,True
+947,6,6,26,Kontrol kaydı,1,True
+947,6,6,27,İnceleme,2,True
+947,6,6,28,Bulgu değerlendirme,3,True
+947,6,6,30,Kapanış,5,True
+948,6,6,26,Kontrol kaydı,1,True
+948,6,6,27,İnceleme,2,True
+948,6,6,28,Bulgu değerlendirme,3,True
+948,6,6,30,Kapanış,5,True
+949,6,6,26,Kontrol kaydı,1,True
+949,6,6,27,İnceleme,2,True
+949,6,6,28,Bulgu değerlendirme,3,True
+949,6,6,30,Kapanış,5,True
+950,6,6,26,Kontrol kaydı,1,True
+950,6,6,27,İnceleme,2,True
+950,6,6,28,Bulgu değerlendirme,3,True
+950,6,6,30,Kapanış,5,True
+951,6,6,26,Kontrol kaydı,1,True
+951,6,6,27,İnceleme,2,True
+951,6,6,28,Bulgu değerlendirme,3,True
+951,6,6,30,Kapanış,5,True
+952,6,6,26,Kontrol kaydı,1,True
+952,6,6,27,İnceleme,2,True
+952,6,6,28,Bulgu değerlendirme,3,True
+952,6,6,30,Kapanış,5,True
+953,6,6,26,Kontrol kaydı,1,True
+953,6,6,27,İnceleme,2,True
+953,6,6,28,Bulgu değerlendirme,3,True
+953,6,6,30,Kapanış,5,True
+954,6,6,26,Kontrol kaydı,1,True
+954,6,6,27,İnceleme,2,True
+954,6,6,28,Bulgu değerlendirme,3,True
+954,6,6,30,Kapanış,5,True
+955,6,6,26,Kontrol kaydı,1,True
+955,6,6,27,İnceleme,2,True
+955,6,6,28,Bulgu değerlendirme,3,True
+955,6,6,30,Kapanış,5,True
+956,6,6,26,Kontrol kaydı,1,True
+956,6,6,27,İnceleme,2,True
+956,6,6,28,Bulgu değerlendirme,3,True
+956,6,6,30,Kapanış,5,True
+957,6,6,26,Kontrol kaydı,1,True
+957,6,6,27,İnceleme,2,True
+957,6,6,28,Bulgu değerlendirme,3,True
+957,6,6,30,Kapanış,5,True
+958,6,6,26,Kontrol kaydı,1,True
+958,6,6,27,İnceleme,2,True
+958,6,6,28,Bulgu değerlendirme,3,True
+958,6,6,30,Kapanış,5,True
+959,6,6,26,Kontrol kaydı,1,True
+959,6,6,27,İnceleme,2,True
+959,6,6,28,Bulgu değerlendirme,3,True
+959,6,6,30,Kapanış,5,True
+960,6,6,26,Kontrol kaydı,1,True
+960,6,6,27,İnceleme,2,True
+960,6,6,28,Bulgu değerlendirme,3,True
+960,6,6,30,Kapanış,5,True
+961,6,6,26,Kontrol kaydı,1,True
+961,6,6,27,İnceleme,2,True
+961,6,6,28,Bulgu değerlendirme,3,True
+961,6,6,30,Kapanış,5,True
+962,6,6,26,Kontrol kaydı,1,True
+962,6,6,27,İnceleme,2,True
+962,6,6,28,Bulgu değerlendirme,3,True
+962,6,6,30,Kapanış,5,True
+963,6,6,26,Kontrol kaydı,1,True
+963,6,6,27,İnceleme,2,True
+963,6,6,28,Bulgu değerlendirme,3,True
+963,6,6,30,Kapanış,5,True
+964,6,6,26,Kontrol kaydı,1,True
+964,6,6,27,İnceleme,2,True
+964,6,6,28,Bulgu değerlendirme,3,True
+964,6,6,30,Kapanış,5,True
+965,6,6,26,Kontrol kaydı,1,True
+965,6,6,27,İnceleme,2,True
+965,6,6,28,Bulgu değerlendirme,3,True
+965,6,6,30,Kapanış,5,True
+966,6,6,26,Kontrol kaydı,1,True
+966,6,6,27,İnceleme,2,True
+966,6,6,28,Bulgu değerlendirme,3,True
+966,6,6,30,Kapanış,5,True
+967,6,6,26,Kontrol kaydı,1,True
+967,6,6,27,İnceleme,2,True
+967,6,6,28,Bulgu değerlendirme,3,True
+967,6,6,30,Kapanış,5,True
+968,6,6,26,Kontrol kaydı,1,True
+968,6,6,27,İnceleme,2,True
+968,6,6,28,Bulgu değerlendirme,3,True
+968,6,6,30,Kapanış,5,True
+969,6,6,26,Kontrol kaydı,1,True
+969,6,6,27,İnceleme,2,True
+969,6,6,28,Bulgu değerlendirme,3,True
+969,6,6,30,Kapanış,5,True
+970,6,6,26,Kontrol kaydı,1,True
+970,6,6,27,İnceleme,2,True
+970,6,6,28,Bulgu değerlendirme,3,True
+970,6,6,30,Kapanış,5,True
+971,6,6,26,Kontrol kaydı,1,True
+971,6,6,27,İnceleme,2,True
+971,6,6,28,Bulgu değerlendirme,3,True
+971,6,6,30,Kapanış,5,True
+972,6,6,26,Kontrol kaydı,1,True
+972,6,6,27,İnceleme,2,True
+972,6,6,28,Bulgu değerlendirme,3,True
+972,6,6,30,Kapanış,5,True
+973,6,6,26,Kontrol kaydı,1,True
+973,6,6,27,İnceleme,2,True
+973,6,6,28,Bulgu değerlendirme,3,True
+973,6,6,30,Kapanış,5,True
+974,6,6,26,Kontrol kaydı,1,True
+974,6,6,27,İnceleme,2,True
+974,6,6,28,Bulgu değerlendirme,3,True
+974,6,6,30,Kapanış,5,True
+975,6,6,26,Kontrol kaydı,1,True
+975,6,6,27,İnceleme,2,True
+975,6,6,28,Bulgu değerlendirme,3,True
+975,6,6,30,Kapanış,5,True
+976,6,6,26,Kontrol kaydı,1,True
+976,6,6,27,İnceleme,2,True
+976,6,6,28,Bulgu değerlendirme,3,True
+976,6,6,30,Kapanış,5,True
+977,6,6,26,Kontrol kaydı,1,True
+977,6,6,27,İnceleme,2,True
+977,6,6,28,Bulgu değerlendirme,3,True
+977,6,6,30,Kapanış,5,True
+978,6,6,26,Kontrol kaydı,1,True
+978,6,6,27,İnceleme,2,True
+978,6,6,28,Bulgu değerlendirme,3,True
+978,6,6,30,Kapanış,5,True
+979,6,6,26,Kontrol kaydı,1,True
+979,6,6,27,İnceleme,2,True
+979,6,6,28,Bulgu değerlendirme,3,True
+979,6,6,30,Kapanış,5,True
+980,6,6,26,Kontrol kaydı,1,True
+980,6,6,27,İnceleme,2,True
+980,6,6,28,Bulgu değerlendirme,3,True
+980,6,6,30,Kapanış,5,True
+981,6,6,26,Kontrol kaydı,1,True
+981,6,6,27,İnceleme,2,True
+981,6,6,28,Bulgu değerlendirme,3,True
+981,6,6,30,Kapanış,5,True
+982,6,6,26,Kontrol kaydı,1,True
+982,6,6,27,İnceleme,2,True
+982,6,6,28,Bulgu değerlendirme,3,True
+982,6,6,30,Kapanış,5,True
+983,6,6,26,Kontrol kaydı,1,True
+983,6,6,27,İnceleme,2,True
+983,6,6,28,Bulgu değerlendirme,3,True
+983,6,6,30,Kapanış,5,True
+984,6,6,26,Kontrol kaydı,1,True
+984,6,6,27,İnceleme,2,True
+984,6,6,28,Bulgu değerlendirme,3,True
+984,6,6,30,Kapanış,5,True
+985,6,6,26,Kontrol kaydı,1,True
+985,6,6,27,İnceleme,2,True
+985,6,6,28,Bulgu değerlendirme,3,True
+985,6,6,30,Kapanış,5,True
+986,6,6,26,Kontrol kaydı,1,True
+986,6,6,27,İnceleme,2,True
+986,6,6,28,Bulgu değerlendirme,3,True
+986,6,6,30,Kapanış,5,True
+987,6,6,26,Kontrol kaydı,1,True
+987,6,6,27,İnceleme,2,True
+987,6,6,28,Bulgu değerlendirme,3,True
+987,6,6,30,Kapanış,5,True
+988,6,6,26,Kontrol kaydı,1,True
+988,6,6,27,İnceleme,2,True
+988,6,6,28,Bulgu değerlendirme,3,True
+988,6,6,30,Kapanış,5,True
+989,6,6,26,Kontrol kaydı,1,True
+989,6,6,27,İnceleme,2,True
+989,6,6,28,Bulgu değerlendirme,3,True
+989,6,6,30,Kapanış,5,True
+990,6,6,26,Kontrol kaydı,1,True
+990,6,6,27,İnceleme,2,True
+990,6,6,28,Bulgu değerlendirme,3,True
+990,6,6,30,Kapanış,5,True
+991,6,6,26,Kontrol kaydı,1,True
+991,6,6,27,İnceleme,2,True
+991,6,6,28,Bulgu değerlendirme,3,True
+991,6,6,30,Kapanış,5,True
+992,6,6,26,Kontrol kaydı,1,True
+992,6,6,27,İnceleme,2,True
+992,6,6,28,Bulgu değerlendirme,3,True
+992,6,6,30,Kapanış,5,True
+993,6,6,26,Kontrol kaydı,1,True
+993,6,6,27,İnceleme,2,True
+993,6,6,28,Bulgu değerlendirme,3,True
+993,6,6,30,Kapanış,5,True
+994,6,6,26,Kontrol kaydı,1,True
+994,6,6,27,İnceleme,2,True
+994,6,6,28,Bulgu değerlendirme,3,True
+994,6,6,30,Kapanış,5,True
+995,6,6,26,Kontrol kaydı,1,True
+995,6,6,27,İnceleme,2,True
+995,6,6,28,Bulgu değerlendirme,3,True
+995,6,6,30,Kapanış,5,True
+996,6,6,26,Kontrol kaydı,1,True
+996,6,6,27,İnceleme,2,True
+996,6,6,28,Bulgu değerlendirme,3,True
+996,6,6,30,Kapanış,5,True
+997,6,6,26,Kontrol kaydı,1,True
+997,6,6,27,İnceleme,2,True
+997,6,6,28,Bulgu değerlendirme,3,True
+997,6,6,30,Kapanış,5,True
+998,6,6,26,Kontrol kaydı,1,True
+998,6,6,27,İnceleme,2,True
+998,6,6,28,Bulgu değerlendirme,3,True
+998,6,6,30,Kapanış,5,True
+999,6,6,26,Kontrol kaydı,1,True
+999,6,6,27,İnceleme,2,True
+999,6,6,28,Bulgu değerlendirme,3,True
+999,6,6,30,Kapanış,5,True
+1000,6,6,26,Kontrol kaydı,1,True
+1000,6,6,27,İnceleme,2,True
+1000,6,6,28,Bulgu değerlendirme,3,True
+1000,6,6,30,Kapanış,5,True

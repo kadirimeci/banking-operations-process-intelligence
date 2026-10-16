@@ -1,4 +1,4 @@
-"""Veriqora Bank | 96. adım: pilot olaylardan denetlenebilir KPI üretimi.
+"""Veriqora Bank | pilot olaylardan denetlenebilir KPI üretimi.
 Çalıştırma: python src/analyze_pilot.py
 Girdi: data/pilot/{business_calendar,sla_targets,cost_parameters,team_capacity}.csv
        data/pilot/simulated/{transactions,stage_executions,waiting_intervals,quality_events}.csv

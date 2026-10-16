@@ -2369,7 +2369,7 @@ print("Kronolojik pilot kuyruk testi başarılı.")
 
 
 
-# 94. ADIM - Olay tabanlı simülasyon kuyruğu
+# Olay tabanlı simülasyon kuyruğu
 
 import heapq
 from itertools import count
