@@ -329,16 +329,25 @@ def validate(d, tx, ex, waits, quality, used):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', required=True)
-    parser.add_argument('--reference', default='data/pilot')
+    parser.add_argument('--reference', default='data/reference')
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
     def resolve(p):
         path = Path(p)
         return path.resolve() if path.is_absolute() else (ROOT / path).resolve()
     input_dir, reference_dir, out = map(resolve, (args.input, args.reference, args.output))
-    pilot = (ROOT / 'data' / 'pilot').resolve()
-    if out == pilot or pilot in out.parents or out == input_dir or out == reference_dir:
-        raise ValueError('Output cannot overwrite pilot or input/reference data')
+    reference_root = (ROOT / 'data' / 'reference').resolve()
+
+if (
+    out == reference_root
+    or reference_root in out.parents
+    or out == input_dir
+    or out == reference_dir
+):
+    raise ValueError(
+        'Output cannot overwrite reference or input data'
+    )
+
     d = load(input_dir, reference_dir)
     tx, ex, w, q, used, stats = simulate(d)
     validate(d, tx, ex, w, q, used)

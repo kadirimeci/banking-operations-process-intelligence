@@ -100,7 +100,7 @@ def generate(input_dir: Path, reference_dir: Path, output_dir: Path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True)
-    parser.add_argument("--reference", default="data/pilot")
+    parser.add_argument("--reference", default="data/reference")
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
     def resolve(path):
