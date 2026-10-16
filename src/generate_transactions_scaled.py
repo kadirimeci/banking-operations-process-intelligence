@@ -121,7 +121,7 @@ def main():
     parser.add_argument('--count',type=int,default=1000)
     parser.add_argument('--seed',type=int,default=2025)
     parser.add_argument('--reference',type=Path,default=ROOT/'data'/'pilot')
-    parser.add_argument('--output',type=Path,default=ROOT/'data'/'scale_test_1000')
+    parser.add_argument('--output', type=Path, required=True)
     args=parser.parse_args()
     generate(args.count,args.seed,args.reference,args.output)
 
