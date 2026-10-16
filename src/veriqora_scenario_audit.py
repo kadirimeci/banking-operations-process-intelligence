@@ -1,7 +1,7 @@
-"""Veriqora: Recalculate five scenario KPIs from existing simulation CSVs.
+"""Veriqora: Beş senaryonun sonuçlarını mevcut simülasyon verilerinden hesaplar.
 
-Run from repository root: python src/veriqora_scenario_audit.py
-No simulation is executed. Writes new *_v2 reports, never overwrites original reports.
+Proje ana klasöründen çalıştırın: python src/veriqora_scenario_audit.py
+Simülasyonu yeniden çalıştırmaz; reports klasöründeki üç nihai raporu günceller.
 """
 from pathlib import Path
 import numpy as np
@@ -195,68 +195,108 @@ def main():
 
     if (comparison.completed + comparison.open != comparison.transactions).any():
         raise AssertionError('İşlem sayıları tutarsız')
-    previous = csv(REPORTS / 'scenario_comparison.csv')
-    columns = ['transactions','completed','open','completion_pct','operational_sla_pct',
-               'e2e_sla_pct','actual_work_cost_tl','normal_minutes','overtime_minutes']
-    mismatches = []
-    for s in ['baseline','targeted_50','targeted_100','all_25']:
-        old = previous.loc[previous.scenario.eq(s)]
-        new = comparison.loc[comparison.scenario.eq(s)]
-        if len(old) != 1:
-            raise ValueError(f'Önceki raporda {s} satırı bulunamadı veya tekrarlı')
-        for col in columns:
-            a, b = float(old.iloc[0][col]), float(new.iloc[0][col])
-            tolerance = 0.011 if col in ['completion_pct','operational_sla_pct','e2e_sla_pct','actual_work_cost_tl'] else 0.01
-            if not np.isclose(a, b, atol=tolerance, rtol=0):
-                mismatches.append((s, col, a, b))
-    print('\nYENİDEN HESAPLANAN SONUÇLAR (önizleme, dosya yazılmaz):')
-    print(comparison.to_string(index=False))
-    print('\nMEVCUT RAPORLA FARKLAR:')
-    if mismatches:
-        for scenario, field, old, new in mismatches:
-            print(f'  {scenario} | {field}: mevcut={old:g}, yeni={new:g}')
-        print('UYARI: Farklar araştırılmadan mevcut raporlar değiştirilmemeli.')
-    else:
-        print('Karşılaştırılan alanlarda fark bulunmadı.')
-    # Save a NEW version only; originals remain intact for comparison.
+    # Üç standart rapor dışında sürüm dosyası oluşturulmaz.
     REPORTS.mkdir(parents=True, exist_ok=True)
-    out_comparison = REPORTS / 'scenario_comparison_v2.csv'
-    out_operation = REPORTS / 'scenario_by_operation_v2.csv'
-    out_md = REPORTS / 'SONUC_RAPORU_v2.md'
-    if any(p.exists() for p in (out_comparison, out_operation, out_md)):
-        raise FileExistsError('v2 raporlarından biri zaten mevcut. Önce içeriğini kontrol et; üzerine yazılmadı.')
+    out_comparison = REPORTS / 'scenario_comparison.csv'
+    out_operation = REPORTS / 'scenario_by_operation.csv'
+    out_md = REPORTS / 'SONUC_RAPORU.md'
+
+    def sayi(value, digits=0):
+        return f'{value:,.{digits}f}'.replace(',', 'X').replace('.', ',').replace('X', '.')
+
+    def yuzde(value):
+        return f'%{sayi(value, 2)}'
+
+    def para(value):
+        return f'{sayi(value, 2)} TL'
+
+    lines = [
+        '| Senaryo | Tamamlanan | Açık | Tamamlanma | Operasyonel SLA uyumu* | Uçtan uca SLA uyumu* | Gerçekleşen tahmini işçilik maliyeti |',
+        '|---|---:|---:|---:|---:|---:|---:|',
+    ]
+    for r in comparison.itertuples(index=False):
+        lines.append(
+            f'| {LABELS[r.scenario]} | {sayi(r.completed)} | {sayi(r.open)} | '
+            f'{yuzde(r.completion_pct)} | {yuzde(r.operational_sla_pct)} | '
+            f'{yuzde(r.e2e_sla_pct)} | {para(r.actual_work_cost_tl)} |'
+        )
+
+    base_completed = int(base.completed)
+    base_cost = float(base.actual_work_cost_tl)
+    effects = [
+        '| Senaryo | İlave tamamlanan işlem | İlave işçilik maliyeti | İlave tamamlanan işlem başına maliyet |',
+        '|---|---:|---:|---:|',
+    ]
+    for r in comparison.itertuples(index=False):
+        unit_cost = '—' if pd.isna(r.extra_actual_cost_per_extra_completed_tl) else para(r.extra_actual_cost_per_extra_completed_tl)
+        effects.append(
+            f'| {LABELS[r.scenario]} | {sayi(r.extra_completed)} | '
+            f'{para(r.extra_actual_work_cost_tl)} | {unit_cost} |'
+        )
+
+    best = comparison.loc[comparison.completion_pct.idxmax()]
+    notes = [
+        '# Veriqora Bank – Bankacılık Operasyonları Senaryo Analizi',
+        '',
+        '## Yönetici özeti',
+        '',
+        'Bu çalışma, sentetik olarak oluşturulan 50.000 bankacılık işlemi üzerinde beş farklı çalışan kapasitesi senaryosunu karşılaştırmaktadır. '
+        'İşlem tamamlama oranı, hizmet seviyesi hedeflerine (SLA) uyum ve tahmini işçilik maliyetleri birlikte değerlendirilmiştir.',
+        '',
+        f'- Mevcut kapasitede {sayi(base_completed)} işlem tamamlanmış, tamamlanma oranı {yuzde(base.completion_pct)} olmuştur.',
+        f'- En yüksek tamamlanma oranı **{LABELS[best.scenario]}** senaryosunda {yuzde(best.completion_pct)} olarak hesaplanmıştır.',
+        f'- Bu senaryoda mevcut kapasiteye kıyasla **{sayi(int(best.completed) - base_completed)} ilave işlem** tamamlanmıştır.',
+        '- Tamamlanma oranındaki artış, tek başına SLA hedeflerinin karşılandığı anlamına gelmez; iki gösterge ayrı değerlendirilmelidir.',
+        '',
+        '## Senaryo karşılaştırması',
+        '',
+        *lines,
+        '',
+        '*SLA uyum oranları yalnızca tamamlanan işlemler üzerinden hesaplanmıştır.',
+        '',
+        '## Kapasite artışının maliyet ve çıktı etkisi',
+        '',
+        *effects,
+        '',
+        'Mevcut kapasite senaryosunda ilave tamamlanan işlem bulunmadığından işlem başına ilave maliyet hesaplanmaz; tabloda bu değer “—” olarak gösterilmiştir.',
+        '',
+        '## Bulguların değerlendirilmesi',
+        '',
+        'Çalışmada kullanılan işlemler gerçek banka kayıtları değildir. Belirlenen iş kuralları ve rastgelelik içeren yöntemlerle üretilmiş **sentetik verilerdir**. '
+        'Bu nedenle sonuçlar, veri üretiminde kullanılan işlem yoğunluğu, işlem süreleri, beklemeler ve ekip kapasitesi varsayımlarından etkilenir.',
+        '',
+        'Çalışan kapasitesinin artırıldığı senaryolarda tamamlanan işlem sayısının yükseldiği görülmektedir. '
+        'Bu durumun olası açıklaması, kapasite artışının işlem kuyruklarını ve kaynak kısıtlarını hafifletmesidir. '
+        'Ancak gözlenen artışın yalnızca veri üretimindeki rastgelelikten veya yalnızca çalışan sayısından kaynaklandığı bu analizle kesin olarak söylenemez. '
+        'Etkileri ayrıştırmak için farklı rastgele başlangıç değerleriyle tekrarlı simülasyonlar ve duyarlılık analizleri yapılabilir.',
+        '',
+        'Kapasite artışının verimlilik açısından değerlendirilmesinde ilave tamamlanan işlem sayısı ile ilave işçilik maliyetinin birlikte incelenmesi gerekir. '
+        'SLA uyum oranlarının düşük kalması, tamamlanan işlem sayısındaki artışın hizmet seviyesi hedeflerine aynı ölçüde yansımadığını göstermektedir.',
+        '',
+        '## Hesaplama yöntemi',
+        '',
+        '- **Raporlama kesiti:** 31.12.2025 saat 18.00 (simülasyon yerel saati).',
+        '- **Tamamlanma oranı:** Tamamlanan işlem sayısı / toplam işlem sayısı.',
+        '- **Uçtan uca SLA:** İşlemin açılışı ile kapanışı arasındaki normal iş takvimi dakikaları esas alınır. Öğle arası, hafta sonu, tatil ve fazla mesai SLA süresine dahil edilmez.',
+        '- **Operasyonel SLA:** Uçtan uca iş dakikalarından yalnızca doğrulanmış, hariç tutulabilir müşteri ve dış taraf beklemelerinin çakışmayan iş dakikaları çıkarılır.',
+        '- **SLA başarısı:** İşlem süresi, ilgili hedef süreye eşit veya daha kısa ise başarılı kabul edilir.',
+        '- **İşçilik maliyeti:** Tamamlanan çalışma aşamalarındaki aktif süreler, geçerli saatlik maliyet ve fazla mesai çarpanıyla hesaplanır.',
+        '- **İlave işlem başına maliyet:** Mevcut kapasiteye göre ilave işçilik maliyeti / ilave tamamlanan işlem sayısı.',
+        '',
+        '## Sınırlılıklar',
+        '',
+        'Bulgular sentetik veri ve simülasyon varsayımlarına dayanmaktadır. Gerçek bir bankada aynı kapasite değişikliğinin aynı sonuçları vereceği garanti edilemez. '
+        'Hesaplanan işçilik maliyetleri de gerçek muhasebe gideri veya gerçekleşmiş tasarruf olarak yorumlanmamalıdır.',
+        '',
+        'Operasyon bazında ayrıntılı sonuçlar `scenario_by_operation.csv`, senaryo düzeyindeki hesaplama çıktıları ise `scenario_comparison.csv` dosyasında yer almaktadır.',
+    ]
+
+    # Önce içerikler bellekte hazırlanır, ardından standart dosyalar güncellenir.
+    report_text = '\n'.join(notes) + '\n'
     comparison.to_csv(out_comparison, index=False, encoding='utf-8-sig')
     by_operation.to_csv(out_operation, index=False, encoding='utf-8-sig')
-    table = comparison[['scenario','completed','open','completion_pct','operational_sla_pct',
-                        'e2e_sla_pct','actual_work_cost_tl']]
-    header = '| ' + ' | '.join(table.columns) + ' |'
-    sep = '| ' + ' | '.join(['---'] * len(table.columns)) + ' |'
-    lines = [header, sep]
-    for row in table.itertuples(index=False, name=None):
-        lines.append('| ' + ' | '.join(str(v) for v in row) + ' |')
-    differences = ['- ' + f'{scenario}: {field} eski={old:g}, yeni={new:g}'
-                   for scenario, field, old, new in mismatches]
-    notes = [
-        '# Veriqora Bank – Beş Senaryo Karşılaştırması (v2)',
-        '', '## Kapsam ve yöntem',
-        '- Tamamen sentetik 50.000 işlem içeren beş kapasite senaryosu.',
-        '- Raporlama kesiti: 31.12.2025 18:00 (simülasyon yerel saatleri).',
-        '- Tamamlanma ve SLA oranları farklı metriklerdir. SLA paydası yalnızca tamamlanan işlemlerdir.',
-        '- Uçtan uca SLA: açılış–kapanış arasında normal iş takvimi dakikaları; öğle arası, tatil ve fazla mesai hariç.',
-        '- Operasyonel SLA: uçtan uca iş dakikalarından yalnızca doğrulanmış ve hariç tutulabilir EXTERNAL_PARTY/CUSTOMER beklemelerinin birleştirilmiş iş dakikaları düşülür.',
-        '- SLA hedefi işlem üzerindeki sla_target_id ile eşleştirilir; hedefe eşit süre başarılı sayılır.',
-        '- Maliyet: tamamlanan çalışma aralıklarının aktif dakikaları, geçerli saatlik ücret ve fazla mesai çarpanıyla hesaplanır.',
-        '- Bu rapor simülasyon sonuçlarını değiştirmez; eski raporlar karşılaştırma için korunur.',
-        '', '## Senaryo sonuçları', *lines,
-        '', '## Önceki raporla SLA ve metrik farkları',
-        *(differences or ['- Karşılaştırılan alanlarda fark yok.']),
-        '', '## Yorumlama sınırları',
-        '- Önceki raporla farklı SLA değerleri hesaplama yaklaşımı ve tarih/zaman işleme farklarından kaynaklanabilir; eski raporun üretim kodu doğrulanmadığı için kesin neden bilinmiyor.',
-        '- Bu sonuçlar sentetik simülasyon çıktılarıdır; gerçek banka performansı veya gerçekleşmiş tasarruf olarak yorumlanmamalıdır.',
-        '- Beş senaryonun maliyet ve performansı birlikte değerlendirilmelidir; yalnızca tamamlanma oranına göre karar verilmemelidir.',
-    ]
-    out_md.write_text('\n'.join(notes) + '\n', encoding='utf-8')
-    print('\nYENİ RAPORLAR OLUŞTURULDU (eski dosyalar korunuyor):')
+    out_md.write_text(report_text, encoding='utf-8')
+    print('\nÜÇ GÜNCEL RAPOR OLUŞTURULDU:')
     for path in (out_comparison, out_operation, out_md):
         print(' ', path.relative_to(ROOT))
 
