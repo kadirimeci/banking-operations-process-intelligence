@@ -1,0 +1,7 @@
+﻿team_id,team_name,operation_id,is_active
+1,Ödeme ve Transfer Operasyon Ekibi,1,True
+2,Müşteri Bilgi Yönetimi Ekibi,2,True
+3,Hesap Operasyonları Ekibi,3,True
+4,Kredi Operasyonları Ekibi,4,True
+5,Yasal Takip Operasyon Ekibi,5,True
+6,Operasyonel Kontrol Ekibi,6,True

@@ -1,0 +1,7 @@
+﻿operation_id,operation_code,operation_name,is_active
+1,PAYMENT_TRANSFER,Ödeme ve Transferler,True
+2,CUSTOMER_UPDATE,Müşteri Bilgi Güncellemeleri,True
+3,ACCOUNT_OPERATIONS,Hesap İşlemleri,True
+4,CREDIT_OPERATIONS,Kredi Operasyonları,True
+5,LEGAL_FOLLOWUP,Yasal Takip Operasyonları,True
+6,OPERATIONAL_CONTROL,Operasyonel Kontroller,True
