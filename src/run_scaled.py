@@ -328,9 +328,9 @@ def validate(d, tx, ex, waits, quality, used):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input', default='data/scale_test_1000')
+    parser.add_argument('--input', required=True)
     parser.add_argument('--reference', default='data/pilot')
-    parser.add_argument('--output', default='data/scale_test_1000/simulated')
+    parser.add_argument('--output', required=True)
     args = parser.parse_args()
     def resolve(p):
         path = Path(p)
