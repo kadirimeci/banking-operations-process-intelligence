@@ -1,66 +1,80 @@
-# Bankacılık Operasyonları ve Süreç Analitiği
+# Veriqora Bank | Bankacılık Operasyonları ve Süreç Analitiği
 
-### Operasyonel verilerden anlamlı içgörülere, içgörülerden iyileştirme kararlarına.
+**50.000 sentetik bankacılık işlemi • 5 kapasite senaryosu • Operasyonel performans, SLA ve maliyet analizi**
 
-Bu proje, bankacılık operasyonlarında süreç verimliliğini, hizmet seviyesi performansını (SLA), işlem kalitesini, ekip kapasitesini ve tahmini operasyonel maliyetleri bütüncül bir yaklaşımla analiz etmek amacıyla tasarlanmıştır.
+> **Önemli:** Veriqora Bank kurgusal bir kurumdur. Bu projedeki işlemler, çalışan kapasitesi, SLA hedefleri ve maliyetler sentetik veya varsayımsaldır. Gerçek müşteri, çalışan ya da banka verisi kullanılmamıştır.
 
-**Proje durumu:** İş gereksinimleri ve mantıksal veri modeli tasarımı tamamlandı. Teknik geliştirme aşamasına henüz geçilmedi.
+## Projenin amacı
 
-## Projenin Amacı
+Bankacılık operasyonlarında işlem hacmini tek başına değerlendirmek yerine **tamamlanma oranı, bekleme süreleri, SLA uyumu, ekip kapasitesi ve tahmini işçilik maliyetini** birlikte ele almak. Çalışma, kapasite değişikliklerinin operasyonel çıktılar üzerindeki etkisini karşılaştırmalı simülasyonlarla inceler.
 
-Bankacılık operasyonlarında yalnızca tamamlanan işlem sayısını veya ortalama işlem süresini incelemek, süreçlerdeki gerçek darboğazları ortaya çıkarmak için yeterli olmayabilir.
+## Kapsam ve yöntem
 
-Bu projede aşağıdaki sorulara veri odaklı yanıtlar aranacaktır:
+- 2025 dönemi için üretilmiş **50.000 sentetik işlem** ve **altı operasyon türü**.
+- İşlem özellikleri, süreç aşamaları, çalışma aralıkları, beklemeler ve kalite olayları üzerinden koşullara bağlı veri üretimi.
+- Türkiye iş takvimiyle hesaplanan **uçtan uca** ve **operasyonel SLA** göstergeleri.
+- Ekip kapasitesi, normal/fazla mesai iş yükü ve varsayımsal işçilik maliyeti.
+- Sabit raporlama kesiti: **31 Aralık 2025, 18.00 (Türkiye saati)**.
 
-- Operasyonel gecikmeler hangi aşamalarda yoğunlaşıyor?
-- İç ve dış kaynaklı beklemeler SLA performansını nasıl etkiliyor?
-- Hatalar ve yeniden işlemler ekip kapasitesini ne ölçüde tüketiyor?
-- İşlem karmaşıklığı, tamamlanma süresi ve maliyetler arasında nasıl bir ilişki bulunuyor?
-- Hangi süreç iyileştirmeleri daha yüksek operasyonel fayda sağlayabilir?
+### Kapasite senaryoları
 
-## Proje Kapsamı
+| Senaryo | Kapasite değişikliği |
+|---|---|
+| Mevcut kapasite | Referans durum |
+| Kredi ve Yasal Takip +%25 | İlgili ekiplerde %25 artış |
+| Kredi ve Yasal Takip +%50 | İlgili ekiplerde %50 artış |
+| Kredi ve Yasal Takip +%100 | İlgili ekiplerde %100 artış |
+| Tüm ekipler +%25 | Bütün ekiplerde %25 artış |
 
-- Altı farklı bankacılık operasyon türü
-- 2025 yılını kapsayan, planlanan 50.000 sentetik işlem
-- Operasyona özel süreç aşamaları
-- Üç farklı işlem karmaşıklığı seviyesi
-- Uçtan uca ve kontrol edilebilir operasyonel SLA analizi
-- Ekip bazlı kapasite ve iş yükü analizi
-- Hata, iade ve yeniden işlem analizi
-- Tahmini işçilik maliyeti ve iyileştirme fırsatlarının değerlendirilmesi
+## Öne çıkan sonuçlar
 
-## Kullanılacak Teknolojiler
+| Senaryo | Tamamlanan işlem | Tamamlanma oranı | Operasyonel SLA uyumu | Uçtan uca SLA uyumu |
+|---|---:|---:|---:|---:|
+| Mevcut kapasite | 26.427 | %52,85 | %4,25 | %4,09 |
+| Kredi ve Yasal Takip +%25 | 27.735 | %55,47 | %4,18 | %4,02 |
+| Kredi ve Yasal Takip +%50 | 28.542 | %57,08 | %3,80 | %3,66 |
+| Kredi ve Yasal Takip +%100 | 30.723 | %61,45 | %3,78 | %3,65 |
+| Tüm ekipler +%25 | 36.454 | %72,91 | %14,63 | %14,17 |
 
-**Python • SQL • Google BigQuery • Power BI • GitHub**
+**Yorum:** Kapasite artırılan senaryolarda tamamlanan işlem sayısı artmıştır; ancak tamamlanma oranındaki iyileşme her senaryoda SLA uyumunda aynı yönde bir artış anlamına gelmez. Özellikle yalnızca iki operasyonun kapasitesini artırmak, diğer ekiplerdeki darboğazları ortadan kaldırmayabilir. Sonuçlar kullanılan sentetik veri dağılımlarına ve simülasyon kurallarına bağlıdır; gerçek bir bankada aynı sonuçların elde edileceği iddia edilmez.
 
-## Planlanan Power BI Raporları
+Ayrıntılı maliyet karşılaştırması, hesaplama yöntemi ve sınırlılıklar için [Sonuç Raporu](reports/SONUC_RAPORU.md) dosyasına bakın.
 
-1. Yönetici Özeti
-2. Süreç Performansı ve Darboğaz Analizi
-3. Ekip Kapasitesi ve İş Yükü Analizi
-4. İşlem Kalitesi ve İyileştirme Fırsatları
+## Rapor dosyaları
 
-## Proje Yol Haritası
+| Dosya | İçerik |
+|---|---|
+| [`reports/SONUC_RAPORU.md`](reports/SONUC_RAPORU.md) | Türkçe yönetim özeti ve senaryo değerlendirmesi |
+| [`reports/scenario_comparison.csv`](reports/scenario_comparison.csv) | Beş senaryonun karşılaştırmalı göstergeleri |
+| [`reports/scenario_by_operation.csv`](reports/scenario_by_operation.csv) | Operasyon türü bazında senaryo sonuçları |
 
-- [x] İş probleminin ve proje kapsamının belirlenmesi
-- [x] İş gereksinimlerinin hazırlanması
-- [x] Mantıksal veri modelinin tasarlanması
-- [x] Örnek iş senaryolarının değerlendirilmesi
-- [ ] Sentetik veri setinin oluşturulması
-- [ ] Veri kalite kontrollerinin geliştirilmesi
-- [ ] BigQuery ve SQL analizlerinin hazırlanması
-- [ ] İstatistiksel analizlerin gerçekleştirilmesi
-- [ ] Power BI raporlarının geliştirilmesi
-- [ ] Bulguların ve iş önerilerinin sunulması
+CSV dosyalarındaki teknik sütun adları, Python ve sonraki analiz araçlarıyla uyumluluk için İngilizce tutulmuştur; kullanıcıya yönelik açıklamalar Türkçedir.
 
-## Veri Güvenliği ve Açıklama
+## Kullanılan araçlar ve çalışma durumu
 
-Projede kullanılan Veriqora Bank tamamen kurgusal bir bankadır. Oluşturulacak işlem kayıtları, SLA hedefleri, ekip bilgileri ve maliyet parametreleri sentetik veya varsayımsal olacaktır.
+**Python, pandas, NumPy, Git ve GitHub** veri üretimi, simülasyon ve rapor hesaplamalarında kullanılmıştır. **SQL, Google BigQuery ve Power BI** proje kapsamındaki sonraki analiz ve görselleştirme aşamalarıdır; bu depodaki mevcut çalışmalar tamamlanmış bir Power BI paneli olarak sunulmaz.
 
-Gerçek müşteri bilgileri, çalışan verileri veya bankalara ait gizli bilgiler kullanılmayacaktır.
+## Raporu yeniden üretme
 
-## Proje Sahibi
+Proje ana dizininde Python bağımlılıklarını kurduktan ve gerekli sentetik veri dosyalarını hazırladıktan sonra:
 
-**Kadir İmeci**
+```powershell
+pip install -r requirements.txt
+python src/veriqora_scenario_audit.py
+```
 
-[LinkedIn](https://www.linkedin.com/in/kadirimeci) | [GitHub](https://github.com/kadirimeci)
+Bu komut simülasyonu yeniden çalıştırmaz; mevcut senaryo çıktılarından `reports/` altındaki **üç güncel rapor dosyasını yeniden hesaplar ve üzerlerine yazar**. Gerekli işlem, çalışma, bekleme, kalite ve referans CSV dosyalarının yerel ortamda bulunması gerekir.
+
+## Teknik belgeler
+
+- [İş kuralları ve sentetik veri varsayımları](business_rules.md)
+- [Veri sözlüğü](data_dictionary.md)
+- [Veri modeli ve tablo ilişkileri](data_model.md)
+
+## Çalışmanın sınırları
+
+Simülasyonda kullanılan başlangıç koşulları, iş yükü dağılımları ve maliyet parametreleri varsayımsaldır. Tamamlanma ve SLA oranları rastgele doğrudan atanmaz; üretilen olaylar ile tanımlanan iş kuralları üzerinden hesaplanır. Bulgular, karar destek yaklaşımını göstermek içindir; gerçek bankacılık performansı veya doğrulanmış finansal kazanç olarak değerlendirilmemelidir.
+
+## Proje sahibi
+
+**Kadir İmeci** · [LinkedIn](https://www.linkedin.com/in/kadirimeci) · [GitHub](https://github.com/kadirimeci)

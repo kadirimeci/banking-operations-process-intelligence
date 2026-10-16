@@ -1,8 +1,8 @@
 # Veri Sözlüğü — Banking Operations & Process Intelligence
 
 **Kurgusal kurum:** Veriqora Bank  
-**Sürüm:** 1.1  
-**Durum:** Güncellenmiş mantıksal tasarım; fiziksel uygulama ve pilot test henüz başlamadı.  
+**Sürüm:** 1.2  
+**Durum:** Sentetik veri üretimi ve beş senaryolu raporlama gerçekleştirildi. Bu belge mantıksal şemayı açıklar; bütün tabloların fiziksel ortamdaki birebir karşılığı ayrıca doğrulanmalıdır.  
 **Veri kaynağı:** Tamamen sentetik; gerçek banka, çalışan veya müşteri verisi içermez.
 
 ## 1. Amaç
@@ -23,7 +23,7 @@ Veri modeli; işlem performansı, iki farklı SLA ölçümü, süreç aşamalar�
 - Birincil ve yabancı anahtarlar mantıksal olarak zorunludur. BigQuery üzerinde ilişkisel bütünlük ayrıca veri kalite testleriyle doğrulanır.
 - Ana raporlama kesiti 31.12.2025 saat 18.00 (Europe/Istanbul) olarak belirlenmiştir; kesitten sonraki olaylar geçmiş raporlara dahil edilmez.
 - İşlem açılışları 2025 yılı içindedir; kapanış ve açık işlem takibi için gerektiğinde 2026 iş takvimi kullanılır.
-- Sentetik kayıtlar sabit rastgelelik tohumu kullanılarak yeniden üretilebilir olacaktır.
+- Sentetik üretimde sabit rastgelelik tohumu kullanılması temel ilkedir; yeniden üretilebilirlik aynı kod, parametre ve ortam koşullarına bağlıdır.
 
 ## 3. Tablo: operations
 
@@ -316,4 +316,4 @@ Bu değerler sentetik tasarım testlerine aittir; gerçek banka performansını 
 
 **Fiziksel uygulama notu:** Aşama ziyaretleri ayrı bir fiziksel tablo olmadan üçlü anahtarla temsil edildiğinden, bekleme/kalite kayıtlarının işaret ettiği ziyaretlerin varlığı ve aşama yaşam döngüsü veri kalite testleriyle doğrulanacaktır. Veri üretimi sırasında aşama ziyaretine ait en az bir aktif çalışma aralığı üretilmesi beklenir; sıfır aktif çalışmalı ziyaretler bu modelin kapsamı dışındadır.
 
-Bu kontroller tamamlanmadan 50.000 işlemlik nihai veri seti üretilmeyecektir.
+Bu maddeler, oluşturulmuş 50.000 işlemlik sentetik veri setinin doğrulanmasında kullanılacak kalite kriterleridir; hepsinin bağımsız testlerle doğrulandığı bu belgeyle ileri sürülmez.

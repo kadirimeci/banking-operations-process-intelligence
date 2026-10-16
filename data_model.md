@@ -2,8 +2,8 @@
 
 **Proje:** Bankacılık Operasyonları ve Süreç Analitiği  
 **Kurgusal kurum:** Veriqora Bank  
-**Sürüm:** 1.1  
-**Durum:** Mantıksal tasarım güncellendi; fiziksel uygulama ve pilot test bekleniyor  
+**Sürüm:** 1.2  
+**Durum:** Mantıksal model belgelendi; sentetik veri ve beş senaryolu raporlama üretildi. BigQuery ve Power BI uygulamaları ayrı aşamalardır  
 **Veri kaynağı:** Tamamen sentetik; gerçek banka, müşteri veya çalışan verisi içermez.
 
 ## 1. Modelin amacı
@@ -145,10 +145,10 @@ flowchart TD
 
 ## 8. Pilot uygulama ve kabul kriterleri
 
-Önce **300 işlemden oluşan pilot** üretilir; ardından 50.000 işlemlik 2025 veri setine geçilir. Pilot dağılımı: ödeme/transfer 90, bilgi güncelleme 60, hesap 54, kredi 45, yasal takip 30, operasyonel kontrol 21. Dağılımlar ve hata/bekleme/yeniden işlem olasılıkları kurgusal başlangıç varsayımlarıdır; SLA, maliyet ve FTR sonuçları rastgele atanmaz, olaylardan hesaplanır.
+Tasarımda önce **300 işlemlik pilot**, ardından 50.000 işlemlik 2025 veri seti öngörülmüştür; 50.000 işlemle senaryo simülasyonları ve raporlama gerçekleştirilmiştir. Pilot dağılımı: ödeme/transfer 90, bilgi güncelleme 60, hesap 54, kredi 45, yasal takip 30, operasyonel kontrol 21. Dağılımlar ve hata/bekleme/yeniden işlem olasılıkları kurgusal başlangıç varsayımlarıdır; SLA, maliyet ve FTR sonuçları rastgele atanmaz, olaylardan hesaplanır.
 
 Pilot kabulü için anahtar ve yabancı anahtar bütünlüğü; açılışta karmaşıklığın yeniden hesaplanabilmesi; zaman sıralaması; aktif çalışma/bekleme çakışmaması; tatil, yarım gün ve yıl sonu kesiti; açık işlemler; normal/fazla mesai ayrımı; ekip eşzamanlı kapasite sınırı; kalite ve maliyette çift sayım olmaması; aynı seed ile tekrarlanabilirlik doğrulanır. Nadir sınır durumları ayrıca test senaryosu olarak eklenir ve normal dağılım istatistiklerine karıştırılmaz.
 
-**Fiziksel uygulama notu:** Bu 12 tabloluk tasarım, her aşama ziyaretinde en az bir aktif çalışma aralığı bulunmasını varsayar. Henüz hiç aktif çalışması olmayan, yalnızca bekleyen aşama ziyaretlerini ayrıca modellemek gerekirse fiziksel uygulama öncesinde bu varsayım yeniden değerlendirilecektir.
+**Fiziksel uygulama notu:** Bu 12 tabloluk mantıksal tasarım, her aşama ziyaretinde en az bir aktif çalışma aralığı bulunmasını varsayar. Yalnızca bekleyen aşama ziyaretlerini ayrıca modellemek gerekirse bu varsayım yeniden değerlendirilmelidir.
 
-**Henüz Python veya SQL kodu yazılmamıştır.**
+**Uygulama durumu:** Python ile sentetik veri üretimi, senaryo simülasyonları ve rapor hesaplaması gerçekleştirilmiştir. SQL/BigQuery ve Power BI bileşenleri tamamlanmış olarak değerlendirilmemelidir. Güncel sonuçlar `reports/` klasöründeki üç dosyada yer alır.

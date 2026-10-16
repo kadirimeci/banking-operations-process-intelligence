@@ -2,8 +2,8 @@
 
 **Proje:** Bankacılık Operasyonları ve Süreç Analitiği  
 **Kurgusal kurum:** Veriqora Bank  
-**Sürüm:** 1.1  
-**Durum:** Onaylanan mantıksal tasarım; pilot veri üretimi henüz başlamadı  
+**Sürüm:** 1.2  
+**Durum:** 50.000 sentetik işlem ve beş kapasite senaryosunun simülasyonu ile raporlaması tamamlandı; bu belge uygulanan kuralları ve tasarım varsayımlarını birlikte açıklar  
 **Veri kaynağı:** Tamamen sentetik. Gerçek banka, müşteri veya çalışan verisi kullanılmaz.
 
 ## 1. Amaç
@@ -12,9 +12,9 @@ Bu belge, sentetik işlem verilerinin üretiminde ve analizinde uygulanacak iş 
 
 ## 2. Veri kapsamı
 
-2025 yılı içinde açılan toplam **50.000** sentetik işlem planlanmaktadır. 31.12.2025 saat 18.00 (Europe/Istanbul) itibarıyla tamamlanan, açık ve iptal edilen işlemler ayrı değerlendirilir.
+2025 yılı için toplam **50.000** sentetik işlem üretilmiş ve senaryo analizlerinde kullanılmıştır. 31.12.2025 saat 18.00 (Europe/Istanbul) itibarıyla tamamlanan, açık ve iptal edilen işlemler ayrı değerlendirilir.
 
-| Operasyon | Planlanan işlem sayısı | Pay |
+| Operasyon | İşlem sayısı | Pay |
 |---|---:|---:|
 | Ödeme ve transferler | 15.000 | %30 |
 | Müşteri bilgi güncellemeleri | 10.000 | %20 |
@@ -104,7 +104,7 @@ Karmaşıklık yalnızca işlem açılışında bilinen `transaction_attributes`
 - Fiilen normal pencere dışında yapılan aktif çalışma, **fazla mesai** olarak sınıflandırılır; SLA saatini ilerletmez.
 - İşlem açılışları 2025 yılı içindedir; yıl sonuna yakın açılan işlemlerin sonraki takibi için 2026 takvim günleri de oluşturulur.
 
-**2025 takvim kapsamı:** 1 Ocak; 29 Mart Ramazan Bayramı arifesi (cumartesi olduğundan normal iş süresi sıfır); 30 Mart–1 Nisan Ramazan Bayramı; 23 Nisan; 1 Mayıs; 19 Mayıs; **5 Haziran Kurban Bayramı arifesi yarım gün**; 6–9 Haziran Kurban Bayramı; 15 Temmuz; 30 Ağustos; **28 Ekim yarım gün**; 29 Ekim. Tarihler fiziksel takvim oluşturulmadan önce resmî kaynakla tekrar doğrulanır. Hafta sonuna denk gelen resmî tatiller için normal çalışma dakikası yine sıfırdır.
+**2025 takvim kapsamı:** 1 Ocak; 29 Mart Ramazan Bayramı arifesi (cumartesi olduğundan normal iş süresi sıfır); 30 Mart–1 Nisan Ramazan Bayramı; 23 Nisan; 1 Mayıs; 19 Mayıs; **5 Haziran Kurban Bayramı arifesi yarım gün**; 6–9 Haziran Kurban Bayramı; 15 Temmuz; 30 Ağustos; **28 Ekim yarım gün**; 29 Ekim. Takvim bu kurallar esas alınarak üretilmiştir; resmî tatil tarihleri kaynak takvimle ayrıca doğrulanabilir. Hafta sonuna denk gelen resmî tatiller için normal çalışma dakikası yine sıfırdır.
 
 ## 6. SLA kuralları
 
@@ -190,7 +190,7 @@ Yeniden işlem maliyeti toplam maliyetin içindedir; ikinci kez eklenmez. Tamaml
 
 ## 12. Pilot veri seti
 
-Tam ölçekli 50.000 işlem öncesinde **300 işlemlik pilot** üretilir:
+Tam ölçekli 50.000 işlem öncesi tasarlanan **300 işlemlik pilot** için operasyon dağılımı:
 
 | Operasyon | Pilot işlem sayısı |
 |---|---:|
@@ -221,8 +221,8 @@ Pilotun dağılımları yıllık evrenin birebir istatistiksel temsili olmak zor
 13. Örnek KPI hesaplamaları bağımsız elle hesaplanan sınır senaryolarıyla eşleşir.
 14. Pilotun tüm zorunlu sınır durumları kapsanır; istatistiksel kalibrasyon hedefleri kesin veri bütünlüğü kurallarıyla karıştırılmaz.
 
-## 14. Uygulama öncesi son durum
+## 14. Uygulama ve raporlama durumu
 
-Karmaşıklık, aktif çalışma aralığı, tatil/yarım gün, açık işlem kesiti, kapasite/fazla mesai ve koşullara bağlı sentetik üretim yaklaşımı tasarım düzeyinde belirlenmiştir. **Kod yazılmamış ve pilot henüz üretilmemiştir.** Fiziksel uygulamadan önce `data_dictionary.md`, `data_model.md` ve bu belgedeki alan adlarının aynı sürümü temsil ettiği kontrol edilecek; ardından 300 işlemlik pilot oluşturulup kabul testleri çalıştırılacaktır.
+Karmaşıklık, aktif çalışma aralıkları, tatil/yarım gün, açık işlem kesiti, kapasite/fazla mesai ve koşullara bağlı sentetik veri üretimi için Python uygulaması geliştirilmiştir. **50.000 işlem ve beş kapasite senaryosu üzerinden raporlar oluşturulmuştur.** Sonuçlar `reports/SONUC_RAPORU.md`, `reports/scenario_comparison.csv` ve `reports/scenario_by_operation.csv` dosyalarındadır. Bu belgede yer alan tüm tasarım düzeyi veri kalite kriterlerinin bağımsız testlerle eksiksiz doğrulandığı iddia edilmez.
 
 Bu belge, veri üretimi ve analiz aşamasında temel iş kuralı kaynağıdır.
