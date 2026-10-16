@@ -105,13 +105,14 @@ Ana raporlama kesiti 31.12.2025'tir. Kesit anında açık olan işlemler açık 
 
 ```mermaid
 flowchart TD
-    A[Sentetik işlem üretimi] --> B[12 mantıksal tablo]
-    B --> C[Veri kalite kontrolleri]
-    C --> D[BigQuery veri modeli]
-    D --> E[SQL KPI hesaplamaları]
-    E --> F[Power BI raporları]
-    F --> G[İş bulguları ve iyileştirme önerileri]
+    A["Sentetik veri üretimi"] --> B["12 mantıksal tablo"]
+    B --> C["Veri kalite kontrolleri"]
+    C --> D["BigQuery veri modeli"]
+    D --> E["SQL ve KPI hesaplamaları"]
+    E --> F["Power BI raporları"]
+    F --> G["İş bulguları ve iyileştirme önerileri"]
 ```
+  
 
 ## 8. Fiziksel uygulama öncesi açık konular
 
