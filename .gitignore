@@ -31,5 +31,4 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 
-# Pilot ornek verileri GitHub'da paylasilabilir
-# data/pilot/ takip edilmeye devam eder
+# data/reference/ Git tarafından takip edilir
