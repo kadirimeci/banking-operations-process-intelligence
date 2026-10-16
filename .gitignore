@@ -1,0 +1,35 @@
+
+# Python gecici dosyalari
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# Ortam degiskenleri ve gizli bilgiler
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+
+# Editor ve sistem dosyalari
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Buyuk veri ciktilari
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Pilot ornek verileri GitHub'da paylasilabilir
+# data/pilot/ takip edilmeye devam eder
