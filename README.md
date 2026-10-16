@@ -55,7 +55,7 @@ Bu projede aşağıdaki sorulara veri odaklı yanıtlar aranacaktır:
 
 ## Veri Güvenliği ve Açıklama
 
-Projede kullanılan NovaBank tamamen kurgusal bir bankadır. Oluşturulacak işlem kayıtları, SLA hedefleri, ekip bilgileri ve maliyet parametreleri sentetik veya varsayımsal olacaktır.
+Projede kullanılan Veriqora Bank tamamen kurgusal bir bankadır. Oluşturulacak işlem kayıtları, SLA hedefleri, ekip bilgileri ve maliyet parametreleri sentetik veya varsayımsal olacaktır.
 
 Gerçek müşteri bilgileri, çalışan verileri veya bankalara ait gizli bilgiler kullanılmayacaktır.
 
