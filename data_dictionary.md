@@ -1,9 +1,9 @@
 # Veri Sözlüğü — Banking Operations & Process Intelligence
 
-**Kurgusal kurum:** NovaBank  
-**Sürüm:** 1.0  
-**Durum:** Mantıksal veri modeli onaylandı; fiziksel uygulama henüz başlamadı.  
-**Veri kaynağı:** Tamamen sentetik
+**Kurgusal kurum:** Veriqora Bank  
+**Sürüm:** 1.1  
+**Durum:** Güncellenmiş mantıksal tasarım; fiziksel uygulama ve pilot test henüz başlamadı.  
+**Veri kaynağı:** Tamamen sentetik; gerçek banka, çalışan veya müşteri verisi içermez.
 
 ## 1. Amaç
 
@@ -21,7 +21,8 @@ Veri modeli; işlem performansı, iki farklı SLA ölçümü, süreç aşamalar�
 - TIMESTAMP değerleri tek bir zaman standardında saklanır; yerel iş takvimi hesaplamalarında saat dilimi uygulanır.
 - NULL kabul edilen alanlar açıkça belirtilir.
 - Birincil ve yabancı anahtarlar mantıksal olarak zorunludur. BigQuery üzerinde ilişkisel bütünlük ayrıca veri kalite testleriyle doğrulanır.
-- Raporlama kesiti 31.12.2025 olarak planlanmıştır; kesitten sonraki olaylar geçmiş raporlara dahil edilmez.
+- Ana raporlama kesiti 31.12.2025 saat 18.00 (Europe/Istanbul) olarak belirlenmiştir; kesitten sonraki olaylar geçmiş raporlara dahil edilmez.
+- İşlem açılışları 2025 yılı içindedir; kapanış ve açık işlem takibi için gerektiğinde 2026 iş takvimi kullanılır.
 - Sentetik kayıtlar sabit rastgelelik tohumu kullanılarak yeniden üretilebilir olacaktır.
 
 ## 3. Tablo: operations
@@ -45,13 +46,13 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 |---|---|---|---|
 | transaction_id | STRING | Evet | Birincil anahtar |
 | operation_id | STRING | Evet | operations tablosuna yabancı anahtar |
-| complexity_level | STRING | Evet | LOW, MEDIUM, HIGH |
+| complexity_level | STRING | Evet | LOW, MEDIUM, HIGH; açılışta hesaplanan sınıf |
 | opened_at | TIMESTAMP | Evet | Açılış zamanı |
 | closed_at | TIMESTAMP | Hayır | Kapanış zamanı |
 | final_status | STRING | Evet | COMPLETED, CANCELLED, OPEN |
 | sla_target_id | STRING | Evet | Açılışta geçerli SLA hedefi |
 
-**Kurallar:** COMPLETED ve CANCELLED işlemlerinin kapanış zamanı bulunmalıdır. OPEN işlemlerin kapanış zamanı NULL olmalıdır. Kapanış açılıştan önce olamaz. Karmaşıklık açılış anında belirlenir.
+**Kurallar:** COMPLETED ve CANCELLED işlemlerinin kapanış zamanı bulunmalıdır. OPEN işlemlerin kapanış zamanı NULL olmalıdır. Kapanış açılıştan önce olamaz. Karmaşıklık açılış anında belirlenir ve daha sonra oluşan hata veya gecikme nedeniyle değişmez. final_status alanı raporlama kesiti itibarıyla yorumlanır; sonraki olaylar geçmiş kesite taşınmaz.
 
 ## 5. Tablo: process_stages
 
@@ -69,23 +70,34 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 
 ## 6. Tablo: stage_executions
 
-**Amaç:** İşlemlerin gerçekleşen aşama ziyaretlerini ve aktif çalışma sürelerini saklamak.
+**Amaç:** Bir aşama ziyaretinde gerçekleşen her aktif çalışma zaman aralığını ayrı kayıt olarak saklamak.
+
+**Kayıt düzeyi (grain):** Bir satır = bir aktif çalışma aralığı. Aşama ziyareti, `(transaction_id, stage_id, visit_number)` üçlüsüyle tanımlanır. Aynı ziyarete birden fazla `execution_id` bağlanabilir.
 
 | Alan | Tip | Zorunlu | Açıklama |
 |---|---|---|---|
-| execution_id | STRING | Evet | Birincil anahtar |
+| execution_id | STRING | Evet | Aktif çalışma aralığının benzersiz birincil anahtarı |
 | transaction_id | STRING | Evet | İlgili işlem |
 | stage_id | STRING | Evet | Gerçekleşen aşama |
-| team_id | STRING | Evet | Çalışmayı gerçekleştiren ekip |
-| visit_number | INT64 | Evet | Aynı aşamaya kaçıncı giriş |
-| started_at | TIMESTAMP | Evet | Aşama başlangıcı |
-| ended_at | TIMESTAMP | Hayır | Aşama bitişi |
-| active_minutes | INT64 | Evet | Bu aşamada harcanan aktif dakika |
-| execution_status | STRING | Evet | COMPLETED, IN_PROGRESS, CANCELLED |
-| is_rework | BOOL | Evet | Yeniden işlem ziyareti mi? |
-| related_quality_event_id | STRING | Hayır | Yeniden işleme neden olan kalite olayı |
+| team_id | STRING | Evet | Bu aralıkta çalışmayı yapan ekip |
+| visit_number | INT64 | Evet | İlgili işlem ve aşamanın kaçıncı ziyareti; 1'den başlar |
+| started_at | TIMESTAMP | Evet | Aktif çalışmanın başlangıcı |
+| ended_at | TIMESTAMP | Hayır | Aktif çalışmanın bitişi; sürüyorsa NULL |
+| active_minutes | INT64 | Hayır | Tamamlanan aralıkta gerçekleşen toplam dakika; açık aralıkta kesit itibarıyla türetilir |
+| execution_status | STRING | Evet | Aktif çalışma aralığının durumu: COMPLETED, IN_PROGRESS, CANCELLED |
+| is_rework | BOOL | Evet | Bu çalışma aralığı yeniden işlem ziyaretine mi ait? |
+| related_quality_event_id | STRING | Hayır | Yeniden işlemle ilişkili kalite olayının kimliği |
 
-**Kurallar:** active_minutes negatif olamaz. Aynı işlem ve aşamada visit_number benzersizdir. Aşama, işlemin operasyonuna ait olmalıdır. related_quality_event_id mevcut bir kalite olayına bağlanmalıdır. Aşama farklı günlere taşıyorsa aktif dakikaların ekip-gün dağılımı zaman aralıkları üzerinden hesaplanmalıdır.
+**Kurallar:**
+
+- `execution_id` benzersizdir; `(transaction_id, stage_id, visit_number)` birleşimi **satır bazında benzersiz değildir**.
+- Aynı ziyaretin tüm çalışma aralıklarında `is_rework` ve `related_quality_event_id` bilgileri tutarlı olmalıdır.
+- `started_at` ve `ended_at` gerçek fiilî çalışma zamanlarıdır; öğle arası veya tatil içinde fiilen çalışıldıysa fazla mesai olarak ayrıştırılır.
+- Tamamlanan aralıklarda `active_minutes`, başlangıç ve bitiş arasındaki gerçek dakika ile eşleşir; kesintiler ayrı aralıklar olarak saklanır.
+- Açık aralıkta `ended_at` NULL olabilir; süre, raporlama kesitiyle sınırlandırılarak hesaplanır. `active_minutes` kesinleşmemişse NULL tutulur.
+- Aktif aralıklar beklemelerle çakışamaz. Ekiplerin eşzamanlı aktif çalışma sayısı o zaman dilimindeki kullanılabilir çalışan sayısını aşamaz.
+- Bir çalışma aralığı birden fazla takvim gününe veya normal/fazla mesai penceresine yayılıyorsa ekip-gün kırılımı sorgu sırasında türetilir.
+- Aşama ziyaretinin tamamlanma durumu, tek bir `execution_status` değerinden değil ilgili çalışma ve bekleme olaylarının bütünü üzerinden belirlenir.
 
 ## 7. Tablo: teams
 
@@ -110,27 +122,28 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 | capacity_date | DATE | Evet | Birleşik birincil anahtarın parçası |
 | employee_count | INT64 | Evet | O gün kullanılabilir çalışan sayısı |
 | available_minutes | INT64 | Evet | Normal mesai kapasitesi |
-| overtime_minutes | INT64 | Evet | Fazla mesai kapasitesi |
+| overtime_capacity_minutes | INT64 | Evet | Planlanan veya izin verilen ek mesai kapasitesi; gerçekleşen fazla mesai değildir |
 
-**Kurallar:** Tüm kapasite alanları negatif olamaz. Temel kullanım oranı aktif çalışma dakikası / normal mesai kapasitesi olarak hesaplanır. Fazla mesai ayrıca raporlanır. Sıfır kapasitede oran NULL döner.
+**Kurallar:** Tüm kapasite alanları negatif olamaz. `available_minutes`, ilgili günün normal çalışma penceresi ve kullanılabilir çalışan sayısı üzerinden hesaplanır (normal gün kişi başı 480, yarım gün 180, tatil 0 dakika). Normal kapasite kullanım oranı **normal mesai içinde gerçekleşen aktif dakikalar / available_minutes** olarak hesaplanır. Gerçekleşen fazla mesai, `stage_executions` zaman aralıklarından türetilir; `overtime_capacity_minutes` ile karıştırılmaz. Sıfır normal kapasitede oran NULL döner. `employee_count` günlük kullanılabilir çalışan sayısıdır; izinli personel bu sayıya dahil edilmez.
 
 ## 9. Tablo: waiting_intervals
 
-**Amaç:** İşlem içi ve aşamalar arası beklemeleri saklamak.
+**Amaç:** İşlem içi ve aşamalar arası beklemeleri, ilgili aşama ziyaretinden bağımsız zaman aralıkları olarak saklamak.
 
 | Alan | Tip | Zorunlu | Açıklama |
 |---|---|---|---|
 | waiting_id | STRING | Evet | Birincil anahtar |
 | transaction_id | STRING | Evet | İlgili işlem |
-| execution_id | STRING | Hayır | İlgili aşama; aşamalar arası beklemede NULL olabilir |
+| stage_id | STRING | Hayır | İlgili aşama; aşamalar arası beklemede NULL olabilir |
+| visit_number | INT64 | Hayır | İlgili aşama ziyaret numarası; `stage_id` ile birlikte dolu veya NULL |
 | waiting_type | STRING | Evet | INTERNAL_QUEUE, INTERNAL_APPROVAL, TECHNICAL, EXTERNAL_PARTY, CUSTOMER |
 | waiting_reason | STRING | Evet | Bekleme gerekçesi |
 | started_at | TIMESTAMP | Evet | Bekleme başlangıcı |
-| ended_at | TIMESTAMP | Hayır | Bekleme bitişi |
+| ended_at | TIMESTAMP | Hayır | Bekleme bitişi; devam ediyorsa NULL |
 | is_excludable | BOOL | Evet | Operasyonel SLA'dan düşülebilir mi? |
 | reason_verified | BOOL | Evet | Bekleme gerekçesi doğrulandı mı? |
 
-**Kurallar:** Yalnızca EXTERNAL_PARTY veya CUSTOMER türündeki, is_excludable ve reason_verified değerleri TRUE olan beklemeler operasyonel SLA'dan çıkarılır. Bekleme aralıkları iş takvimine göre hesaplanır. Çakışan aralıklar çift sayılmaz. Bekleme, aktif çalışmayla aynı anda sayılmaz.
+**Kurallar:** `stage_id` ve `visit_number` birlikte kullanılarak aşama ziyaretine bağlanır; herhangi bir tekil aktif çalışma kaydına bağlanmaz. İkisi NULL ise aşamalar arası/işlem düzeyinde beklemedir. Yalnızca EXTERNAL_PARTY veya CUSTOMER türündeki, `is_excludable = TRUE` ve `reason_verified = TRUE` olan beklemeler operasyonel SLA'dan çıkarılır. Çıkarılacak süre, iş takvimi ve raporlama kesitiyle kesişen **birleşik** bekleme aralıklarından hesaplanır. Beklemeler çift sayılmaz; aktif çalışmayla çakışamaz.
 
 ## 10. Tablo: quality_events
 
@@ -140,7 +153,8 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 |---|---|---|---|
 | event_id | STRING | Evet | Birincil anahtar |
 | transaction_id | STRING | Evet | İlgili işlem |
-| execution_id | STRING | Hayır | Hatanın tespit edildiği aşama |
+| stage_id | STRING | Hayır | Olayın ilişkili olduğu aşama; işlem düzeyinde olayda NULL |
+| visit_number | INT64 | Hayır | İlgili aşama ziyareti; stage_id ile birlikte dolu veya NULL |
 | event_type | STRING | Evet | ERROR, RETURN, CORRECTION |
 | error_category | STRING | Hayır | Hata kategorisi |
 | detected_at | TIMESTAMP | Evet | Olay tespit zamanı |
@@ -148,7 +162,7 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 | requires_rework | BOOL | Evet | Yeniden işlem gerektiriyor mu? |
 | root_event_id | STRING | Hayır | İlgili kök kalite olayı |
 
-**Kurallar:** Bir kök hata birden fazla tekrar ziyareti oluşturabilir. Hata sayısı tekrar ziyaret sayısından türetilmez. Kök hata ve ilişkili aksiyonlar ayrı sayılmamalıdır. FTR tamamlanmış ve değerlendirmeye uygun işlemler için hesaplanır.
+**Kurallar:** Kalite olayı tekil çalışma aralığına değil, işlem veya `(transaction_id, stage_id, visit_number)` aşama ziyaretine bağlanır. Bir kök hata birden fazla tekrar ziyareti oluşturabilir. Hata sayısı tekrar ziyaret sayısından türetilmez. Kök hata ve ilişkili aksiyonlar ayrı sayılmamalıdır. FTR tamamlanmış ve değerlendirmeye uygun işlemler için hesaplanır.
 
 ## 11. Tablo: sla_targets
 
@@ -172,14 +186,15 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 | Alan | Tip | Zorunlu | Açıklama |
 |---|---|---|---|
 | calendar_date | DATE | Evet | Birincil anahtar |
-| is_business_day | BOOL | Evet | Çalışma günü mü? |
+| is_business_day | BOOL | Evet | En az bir normal çalışma penceresi var mı? |
+| day_type | STRING | Evet | FULL_DAY, HALF_DAY, HOLIDAY, WEEKEND |
 | business_start | TIME | Hayır | Mesai başlangıcı |
 | lunch_start | TIME | Hayır | Öğle arası başlangıcı |
 | lunch_end | TIME | Hayır | Öğle arası bitişi |
 | business_end | TIME | Hayır | Mesai bitişi |
 | holiday_name | STRING | Hayır | Tatil veya yarım gün açıklaması |
 
-**Kurallar:** Normal çalışma saatleri 09.00–12.00 ve 13.00–18.00'dir. Tam tatillerde çalışma süresi sıfırdır. Yarım günler için geçerli saatler ayrıca tanımlanır.
+**Kurallar:** Normal çalışma saatleri 09.00–12.00 ve 13.00–18.00'dir. HALF_DAY günlerde 09.00–12.00 (180 dakika) çalışılır ve öğle arası alanları NULL olabilir. HOLIDAY ve WEEKEND günlerinde çalışma süresi sıfırdır; saat alanları NULL'dır. 2025 Türkiye resmî tatilleri ve ilgili yarım günler işlenir; 2026'ya taşan işlemler için gerekli takvim günleri de eklenir.
 
 ## 13. Tablo: cost_parameters
 
@@ -203,14 +218,14 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 | Alan | Tip | Zorunlu | Açıklama |
 |---|---|---|---|
 | transaction_id | STRING | Evet | Birincil ve yabancı anahtar |
-| request_type | STRING | Evet | Talep türü |
+| request_type | STRING | Evet | Operasyona özgü talep türü; standart dışı/kapsamlı/kimlik-yetki değişikliği bu alandan anlaşılır |
 | document_count | INT64 | Hayır | Belge sayısı |
 | requires_approval | BOOL | Evet | Onay gerekiyor mu? |
 | requires_external_party | BOOL | Evet | Dış taraf gerekiyor mu? |
 | requires_manual_review | BOOL | Evet | Manuel inceleme gerekiyor mu? |
-| amount_band | STRING | Hayır | Tutar aralığı; gerçek tutar veya müşteri verisi değil |
+| amount_band | STRING | Hayır | LOW, MEDIUM, HIGH; ödeme/transfer için sentetik tutar aralığı |
 
-**Kurallar:** Karmaşıklık yalnızca işlem açılışında bilinen özelliklerden belirlenir. Gerçekleşen süre, hata veya SLA sonucu karmaşıklık sınıflandırmasında kullanılmaz.
+**Kurallar:** Karmaşıklık yalnızca işlem açılışında bilinen özelliklerden belirlenir. Gerçekleşen süre, hata veya SLA sonucu sınıflandırmada kullanılmaz. Operasyona özgü puanlar ve 0–2 LOW, 3–5 MEDIUM, 6+ HIGH eşikleri `business_rules.md` içerisinde sürümlü olarak belgelenir; bu tablo açılış özelliklerini, `transactions.complexity_level` ise hesaplanan sonucu saklar.
 
 ## 15. Temel ilişkiler
 
@@ -226,9 +241,10 @@ Operasyonlar: kredi, ödeme ve transfer, hesap işlemleri, müşteri bilgi günc
 - teams (1) → stage_executions (N)
 - teams (1) → team_capacity (N)
 - teams (1) → cost_parameters (N)
-- stage_executions (1) → waiting_intervals (N), isteğe bağlı
-- stage_executions (1) → quality_events (N), isteğe bağlı
-- quality_events (1) → stage_executions (N), yeniden işlem ilişkisi
+- (transaction_id, stage_id, visit_number) aşama ziyareti (1) → stage_executions aktif çalışma aralıkları (N)
+- (transaction_id, stage_id, visit_number) aşama ziyareti (1) → waiting_intervals (N), isteğe bağlı
+- (transaction_id, stage_id, visit_number) aşama ziyareti (1) → quality_events (N), isteğe bağlı
+- quality_events (1) → stage_executions (N), related_quality_event_id üzerinden yeniden işlem ilişkisi
 - quality_events (1) → quality_events (N), kök olay ilişkisi
 - sla_targets (1) → transactions (N)
 
@@ -245,9 +261,15 @@ business_calendar, işlem ve olay zamanlarının iş dakikasına dönüştürül
 | SLA ihlal oranı | Hedefi aşan uygun tamamlanmış işlemler / uygun tamamlanmış işlemler |
 | FTR | Yeniden işlem gerektirmeden tamamlanan uygun işlemler / uygun tamamlanmış işlemler |
 | Yeniden işlem oranı | Yeniden işlem içeren uygun tamamlanmış işlemler / uygun tamamlanmış işlemler |
-| Aktif çalışma süresi | Aşama ziyaretlerindeki aktif dakikaların toplamı |
-| Kapasite kullanım oranı | Ekip-gün aktif çalışma dakikası / normal mesai kapasitesi |
-| Tahmini işçilik maliyeti | Aktif çalışma saatleri × geçerli ekip saatlik maliyeti |
+| Aktif çalışma süresi | Çalışma aralıklarının gerçek dakikaları toplamı; raporlama kesitinde açık aralıklar sınırlandırılır |
+| Normal kapasite kullanım oranı | Ekip-gün normal mesai aktif dakikaları / normal mesai kapasitesi |
+| Fazla mesai iş yükü oranı | Ekip-gün fazla mesai aktif dakikaları / toplam aktif dakikalar |
+| Toplam iş yükü / normal kapasite | (Normal + fazla mesai aktif dakikaları) / normal kapasite |
+| Açık işlem gecikmesi | Raporlama kesitindeki kontrol edilebilir iş dakikaları > SLA hedefi |
+| Açık işlem risk sınıfı | Operasyonel hedef kullanımı < %80: normal; %80–%100: risk altında; > %100: gecikmiş |
+| Dış bekleme etkisi | Açık işlemde uçtan uca hedef aşılmış ancak operasyonel hedef aşılmamışsa ayrıca işaretlenir |
+| Tahmini kalan aktif iş yükü | Benzer operasyon/karmaşıklık/aşama örneklerinden türetilen tahmin; gerçekleşmiş süreden ayrı |
+| Tahmini işçilik maliyeti | Normal aktif saat × geçerli saatlik maliyet + fazla mesai aktif saat × saatlik maliyet × geçerli fazla mesai çarpanı |
 | Ortalama birim maliyet | Tamamlanmış işlemlere atfedilen maliyet / tamamlanmış işlem sayısı |
 
 Açık işlemlerin gecikme durumu raporlama tarihi itibarıyla ayrıca hesaplanır. Tamamlanmış işlemlerin SLA oranlarına dahil edilmez.
@@ -259,11 +281,13 @@ Açık işlemlerin gecikme durumu raporlama tarihi itibarıyla ayrıca hesaplan�
 - Zaman aralıkları kronolojik olarak geçerli olmalıdır.
 - Aktif çalışma ve bekleme aralıkları çift sayılmamalıdır.
 - İşlem aşamaları ait oldukları operasyonla uyumlu olmalıdır.
-- Tekrar ziyaret numaraları aynı işlem ve aşamada benzersiz olmalıdır.
+- Aşama ziyaret numaraları aynı işlem ve aşamada ardışık olmalıdır; aynı ziyaret birden fazla aktif çalışma satırında tekrar edebilir.
 - SLA ve maliyet geçerlilik aralıkları çakışmamalıdır.
 - Açık işlemler kapanmış gibi değerlendirilmemelidir.
 - Raporlama kesitinden sonraki olaylar geçmiş KPI'lara yansıtılmamalıdır.
-- Ekip-gün kapasite ve iş yükü hesaplarında tarih dağılımı korunmalıdır.
+- Ekip-gün kapasite ve iş yükü hesaplarında tarih dağılımı korunmalı; normal mesai ve fazla mesai ayrı sayılmalıdır.
+- Aynı ekipte eşzamanlı aktif çalışma sayısı kullanılabilir çalışan sayısını aşmamalıdır.
+- Açık beklemeler ve açık aktif aralıklar raporlama kesitinde sonlandırılarak hesaplanmalı; geçmiş raporlar gelecekteki olaylarla değiştirilmemelidir.
 - Hata sayısı ve yeniden işlem sayısı birbirinden bağımsız hesaplanmalıdır.
 - Sentetik veri üretimi sabit seed ile tekrarlanabilir olmalıdır.
 
@@ -277,14 +301,19 @@ Açık işlemlerin gecikme durumu raporlama tarihi itibarıyla ayrıca hesaplan�
 
 Bu değerler sentetik tasarım testlerine aittir; gerçek banka performansını temsil etmez.
 
-## 19. Uygulama öncesi doğrulanacak ayrıntılar
+## 19. Onaylanan tasarım kararları ve pilot kontrolü
 
-Bu sözlük mantıksal modelin temelini oluşturur. Fiziksel veri üretimi öncesinde şu konular ayrıca netleştirilecektir:
+- **Aktif çalışma:** Tek satır bir aktif çalışma aralığıdır; aşama ziyareti `(transaction_id, stage_id, visit_number)` ile gruplanır.
+- **Karmaşıklık:** Açılış özelliklerinden operasyona özel puanlama; LOW 0–2, MEDIUM 3–5, HIGH 6+.
+- **İş takvimi:** 2025 Türkiye tatilleri, yarım günler ve Europe/Istanbul; ihtiyaç halinde 2026 günleri.
+- **Raporlama kesiti:** 31.12.2025 18.00; açık işlemler ayrı SLA ve iş yükü analizine tabidir.
+- **Kapasite:** Normal mesai iş yükü ve gerçekleşmiş fazla mesai ayrı ölçülür; planlanan fazla mesai kapasitesi ayrı saklanır.
+- **Maliyet:** Normal ve fazla mesai aktif çalışma süreleri farklı maliyet katsayılarıyla hesaplanır.
+- **Sentetik üretim:** Koşullara bağlı, tekrarlanabilir üretim; KPI sonuçları olaylardan türetilir.
+- **Pilot:** 300 işlem; 6 operasyon, 3 karmaşıklık seviyesi, 12 mantıksal tablo. Zorunlu sınır durumları ayrıca test edilir.
 
-1. Aşama aktif dakikalarının gün ve ekip bazında doğru dağıtılması için zaman aralığı ayrıntısı.
-2. Aşama başlangıç/bitişleri ile beklemeler arasındaki zaman bütünlüğü.
-3. Açık aşamalar ve açık beklemelerin raporlama kesitinde hesaplanması.
-4. Normal mesai ve fazla mesai maliyetlerinin ayrıştırılması.
-5. Operasyona özgü karmaşıklık kurallarının kesinleştirilmesi.
+**Pilot veri kalite kapıları:** Anahtar bütünlüğü, kronolojik tutarlılık, çakışmasız aktif çalışma/bekleme, karmaşıklık tekrar hesaplanabilirliği, tatil/yarım gün SLA örnekleri, açık işlem kesiti, ekip eşzamanlı kapasite sınırı, fazla mesai ayrımı, kalite ve maliyetin çift sayılmaması, aynı seed ile tekrar üretim.
+
+**Fiziksel uygulama notu:** Aşama ziyaretleri ayrı bir fiziksel tablo olmadan üçlü anahtarla temsil edildiğinden, bekleme/kalite kayıtlarının işaret ettiği ziyaretlerin varlığı ve aşama yaşam döngüsü veri kalite testleriyle doğrulanacaktır. Veri üretimi sırasında aşama ziyaretine ait en az bir aktif çalışma aralığı üretilmesi beklenir; sıfır aktif çalışmalı ziyaretler bu modelin kapsamı dışındadır.
 
 Bu kontroller tamamlanmadan 50.000 işlemlik nihai veri seti üretilmeyecektir.
