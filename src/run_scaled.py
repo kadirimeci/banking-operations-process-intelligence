@@ -1,6 +1,6 @@
 """Veriqora Bank - chronological, capacity-limited discrete event simulation.
 
-Usage: python src/run_scaled.py --input data/scale_test_1000 --output data/scale_test_1000/simulated
+Usage: python src/run_scaled.py --input data/final_50000 --output data/output_test/simulated
 Does not write to data/pilot. Ready jobs only acquire capacity at the actual work time.
 """
 from __future__ import annotations

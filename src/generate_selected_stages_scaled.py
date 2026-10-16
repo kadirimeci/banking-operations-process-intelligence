@@ -1,7 +1,7 @@
 """Veriqora Bank | Parametrik süreç aşaması seçimi.
 
 Örnek:
-python src/generate_selected_stages_scaled.py --input data/scale_test_1000 --output data/scale_test_1000
+python src/generate_selected_stages_scaled.py --input data/final_50000 --output data/output_test
 """
 from __future__ import annotations
 import argparse

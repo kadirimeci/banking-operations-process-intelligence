@@ -1,6 +1,6 @@
 """Veriqora Bank | Parametrik sentetik işlem üreticisi.
 
-Örnek: python src/generate_transactions_scaled.py --count 1000 --output data/scale_test_1000
+Örnek: python src/generate_transactions_scaled.py --count 1000 --output data/output_test
 Mevcut data/pilot dosyalarına yazmaz.
 """
 from __future__ import annotations
