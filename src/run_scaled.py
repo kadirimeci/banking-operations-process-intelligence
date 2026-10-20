@@ -343,7 +343,7 @@ if (
     or reference_root in out.parents
     or out == input_dir
     or out == reference_dir
-):
+    ):
     raise ValueError(
         'Output cannot overwrite reference or input data'
     )
